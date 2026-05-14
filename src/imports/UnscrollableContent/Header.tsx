@@ -156,7 +156,7 @@ export function Header({ scale = 1 }: { scale?: number }) {
       <div className="absolute bg-[rgba(255,255,255,0)] inset-0 shadow-[0px_10px_15px_-3px_rgba(30,58,138,0.2),0px_4px_6px_-4px_rgba(30,58,138,0.2)]" />
       
       <div 
-        className="flex items-center justify-between px-[16px] pointer-events-auto"
+        className="flex items-center justify-between px-[116px] pointer-events-auto"
         style={{ 
           width: '1920px', 
           height: '96.8px',
