@@ -204,7 +204,7 @@
   box-decoration-break: clone;
 }
 
-/* Mask utilities for Figma-exported classes (Tailwind does not emit these). */
+/* Mask utilities for exported classes (Tailwind does not emit these). */
 [style*="mask-image"] {
   mask-repeat: no-repeat;
   -webkit-mask-repeat: no-repeat;

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
-import UnscrollableContent, { Header } from "../imports/UnscrollableContent/UnscrollableContent";
-import bgImage from "../imports/668985148_3873104122826840_3766510903172796226_n.jpg";
+import UnscrollableContent from "../imports/UnscrollableContent/UnscrollableContent";
+import { Header } from "../imports/UnscrollableContent/Header";
+import bgImage from "../assets/background.jpg";
 
 export default function App() {
   const [scale, setScale] = useState(1);
