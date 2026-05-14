@@ -6,7 +6,7 @@ import react from '@vitejs/plugin-react'
 function customAssetResolver() {
   return {
     name: 'custom-asset-resolver',
-    resolveId(id) {
+    resolveId(id: string) {
       if (id.startsWith('project:asset/')) {
         const filename = id.replace('project:asset/', '')
         return path.resolve(__dirname, 'src/assets', filename)
@@ -16,9 +16,7 @@ function customAssetResolver() {
 }
 
 export default defineConfig({
-  // ADD THIS LINE BELOW
-  base: '/DSTC-2026/', 
-  
+  base: process.env.GITHUB_REPOSITORY ? `/${process.env.GITHUB_REPOSITORY.split('/')[1]}/` : '/',
   plugins: [
     customAssetResolver(),
     react({
