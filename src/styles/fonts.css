@@ -1,0 +1,50 @@
+/* 1. Optimized Imports - Split for better reliability & Vietnamese support */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400;600;700&display=swap');
+
+@font-face {
+  font-family: 'Quadrillion';
+  src: url('./fonts/Quadrillion Sb.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Quadrillion';
+  src: url('./fonts/Quadrillion Sb It.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* 2. Font Variables - Use these in your components to avoid typos */
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-lusitana: 'Lusitana', serif;
+  --font-manrope: 'Manrope', sans-serif;
+  --font-space: 'Space Grotesk', sans-serif;
+  --font-special: 'Special Elite', system-ui;
+  --font-tektur: 'Tektur', sans-serif;
+  --font-quadrillion: 'Quadrillion', sans-serif;
+}
+
+/* 3. Global Reset / Defaults */
+body {
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 4. Utility Classes (Optional but helpful for React) */
+.font-inter { font-family: var(--font-inter); }
+.font-lusitana { font-family: var(--font-lusitana); }
+.font-manrope { font-family: var(--font-manrope); }
+.font-space { font-family: var(--font-space); }
+.font-special { font-family: var(--font-special); }
+.font-tektur { font-family: var(--font-tektur); }
+.font-quadrillion { font-family: var(--font-quadrillion); font-weight: 600; }
