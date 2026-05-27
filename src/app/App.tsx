@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import UnscrollableContent from "../imports/UnscrollableContent/UnscrollableContent";
 import { Header } from "../imports/UnscrollableContent/Header";
 import bgImage from "../assets/background.jpg";
 
 export default function App() {
   const [scale, setScale] = useState(1);
+  const smoothScrollState = useRef({ current: 0, target: 0, raf: 0 });
 
   useEffect(() => {
     const handleResize = () => {
@@ -19,8 +20,63 @@ export default function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  useEffect(() => {
+    const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reducedMotion) return;
+
+    const state = smoothScrollState.current;
+
+    const getMaxScroll = () => document.documentElement.scrollHeight - window.innerHeight;
+    const clamp = (value: number) => Math.max(0, Math.min(getMaxScroll(), value));
+
+    const animate = () => {
+      const distance = state.target - state.current;
+
+      if (Math.abs(distance) < 0.5) {
+        window.scrollTo(0, state.target);
+        state.current = state.target;
+        state.raf = 0;
+        return;
+      }
+
+      state.current += distance * 0.12;
+      window.scrollTo(0, state.current);
+      state.raf = requestAnimationFrame(animate);
+    };
+
+    const onWheel = (event: WheelEvent) => {
+      if (event.ctrlKey || event.metaKey || event.defaultPrevented) return;
+
+      event.preventDefault();
+
+      const cappedDelta = Math.sign(event.deltaY) * Math.min(Math.abs(event.deltaY), 260);
+      state.target = clamp(state.target + cappedDelta * 0.9);
+
+      if (!state.raf) {
+        state.current = window.scrollY;
+        state.raf = requestAnimationFrame(animate);
+      }
+    };
+
+    const syncScrollPosition = () => {
+      if (state.raf) return;
+      state.current = window.scrollY;
+      state.target = window.scrollY;
+    };
+
+    syncScrollPosition();
+    window.addEventListener("wheel", onWheel, { passive: false });
+    window.addEventListener("scroll", syncScrollPosition, { passive: true });
+
+    return () => {
+      window.removeEventListener("wheel", onWheel);
+      window.removeEventListener("scroll", syncScrollPosition);
+      if (state.raf) cancelAnimationFrame(state.raf);
+    };
+  }, []);
+
   const DESIGN_WIDTH = 1920;
-  const DESIGN_HEIGHT = 16775; // Found via inspecting top bounds
+  const DESIGN_HEIGHT = 18220; // Exact height of content up to CreditsSection
 
   return (
     <div className="w-full min-h-screen overflow-x-hidden flex flex-col items-center">
@@ -36,7 +92,7 @@ export default function App() {
         }}
       />
 
-      <Header scale={scale} />
+      <Header />
 
       <div 
         style={{ 
@@ -45,7 +101,7 @@ export default function App() {
           transform: `scale(${scale})`, 
           transformOrigin: 'top center',
           marginBottom: `-${DESIGN_HEIGHT * (1 - scale)}px`,
-          marginTop: `${96.8 * scale}px`, // scaled offset for header
+          marginTop: `77px`, // Fixed header height
         }} 
         className="relative z-0"
       >

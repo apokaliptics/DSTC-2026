@@ -30,8 +30,8 @@ import { HeroSection } from "./sections/HeroSection";
 import { AboutSection, LightFlareEffect1 } from "./sections/AboutSection";
 import { FAQSection } from "./sections/FAQSection";
 import { FooterSection } from "./sections/FooterSection";
-import { PhotoGallerySection, PrizesSection, CompetitionRulesBadge, Photo } from "./sections/PhotoGalleryAndPrizes";
-import { TimelineSection, Group41, Group46 } from "./sections/TimelineSection";
+import { PrizesSection, CompetitionRulesBadge, Photo, PrizeDetailsFrames } from "./sections/PhotoGalleryAndPrizes";
+import { TimelineSection } from "./sections/TimelineSection";
 import { Carousel } from "./components/Carousel";
 import { EventTabs } from "./components/EventTabs";
 import { dotsInset5, dotsInset9 } from "./constants/data";
@@ -42,6 +42,7 @@ import { Group95 } from "./sections/OrganizerSection";
 import { H2Text5Xl2, Group96 } from "./sections/PartnerSection";
 import { Group100 } from "./sections/SideEventsSection";
 import { LightFlareEffect2 } from "./sections/MiscComponents";
+import { SponsorsSection } from "./sections/SponsorsSection";
 
 export default function UnscrollableContent() {
   return (
@@ -55,10 +56,10 @@ export default function UnscrollableContent() {
       <LightFlareEffect1 />
       <AboutSection />
       <Photo />
-      <PhotoGallerySection />
       <PrizesSection />
+      <PrizeDetailsFrames />
       <CompetitionRulesBadge />
-      <div className="absolute bottom-[15078px] flex items-center justify-center right-[2448px] size-[1280px]">
+      <div className="absolute top-[417px] flex items-center justify-center right-[2448px] size-[1280px]">
         <div className="flex-none rotate-180">
           <LightFlareEffect2 />
         </div>
@@ -115,25 +116,7 @@ export default function UnscrollableContent() {
           </div>
         </div>
       </div>
-      <Group41 />
-      <div className="astronaut-float absolute flex h-[214.822px] items-center justify-center left-[1461px] top-[12803px] w-[234.912px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
-        <div className="flex-none rotate-90">
-          <div className="h-[234.912px] relative w-[214.822px]" data-name="phi hành gia 7">
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[245.65%] left-[-153.78%] max-w-none top-[-24.21%] w-[268.63%]" src={imgPhiHanhGia3} />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="astronaut-float-delay absolute flex h-[214.822px] items-center justify-center left-[310px] top-[12803px] w-[234.912px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
-        <div className="-scale-y-100 flex-none rotate-90">
-          <div className="h-[234.912px] relative w-[214.822px]" data-name="phi hành gia 6">
-            <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[245.65%] left-[-153.78%] max-w-none top-[-24.21%] w-[268.63%]" src={imgPhiHanhGia3} />
-            </div>
-          </div>
-        </div>
-      </div>
+
       <div className="astronaut-float-slow absolute flex h-[1115.66px] items-center justify-center left-[-179.34px] top-[10342.82px] w-[1007.12px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
         <div className="flex-none rotate-[-9.33deg]">
           <div className="h-[989.64px] relative w-[858.018px]" data-name="phi hành gia 3">
@@ -148,7 +131,6 @@ export default function UnscrollableContent() {
           <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
-      <Group46 />
       <div className="absolute h-[89px] left-[1071px] top-[7595px] w-[683px]" data-name="light sáng 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
@@ -202,6 +184,7 @@ export default function UnscrollableContent() {
         </div>
       </div>
       <TimelineSection />
+      <SponsorsSection />
       <FAQSection />
       <Carousel
           images={[imgFrame21, imgSlider2_1, imgSlider2_2, imgSlider2_3, imgSlider2_4]}

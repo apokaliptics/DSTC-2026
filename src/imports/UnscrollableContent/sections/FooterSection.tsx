@@ -2,7 +2,7 @@ import { svgPaths } from "../constants/assets";
 
 function Footer() {
   return (
-    <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[467px] left-0 right-0 top-[16308px]" data-name="footer.">
+    <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[467px] left-0 right-0 top-[17708px]" data-name="footer.">
       <div aria-hidden="true" className="absolute border-[rgba(30,58,138,0.5)] border-solid border-t-[0.8px] inset-0 pointer-events-none" />
     </div>
   );
@@ -13,8 +13,8 @@ function Heading1() {
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-[544px]" data-name="Heading 3">
       <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#f1f3fc] text-[26.26px] tracking-[1.313px] uppercase w-full">
         <p className="leading-[32.825px] mb-0">DATA SCIENCE TALENT COMPETITION</p>
-        <p className="leading-[32.825px] mb-0">2026 – THE QUANT QUEST IN</p>
-        <p className="leading-[32.825px]">SYSTEMATIC TRADING</p>
+        <p className="leading-[32.825px] mb-0">2026 – VIETNAM QUANT CHALLENGE</p>
+        <p className="leading-[32.825px]"></p>
       </div>
     </div>
   );
@@ -44,10 +44,17 @@ function Container2() {
 
 function Link() {
   return (
-    <div className="col-1 content-stretch flex items-center justify-between ml-0 mt-0 px-[27.228px] py-[18.152px] relative rounded-[4.538px] row-1 w-[544.651px]" style={{ backgroundImage: "linear-gradient(37.9661deg, rgb(74, 222, 128) 0%, rgb(0, 207, 252) 100%)" }} data-name="Link">
+    <a
+      href="https://xnoquant.io/vqc2026"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="col-1 content-stretch flex items-center justify-between ml-0 mt-0 px-[27.228px] py-[18.152px] relative rounded-[4.538px] row-1 w-[544.651px] no-underline hover:opacity-95 hover:scale-[1.01] active:scale-[0.99] transition-all duration-200 cursor-pointer"
+      style={{ backgroundImage: "linear-gradient(37.9661deg, rgb(74, 222, 128) 0%, rgb(0, 207, 252) 100%)" }}
+      data-name="Link"
+    >
       <Container1 />
       <Container2 />
-    </div>
+    </a>
   );
 }
 
@@ -219,7 +226,7 @@ function ContactInformation() {
 
 function Container() {
   return (
-    <div className="absolute gap-x-[70.02659606933594px] gap-y-[70.02659606933594px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[_357.43px] h-[446.99px] left-[31px] max-w-[1867.3758544921875px] px-[46.684px] py-[93.369px] top-[16260px] w-[1867.376px]" data-name="Container">
+    <div className="absolute gap-x-[70.02659606933594px] gap-y-[70.02659606933594px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[_357.43px] h-[446.99px] left-[31px] max-w-[1867.3758544921875px] px-[46.684px] py-[93.369px] top-[17660px] w-[1867.376px]" data-name="Container">
       <BrandingTitle />
       <ContactInformation />
     </div>
@@ -282,7 +289,7 @@ function Link5() {
 
 function Container4() {
   return (
-    <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] right-[1468.67px] top-[16649px]" data-name="Container">
+    <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] right-[1468.67px] top-[18049px]" data-name="Container">
       <Link3 />
       <Link4 />
       <Link5 />
@@ -290,12 +297,44 @@ function Container4() {
   );
 }
 
+function CreditsSection() {
+  const names = "Nguyen Minh Kiet - Nguyen Sy Son - Vu Khanh Huyen - Nguyen Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang";
+  return (
+    <>
+      <style>{`
+        @keyframes scrollMarquee {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .my-marquee-container {
+          display: flex;
+          width: max-content;
+          flex-shrink: 0;
+          animation: scrollMarquee 25s linear infinite;
+        }
+      `}</style>
+      <div className="absolute left-0 right-0 top-[18175px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
+        <div className="shrink-0 font-['Space_Grotesk:Bold',sans-serif] px-[31px] whitespace-nowrap z-30 bg-[#0b1221] h-full flex items-center relative shadow-[15px_0_20px_-5px_#0b1221]">
+          web is created by CTE FTU
+        </div>
+        <div className="flex-1 overflow-hidden relative h-full flex items-center opacity-80">
+          <div className="my-marquee-container font-['Space_Grotesk:Regular',sans-serif] text-[14px]">
+            <span className="pr-[100px] shrink-0 whitespace-nowrap">{names}</span>
+            <span className="pr-[100px] shrink-0 whitespace-nowrap">{names}</span>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+
 export function FooterSection() {
   return (
-    <footer className="absolute contents left-0 top-[16260px]">
+    <footer className="absolute contents left-0 top-[17660px]">
       <Footer />
       <Container />
       <Container4 />
+      <CreditsSection />
     </footer>
   );
 }

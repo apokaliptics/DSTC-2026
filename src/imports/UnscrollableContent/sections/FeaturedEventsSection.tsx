@@ -1,3 +1,4 @@
+
 import svgPaths from "../svg-cyafdyc53m";
 import imgImage6 from "../imgImage6.png";
 import imgImage7 from "../imgImage7.png";
@@ -135,7 +136,6 @@ function DivH() {
         <div className="absolute h-[356px] left-[-11.9px] top-[-49.26px] w-[534px]" data-name="2025 1">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img20251} />
         </div>
-        <DivAbsolute />
         <DivAbsolute1 />
       </div>
     </div>
@@ -188,12 +188,12 @@ function DivP1() {
 
 function Component() {
   return (
-    <div className="backdrop-blur-[6.599px] bg-[rgba(7,16,34,0.6)] col-1 ml-0 mt-0 relative rounded-[35.194px] row-1 w-[522.481px]" data-name="Component 9">
+    <div className="backdrop-blur-[6.599px] bg-[rgba(7,16,34,0.6)] col-1 ml-0 mt-0 relative rounded-[35.194px] row-1 w-[522.481px] group hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] transition-all duration-300 cursor-pointer" data-name="Component 9">
       <div className="content-stretch flex flex-col isolate items-start overflow-clip p-[1.1px] relative rounded-[inherit] size-full">
         <DivH />
         <DivP1 />
       </div>
-      <div aria-hidden="true" className="absolute border-[1.1px] border-[rgba(30,58,138,0.5)] border-solid inset-0 pointer-events-none rounded-[35.194px] shadow-[0px_21.996px_27.496px_-5.499px_rgba(0,0,0,0.1),0px_8.799px_10.998px_-6.599px_rgba(0,0,0,0.1)]" />
+      <div aria-hidden="true" className="absolute border-[1.1px] border-[rgba(30,58,138,0.5)] group-hover:border-[rgba(59,130,246,0.8)] transition-colors duration-300 border-solid inset-0 pointer-events-none rounded-[35.194px] shadow-[0px_21.996px_27.496px_-5.499px_rgba(0,0,0,0.1),0px_8.799px_10.998px_-6.599px_rgba(0,0,0,0.1)]" />
     </div>
   );
 }
@@ -283,7 +283,6 @@ function DivH1() {
         <div className="absolute h-[361px] left-[-73.94px] top-[-53.65px] w-[794px]" data-name="image 6">
           <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
         </div>
-        <DivAbsolute2 />
         <DivAbsolute3 />
       </div>
     </div>
@@ -324,12 +323,12 @@ function DivP2() {
 
 function Component1() {
   return (
-    <div className="backdrop-blur-[6.599px] bg-[rgba(7,16,34,0.6)] relative rounded-[35.194px] shrink-0 w-[522.261px]" data-name="Component 9">
+    <div className="backdrop-blur-[6.599px] bg-[rgba(7,16,34,0.6)] relative rounded-[35.194px] shrink-0 w-[522.261px] group hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(168,85,247,0.5)] transition-all duration-300 cursor-pointer" data-name="Component 9">
       <div className="content-stretch flex flex-col isolate items-start overflow-clip p-[1.1px] relative rounded-[inherit] size-full">
         <DivH1 />
         <DivP2 />
       </div>
-      <div aria-hidden="true" className="absolute border-[1.1px] border-[rgba(30,58,138,0.5)] border-solid inset-0 pointer-events-none rounded-[35.194px] shadow-[0px_21.996px_27.496px_-5.499px_rgba(0,0,0,0.1),0px_8.799px_10.998px_-6.599px_rgba(0,0,0,0.1)]" />
+      <div aria-hidden="true" className="absolute border-[1.1px] border-[rgba(30,58,138,0.5)] group-hover:border-[rgba(168,85,247,0.8)] transition-colors duration-300 border-solid inset-0 pointer-events-none rounded-[35.194px] shadow-[0px_21.996px_27.496px_-5.499px_rgba(0,0,0,0.1),0px_8.799px_10.998px_-6.599px_rgba(0,0,0,0.1)]" />
     </div>
   );
 }
@@ -386,7 +385,7 @@ function PTextSm2() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="p.text-sm">
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[15.178px] text-white tracking-[0.7699px] uppercase whitespace-nowrap">
-        <p className="leading-[21.996px]">CỘNG ĐỒNG HỌC TẬP</p>
+        <p className="leading-[21.996px]"></p>
       </div>
     </div>
   );
@@ -396,7 +395,7 @@ function H3Text2Xl2() {
   return (
     <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-name="h3.text-2xl">
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[25.186px] text-white whitespace-nowrap">
-        <p className="leading-[35.194px]">{`Workshops & Courses`}</p>
+        <p className="leading-[35.194px]">Game Online: Bụt của Cô Tấm</p>
       </div>
     </div>
   );
@@ -404,7 +403,7 @@ function H3Text2Xl2() {
 
 function DivAbsolute5() {
   return (
-    <div className="absolute bottom-[25.95px] content-stretch flex flex-col gap-[4.399px] items-start left-[26.4px] w-[273px]" data-name="div.absolute">
+    <div className="absolute bottom-[25.95px] content-stretch flex flex-col gap-[4.399px] items-start left-[26.4px] w-[450px]" data-name="div.absolute">
       <PTextSm2 />
       <H3Text2Xl2 />
     </div>
@@ -416,11 +415,9 @@ function DivH2() {
     <div className="h-[281.554px] opacity-80 relative shrink-0 w-full z-[2]" style={{ backgroundImage: "linear-gradient(151.569deg, rgb(30, 41, 59) 0%, rgb(30, 58, 138) 100%)" }} data-name="div.h-64">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid overflow-clip relative rounded-[inherit] size-full">
         <div className="absolute inset-[0_0_-0.45px_0]" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\'0 0 520.07 282\\' xmlns=\\'http://www.w3.org/2000/svg\\' preserveAspectRatio=\\'none\\'><rect x=\\'0\\' y=\\'0\\' height=\\'100%\\' width=\\'100%\\' fill=\\'url(%23grad)\\' opacity=\\'1\\'/><defs><radialGradient id=\\'grad\\' gradientUnits=\\'userSpaceOnUse\\' cx=\\'0\\' cy=\\'0\\' r=\\'10\\' gradientTransform=\\'matrix(42.623 0 0 42.709 260.03 338.4)\\'><stop stop-color=\\'rgba(34,211,238,0.2)\\' offset=\\'0\\'/><stop stop-color=\\'rgba(34,211,238,0)\\' offset=\\'1\\'/></radialGradient></defs></svg>')" }} data-name="div.absolute" />
-        <div className="absolute left-[-102.75px] size-[618.75px] top-[-203.2px]" data-name="image 7">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage7} />
+        <div className="absolute inset-0 flex items-center justify-center" data-name="image 7">
+          <img alt="" className="h-full w-full object-contain pointer-events-none" src={imgImage7} />
         </div>
-        <DivAbsolute4 />
-        <DivAbsolute5 />
       </div>
     </div>
   );
@@ -428,11 +425,12 @@ function DivH2() {
 
 function PTextBase2() {
   return (
-    <div className="absolute content-stretch flex flex-col items-start left-0 pb-[0.66px] right-[-0.39px] top-[-0.66px]" data-name="p.text-base">
-      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] not-italic relative shrink-0 text-[17px] text-white whitespace-nowrap">
-        <p className="leading-[28.595px] mb-0">Các khóa học ngắn hạn về Excel, Python, SQL và chuỗi</p>
-        <p className="leading-[28.595px] mb-0">Workshop chia sẻ kinh nghiệm thực chiến từ các chuyên</p>
-        <p className="leading-[28.595px]">gia trong ngành.</p>
+    <div className="absolute content-stretch flex flex-col items-start left-0 right-0 top-0" data-name="p.text-base">
+      <div className="flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-start text-[16px] text-white">
+        <p className="leading-[26px] mb-0">Tựa game online đầu tiên từ CTE - FTU lấy cảm hứng từ</p>
+        <p className="leading-[26px] mb-0">truyện cổ tích Tấm Cám dưới góc nhìn hiện đại.</p>
+        <p className="leading-[26px] mb-0">Kết hợp Visual Novel và các thử thách Data Science,</p>
+        <p className="leading-[26px]">mang đến trải nghiệm vừa giải trí vừa sáng tạo.</p>
       </div>
     </div>
   );
@@ -460,12 +458,12 @@ function DivP3() {
 
 function Component2() {
   return (
-    <div className="backdrop-blur-[6.599px] bg-[rgba(7,16,34,0.6)] relative rounded-[35.194px] shrink-0 w-[522.261px]" data-name="Component 9">
+    <div className="backdrop-blur-[6.599px] bg-[rgba(7,16,34,0.6)] relative rounded-[35.194px] shrink-0 w-[522.261px] group hover:-translate-y-2 hover:shadow-[0_0_30px_rgba(45,212,191,0.5)] transition-all duration-300 cursor-pointer" data-name="Component 9">
       <div className="content-stretch flex flex-col isolate items-start overflow-clip p-[1.1px] relative rounded-[inherit] size-full">
         <DivH2 />
         <DivP3 />
       </div>
-      <div aria-hidden="true" className="absolute border-[1.1px] border-[rgba(30,58,138,0.5)] border-solid inset-0 pointer-events-none rounded-[35.194px] shadow-[0px_21.996px_27.496px_-5.499px_rgba(0,0,0,0.1),0px_8.799px_10.998px_-6.599px_rgba(0,0,0,0.1)]" />
+      <div aria-hidden="true" className="absolute border-[1.1px] border-[rgba(30,58,138,0.5)] group-hover:border-[rgba(45,212,191,0.8)] transition-colors duration-300 border-solid inset-0 pointer-events-none rounded-[35.194px] shadow-[0px_21.996px_27.496px_-5.499px_rgba(0,0,0,0.1),0px_8.799px_10.998px_-6.599px_rgba(0,0,0,0.1)]" />
     </div>
   );
 }
@@ -480,11 +478,19 @@ function DivGroupMargin1() {
 
 function DivGrid() {
   return (
-    <div className="absolute content-stretch flex gap-[43.553px] items-start justify-center left-[105px] min-h-[774.0542602539062px] top-[2681px] w-[1654.131px]" data-name="div.grid">
-      <Group83 />
-      <DivGroupMargin />
-      <DivGroupMargin1 />
-    </div>
+    <>
+      <div className="absolute content-stretch flex gap-[43.553px] items-start justify-center left-[105px] min-h-[774.0542602539062px] top-[2681px] w-[1654.131px]" data-name="div.grid">
+        <a href="https://www.facebook.com/dstalentcompetition" target="_blank" rel="noopener noreferrer">
+          <Group83 />
+        </a>
+        <a href="https://www.facebook.com/photo.php?fbid=685815787718428" target="_blank" rel="noopener noreferrer">
+          <DivGroupMargin />
+        </a>
+        <a href="https://www.facebook.com/cteftu/posts/pfbid02occY6xVVfUeFcbUWMKiEvDA1zsKo85F3CM9aJ5AX9Bihh4yEdcwr2DraEQFZ2QWdl?rdid=gVxEgwWmzKsCI0JD#" target="_blank" rel="noopener noreferrer">
+          <DivGroupMargin1 />
+        </a>
+      </div>
+    </>
   );
 }
 

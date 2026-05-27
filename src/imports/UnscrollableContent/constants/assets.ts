@@ -8,9 +8,13 @@ export { default as imgLightSang5 } from "../imgLightSang5.png";
 
 // Gallery / content images
 export { default as imgImage8 } from "../imgImage8.png";
+export { default as imgFrameAll } from "../frame_all.png";
 export { default as imgRectangle1 } from "../imgRectangle1.png";
+export { default as imgRectangle1Text } from "../imgRectangle1Text.png";
 export { default as imgRectangle3 } from "../imgRectangle3.png";
+export { default as imgRectangle3Text } from "../imgRectangle3Text.png";
 export { default as imgRectangle6 } from "../imgRectangle6.png";
+export { default as imgRectangle6Text } from "../imgRectangle6Text.png";
 export { default as imgRectangle10 } from "../imgRectangle10.png";
 export { default as img20251 } from "../img20251.png";
 export { default as imgImage6 } from "../imgImage6.png";
@@ -21,6 +25,11 @@ export { default as imgFrame23 } from "../imgFrame23.png";
 export { default as imgImage11 } from "../imgImage11.png";
 export { default as imgImage12 } from "../imgImage12.png";
 export { default as img20254 } from "../img20254.png";
+export { default as logoCte } from "../Logo CTE.png";
+export { default as logoDstc } from "../Logo DSTC.png";
+export { default as logoFtu } from "../Logo FTU.png";
+export { default as logoXno } from "../Logo XNO.png";
+export { default as logoDoanTruong } from "../Logo doan truong.png";
 
 // Slider images - set 1
 export { default as imgSlider1_1 } from "../../../assets/slider-images/slider1-1.png";

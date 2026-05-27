@@ -31,7 +31,7 @@ function H2Text5Xl1() {
 
 function Group89() {
   return (
-    <div className="absolute contents left-[115px] top-[2099.35px]">
+    <a href="https://www.facebook.com/cteftu" target="_blank" rel="noopener noreferrer" className="absolute contents left-[115px] top-[2099.35px] cursor-pointer hover:opacity-80 transition-opacity">
       <div className="-translate-y-1/2 absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal h-[34px] justify-center leading-[0] left-[115px] text-[16px] text-[rgba(255,255,255,0.77)] top-[2116.35px] w-[164px]">
         <p className="decoration-solid leading-[28px] underline">Tìm hiểu thêm về CTE</p>
       </div>
@@ -44,7 +44,7 @@ function Group89() {
           </div>
         </div>
       </div>
-    </div>
+    </a>
   );
 }
 
@@ -59,7 +59,7 @@ function Group88() {
 function Group93() {
   return (
     <div className="absolute contents left-[115px] top-[1577px]">
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Lusitana:Regular',sans-serif] justify-center leading-[0] left-[115px] not-italic text-[#fff8f8] text-[72px] top-[1647px] w-[734px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Lusitana:Regular',sans-serif] justify-center leading-[0] left-[115px] not-italic text-[#fff8f8] text-[72px] top-[1647px] w-[950px]">
         <p className="leading-[70px] mb-0">Club of Technology in</p>
         <p className="leading-[70px]">Economics (CTE)</p>
       </div>

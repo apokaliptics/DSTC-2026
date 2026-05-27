@@ -220,7 +220,6 @@ function DivP4() {
   return (
     <div className="absolute h-[161px] backdrop-blur-[6.651px] left-[407.91px] right-0 rounded-[35.471px] top-[196.86px]" style={{ backgroundImage: "linear-gradient(156.417deg, rgba(30, 58, 138, 0.8) 0%, rgba(22, 78, 99, 0.8) 100%)" }} data-name="div.p-8">
       <div className="content-stretch flex flex-col justify-center gap-[8.868px] items-start overflow-clip px-[24px] relative rounded-[inherit] size-full">
-        <DivAbsolute6 />
         <DivText4Xl />
         <DivTextBase4 />
       </div>
@@ -232,17 +231,17 @@ function DivP4() {
 function DivGrid1() {
   return (
     <div className="absolute h-[358.254px] left-[106px] top-[4760px] w-[780.355px]" data-name="div.grid">
-      <div className="absolute h-[164px] backdrop-blur-[6.651px] bg-[rgba(252,252,252,0.4)] content-stretch flex flex-col justify-center gap-[8.868px] items-start left-0 px-[36px] right-[407.91px] rounded-[32px] top-0" data-name="Component 10">
+      <div className="absolute h-[164px] backdrop-blur-[6.651px] bg-[rgba(107,255,255,0.4)] content-stretch flex flex-col justify-center gap-[8.868px] items-start left-0 px-[36px] right-[407.91px] rounded-[32px] top-0" data-name="Component 10">
         <div aria-hidden="true" className="absolute border-[1.108px] border-[rgba(30,58,138,0.5)] border-solid inset-0 pointer-events-none rounded-[32px]" />
         <DivFlex5 />
         <DivTextBase1 />
       </div>
-      <div className="absolute h-[164px] backdrop-blur-[6.651px] bg-[rgba(255,255,255,0.4)] content-stretch flex flex-col justify-center gap-[8.868px] items-start left-[407.91px] px-[24px] right-0 rounded-[32px] top-0" data-name="Component 11">
+      <div className="absolute h-[164px] backdrop-blur-[6.651px] bg-[rgba(107,255,255,0.4)] content-stretch flex flex-col justify-center gap-[8.868px] items-start left-[407.91px] px-[24px] right-0 rounded-[32px] top-0" data-name="Component 11">
         <div aria-hidden="true" className="absolute border-[1.108px] border-[rgba(30,58,138,0.5)] border-solid inset-0 pointer-events-none rounded-[32px]" />
         <DivFlex6 />
         <DivTextBase2 />
       </div>
-      <div className="absolute h-[161px] backdrop-blur-[6.651px] bg-[rgba(239,245,255,0.4)] content-stretch flex flex-col justify-center gap-[8.868px] items-start left-0 px-[36px] right-[407.91px] rounded-[32px] top-[196.86px]" data-name="Component 11">
+      <div className="absolute h-[161px] backdrop-blur-[6.651px] bg-[rgba(107,255,255,0.4)] content-stretch flex flex-col justify-center gap-[8.868px] items-start left-0 px-[36px] right-[407.91px] rounded-[32px] top-[196.86px]" data-name="Component 11">
         <div aria-hidden="true" className="absolute border-[1.108px] border-[rgba(102,120,171,0.5)] border-solid inset-0 pointer-events-none rounded-[32px]" />
         <DivFlex7 />
         <DivTextBase3 />

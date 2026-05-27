@@ -180,9 +180,25 @@
   }
 }
 
+@keyframes shimmer {
+  0% { transform: translateX(-300%) skewX(-20deg); }
+  100% { transform: translateX(300%) skewX(-20deg); }
+}
+
+@keyframes text-diamond-glow {
+  0%, 100% { filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3)) brightness(1); }
+  50% { filter: drop-shadow(0 0 10px rgba(255,255,255,0.8)) brightness(1.1); }
+}
+
+@keyframes sparkle {
+  0% { transform: scale(0) rotate(0deg); opacity: 0; }
+  50% { transform: scale(1) rotate(90deg); opacity: 1; }
+  100% { transform: scale(0) rotate(180deg); opacity: 0; }
+}
+
 @keyframes astronaut-float {
   0%, 100% { translate: 0 0; }
-  50% { translate: 0 -24px; }
+  50% { translate: 0 -60px; }
 }
 .astronaut-float { animation: astronaut-float 6s ease-in-out infinite; }
 .astronaut-float-slow { animation: astronaut-float 9s ease-in-out infinite; }

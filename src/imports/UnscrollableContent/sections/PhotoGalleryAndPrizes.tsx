@@ -1,5 +1,80 @@
-import { svgPaths, imgImage8, imgRectangle1, imgRectangle3, imgRectangle6, imgRectangle10 } from "../constants/assets";
+import { svgPaths, imgImage8, imgFrameAll, imgRectangle1, imgRectangle1Text, imgRectangle3, imgRectangle3Text, imgRectangle6, imgRectangle6Text, imgRectangle10, imgPhiHanhGia3 } from "../constants/assets";
 import { imgRectangle, imgRectangle2, imgRectangle4, imgRectangle5, imgRectangle7, imgRectangle8, imgRectangle9, imgRectangle11, imgRectangle12, imgRectangle13, imgRectangle14, imgRectangle15, imgRectangle16, imgRectangle17, imgRectangle18, imgRectangle19, imgRectangle20, imgRectangle21, imgRectangle22, imgRectangle23, imgRectangle24, imgRectangle25 } from "../svg-58rhk";
+
+const prizeDetails = [
+  {
+    titleImage: imgRectangle1Text,
+    titleAlt: "Quán quân",
+    lines: ["02 học bổng toàn phần trị giá 189 triệu đồng", "02 Voucher 30% từ The English Tutor", "02 Voucher 3tr"],
+    className: "top-0",
+  },
+  {
+    titleImage: imgRectangle6Text,
+    titleAlt: "Á quân",
+    lines: ["02 học bổng toàn phần: 189 triệu đồng", "02 Voucher 30%", "02 Voucher 2tr"],
+    className: "top-[871px]",
+  },
+  {
+    titleImage: imgRectangle3Text,
+    titleAlt: "Quý quân",
+    lines: ["04 học đồng hành: 110 triệu đồng", "04 Voucher 30%", "04 Voucher 1tr"],
+    className: "top-[1742px]",
+  },
+];
+
+function AwardDetailFrame({ titleImage, titleAlt, lines, className }: { titleImage: string; titleAlt: string; lines: string[]; className: string }) {
+  return (
+    <article className={`absolute left-1/2 h-[1011px] w-[1851px] -translate-x-1/2 ${className}`}>
+      <img src={imgFrameAll} alt="" className="absolute inset-0 h-full w-full object-contain pointer-events-none" />
+      <img
+        src={titleImage}
+        alt={titleAlt}
+        className="absolute left-1/2 top-[80px] h-[320px] -translate-x-1/2 object-contain pointer-events-none"
+        style={{
+          filter: "drop-shadow(0 0 8px rgba(110,255,130,0.9)) drop-shadow(0 0 20px rgba(74,222,128,0.85))",
+        }}
+      />
+      <div className="absolute left-[300px] right-[300px] top-[460px] flex flex-col items-center justify-center gap-[20px] font-['EB_Garamond',serif] text-[48px] font-bold leading-[1.2] text-[#1f160d]">
+        {lines.map((line) => (
+          <p key={line} className="text-center">{line}</p>
+        ))}
+      </div>
+    </article>
+  );
+}
+
+function PrizeAstronaut({ className, imageClassName, style }: { className: string; imageClassName: string; style?: React.CSSProperties }) {
+  return (
+    <div className={`absolute overflow-hidden pointer-events-none ${className}`} style={style}>
+      <img alt="" className={`absolute max-w-none ${imageClassName}`} src={imgPhiHanhGia3} />
+    </div>
+  );
+}
+
+export function PrizeDetailsFrames() {
+  return (
+    <section className="absolute left-0 top-[12450px] h-[2860px] w-[1920px] overflow-visible z-[10]" data-name="Prize details">
+      {prizeDetails.map((prize) => (
+        <AwardDetailFrame key={prize.titleAlt} {...prize} />
+      ))}
+      <PrizeAstronaut 
+        className="astronaut-float left-[1700px] top-[680px] h-[240px] w-[270px] z-[3]" 
+        style={{ transform: 'scale(0.6) rotate(90deg)' }}
+        imageClassName="h-[590px] w-[590px] left-[-330px] top-[-58px]" 
+      />
+      <PrizeAstronaut 
+        className="astronaut-float-delay left-[30px] top-[1200px] h-[260px] w-[290px] z-[3]" 
+        style={{ transform: 'scale(1.4) rotate(15deg)' }}
+        imageClassName="h-[570px] w-[570px] left-[-28px] top-[-340px]" 
+      />
+      <PrizeAstronaut 
+        className="astronaut-float-slow left-[1600px] top-[2660px] h-[280px] w-[320px] z-[3]" 
+        style={{ transform: 'scaleX(-0.9) scaleY(0.9) rotate(-15deg)' }} 
+        imageClassName="h-[610px] w-[610px] left-[-34px] top-[-362px]" 
+      />
+    </section>
+  );
+}
 
 /* ===== Photo Gallery mask groups (Group97) ===== */
 function Group1() { return (<div className="absolute contents inset-[74.61%_31.61%_23.55%_34.2%]" data-name="Group"><div className="absolute inset-[74.61%_31.61%_23.55%_34.2%] mask-intersect mask-luminance mask-no-clip mask-no-repeat mask-position-[-0.001px_2.861px] mask-size-[656.473px_307.622px]" style={{ maskImage: `url('${imgRectangle}')` }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle1} /></div></div></div>); }
@@ -92,24 +167,6 @@ function ClipPathGroup10() { return (<div className="absolute contents inset-[11
 export function PrizesSection() {
   return (
     <section className="absolute h-[1573px] left-[-333px] overflow-clip top-[11172px] w-[2777px]" data-name="magic 1">
-      <div className="absolute h-[1373.5px] left-[-152px] top-[43px] w-[3050.5px]" data-name="Gradient">
-        <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 3050.5 1373.5">
-          <g id="Gradient">
-            <path d={svgPaths.p2d5bf900} fill="url(#paint0_radial_1_2046)" />
-            <path d={svgPaths.p23e55600} fill="url(#paint1_radial_1_2046)" />
-          </g>
-          <defs>
-            <radialGradient cx="0" cy="0" gradientTransform="translate(1467.11 885.087) rotate(90) scale(525.892 952.968)" gradientUnits="userSpaceOnUse" id="paint0_radial_1_2046" r="1">
-              <stop stopColor="white" stopOpacity="0.7" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
-            </radialGradient>
-            <radialGradient cx="0" cy="0" gradientTransform="translate(1467.11 885.087) rotate(90) scale(525.892 952.968)" gradientUnits="userSpaceOnUse" id="paint1_radial_1_2046" r="1">
-              <stop stopColor="white" stopOpacity="0.7" />
-              <stop offset="1" stopColor="white" stopOpacity="0" />
-            </radialGradient>
-          </defs>
-        </svg>
-      </div>
       <Group98 />
       <Group30 />
       <ClipPathGroup10 />
@@ -130,7 +187,7 @@ export function PrizesSection() {
 export function CompetitionRulesBadge() {
   return (
     <div className="absolute contents inset-[64.3%_29.53%_34.64%_29.48%]">
-      <div className="absolute inset-[64.3%_29.53%_34.64%_29.48%]">
+      <div className="absolute inset-[64.3%_29.53%_34.64%_29.48%] -translate-y-[990px]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 787 177">
           <path d={svgPaths.p23d55e00} fill="url(#paint0_linear_1_2065)" id="Rectangle 2" />
           <defs>
@@ -141,7 +198,7 @@ export function CompetitionRulesBadge() {
           </defs>
         </svg>
       </div>
-      <div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold inset-[64.39%_31.77%_34.69%_32.95%] justify-center leading-[0] not-italic text-[60px] text-center text-shadow-[0px_6.123px_6.123px_rgba(224,43,43,0.25)] text-white">
+      <div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold inset-[64.39%_31.77%_34.69%_32.95%] -translate-y-[990px] justify-center leading-[0] not-italic text-[60px] text-center text-shadow-[0px_6.123px_6.123px_rgba(224,43,43,0.25)] text-white">
         <p className="leading-[1.5]">BỘ LUẬT CUỘC THI</p>
       </div>
     </div>

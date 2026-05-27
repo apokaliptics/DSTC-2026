@@ -165,7 +165,7 @@ function Group39() {
 function DiTngThamGia() {
   return (
     <div className="absolute contents left-[410px] top-[6281px]" data-name="Đối tượng tham gia">
-      <div className="absolute bg-clip-text bg-gradient-to-r flex flex-col font-['Inter:Bold',sans-serif] font-bold from-[#4ade80] inset-[37.44%_20.53%_62.15%_21.35%] justify-center leading-[0] not-italic text-[73.471px] text-[transparent] text-center to-[#3b82f6]">
+      <div className="absolute bg-clip-text bg-gradient-to-r flex flex-col font-['Inter:Bold',sans-serif] font-bold from-[#4ade80] inset-[37.44%_20.53%_62.15%_21.35%] justify-center leading-[0] not-italic text-[73.471px] text-[transparent] text-center to-[#3b82f6] -translate-y-[560px]">
         <p>
           <span className="leading-[1.5] text-white">ĐỐI TƯỢNG</span>
           <span className="gradient-text-safe bg-clip-text bg-gradient-to-r from-[#4ade80] leading-[1.5] text-[transparent] to-[#3b82f6]">{` THAM GIA`}</span>

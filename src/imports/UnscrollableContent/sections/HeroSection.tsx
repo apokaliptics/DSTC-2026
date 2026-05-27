@@ -36,8 +36,10 @@ function PTextXl() {
 
 function CountdownBox() {
   return (
-    <div className="backdrop-blur-[6.939px] bg-[rgba(23,37,84,0.4)] relative rounded-[13.878px] shrink-0 size-[129.526px]" data-name="Component 15">
-      <div aria-hidden="true" className="absolute border-[1.156px] border-[rgba(59,130,246,0.3)] border-solid inset-0 pointer-events-none rounded-[13.878px] shadow-[0px_0px_23.13px_0px_rgba(37,99,235,0.2)]" />
+    <div className="backdrop-blur-[10px] bg-gradient-to-br from-indigo-900/80 via-purple-900/60 to-cyan-900/80 relative rounded-[16px] shrink-0 size-[129.526px] overflow-hidden" data-name="Component 15">
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-blue-400/20 via-transparent to-transparent opacity-60"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0IiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSI0IiBoZWlnaHQ9IjQiIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wNSIvPjwvc3ZnPg==')] opacity-30 mix-blend-overlay"></div>
+      <div aria-hidden="true" className="absolute border-[1.5px] border-cyan-400/50 border-solid inset-0 pointer-events-none rounded-[16px] shadow-[0px_0px_15px_0px_rgba(34,211,238,0.4),inset_0px_0px_20px_0px_rgba(168,85,247,0.3)]" />
     </div>
   );
 }
@@ -95,29 +97,29 @@ function DivFlex4() {
 }
 
 function CountdownTimer() {
-  const [time, setTime] = useState({ days: 60, hours: 23, minutes: 59, seconds: 59 });
+  const [time, setTime] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0 });
   useEffect(() => {
-    const id = setInterval(() => {
-      setTime((t) => {
-        if (t.days === 0 && t.hours === 0 && t.minutes === 0 && t.seconds === 0) return t;
-        let { days, hours, minutes, seconds } = t;
-        if (seconds > 0) seconds--;
-        else {
-          seconds = 59;
-          if (minutes > 0) minutes--;
-          else {
-            minutes = 59;
-            if (hours > 0) hours--;
-            else {
-              hours = 23;
-              if (days > 0) days--;
-              else { days = 0; hours = 0; minutes = 0; seconds = 0; }
-            }
-          }
-        }
-        return { days, hours, minutes, seconds };
-      });
-    }, 1000);
+    const targetDate = new Date("2026-07-13T23:59:00+07:00").getTime();
+
+    const updateTime = () => {
+      const now = new Date().getTime();
+      const difference = targetDate - now;
+
+      if (difference <= 0) {
+        setTime({ days: 0, hours: 0, minutes: 0, seconds: 0 });
+        return;
+      }
+
+      const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+      setTime({ days, hours, minutes, seconds });
+    };
+
+    updateTime();
+    const id = setInterval(updateTime, 1000);
     return () => clearInterval(id);
   }, []);
   const pad = (n: number) => String(n).padStart(2, "0");
@@ -127,7 +129,7 @@ function CountdownTimer() {
       <DivFlex2 />
       <DivFlex3 />
       <DivFlex4 />
-      <div className="absolute font-['Inter:Bold',sans-serif] font-bold h-[56px] leading-[0] left-[29.44px] not-italic text-[55.511px] text-center text-white top-[42px] w-[600.355px] whitespace-nowrap">
+      <div className="absolute font-['Inter:Bold',sans-serif] font-bold h-[56px] leading-[0] left-[29.44px] not-italic text-[55.511px] text-center text-white top-[42px] w-[600.355px] whitespace-nowrap drop-shadow-[0_0_15px_rgba(167,139,250,0.8)]">
         <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col justify-center left-[36.5px] top-[28px]">
           <p className="leading-[55.511px]">{time.days}</p>
         </div>
@@ -163,17 +165,29 @@ function Frame10() {
 
 function DivRelative() {
   return (
-    <div className="-translate-y-1/2 absolute h-[765.128px] left-[276.59px] right-[167.5px] top-[calc(50%-9.02px)]" data-name="div.relative">
+    <div className="-translate-y-1/2 absolute h-[765.128px] left-[276.59px] right-[167.5px] top-[calc(50%-9.02px)] z-[110]" data-name="div.relative">
       <H1Text5Xl />
       <PTextXl />
       <DivFlex />
       <Frame2 />
       <Frame10 />
-      <button onClick={() => window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })} className="cursor-pointer absolute bg-gradient-to-r content-stretch drop-shadow-[0px_0px_7.5px_rgba(34,211,238,0.4)] flex flex-col from-[#44c882] h-[83px] items-center justify-center left-[754.41px] px-[24px] py-[12px] rounded-[9999px] to-[#60a5fa] top-[753.09px] w-[341px]" data-name="Component 17">
-        <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[36px] text-center text-white whitespace-nowrap">
-          <p className="leading-[20px]">Đăng ký ngay</p>
-        </div>
-      </button>
+      <a href="https://xnoquant.io/vqc2026" target="_blank" className="absolute left-[754.41px] top-[753.09px] group block w-[341px] h-[83px] no-underline z-[60]">
+        <button className="cursor-pointer bg-gradient-to-b from-[#60a5fa] to-[#44c882] w-full h-full rounded-[9999px] shadow-[0_6px_0_#2b8258,0_15px_20px_rgba(34,211,238,0.4)] active:shadow-[0_0px_0_#2b8258,0_0px_0px_rgba(34,211,238,0.4)] active:translate-y-[6px] transition-all duration-150 relative overflow-hidden" data-name="Component 17">
+          <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+          
+          <div className="absolute inset-0 -translate-x-full w-[50%] bg-gradient-to-r from-transparent via-white/80 to-transparent skew-x-[-20deg] animate-[shimmer_1.5s_infinite_linear]"></div>
+          <div className="absolute inset-0 -translate-x-full w-[30%] bg-gradient-to-r from-transparent via-cyan-100/80 to-transparent skew-x-[-20deg] animate-[shimmer_1.5s_infinite_0.15s_linear]"></div>
+          
+          {/* Sparkles */}
+          <svg className="absolute top-[15%] left-[10%] w-4 h-4 text-white animate-[sparkle_2s_infinite_ease-in-out] z-10 pointer-events-none" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" /></svg>
+          <svg className="absolute bottom-[20%] right-[15%] w-3 h-3 text-cyan-200 animate-[sparkle_2.5s_infinite_1s_ease-in-out] z-10 pointer-events-none" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" /></svg>
+          <svg className="absolute top-[30%] right-[30%] w-2 h-2 text-white animate-[sparkle_3s_infinite_0.5s_ease-in-out] z-10 pointer-events-none" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" /></svg>
+
+          <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[36px] text-center text-white whitespace-nowrap animate-[text-diamond-glow_2s_infinite_ease-in-out] z-10 pointer-events-none">
+            <p className="leading-[20px]">Đăng ký ngay</p>
+          </div>
+        </button>
+      </a>
     </div>
   );
 }
@@ -181,20 +195,13 @@ function DivRelative() {
 export function HeroSection() {
   return (
     <section className="absolute bg-[rgba(51,66,110,0)] drop-shadow-[0px_4.606px_2.303px_rgba(0,0,0,0.25)] h-[1249px] left-[-172px] overflow-clip top-[93px] w-[2220.444px]" data-name="Front page">
-      <div className="absolute bottom-[-172.74px] flex items-center justify-center right-[1207.27px] size-[1242.207px]">
+      <div className="absolute bottom-[-172.74px] flex items-center justify-center right-[1207.27px] size-[1242.207px] z-[1]">
         <div className="flex-none rotate-180">
           <LightFlareEffect />
         </div>
       </div>
       <BreatheState />
-      <DivRelative />
-      <div className="-translate-x-1/2 absolute h-[1157.776px] left-[calc(50%-0.45px)] pointer-events-none rounded-[115.142px] top-[13px] w-[2315.551px]" data-name="chữ Data Science Talent 1">
-        <div className="absolute inset-0 overflow-hidden rounded-[115.142px]">
-          <img alt="" className="absolute left-0 max-w-none size-full top-[-15.26%]" src={imgChDataScienceTalent1} />
-        </div>
-        <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0)] border-solid inset-0 rounded-[115.142px]" />
-      </div>
-      <div className="absolute h-[89px] left-[864px] top-[865px] w-[683px]" data-name="light sáng 2">
+      <div className="absolute h-[89px] left-[864px] top-[865px] w-[683px] z-[1]" data-name="light sáng 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
@@ -242,6 +249,13 @@ export function HeroSection() {
           </div>
         </div>
       </div>
+      <div className="-translate-x-1/2 absolute h-[1157.776px] left-[calc(50%-0.45px)] pointer-events-none rounded-[115.142px] top-[13px] w-[2315.551px] z-[10]" data-name="chữ Data Science Talent 1">
+        <div className="absolute inset-0 overflow-hidden rounded-[115.142px]">
+          <img alt="" className="absolute left-0 max-w-none size-full top-[-15.26%]" src={imgChDataScienceTalent1} />
+        </div>
+        <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0)] border-solid inset-0 rounded-[115.142px]" />
+      </div>
+      <DivRelative />
     </section>
   );
 }
