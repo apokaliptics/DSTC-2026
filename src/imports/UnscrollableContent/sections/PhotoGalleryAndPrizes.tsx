@@ -5,40 +5,63 @@ const prizeDetails = [
   {
     titleImage: imgRectangle1Text,
     titleAlt: "Quán quân",
-    lines: ["02 học bổng toàn phần trị giá 189 triệu đồng", "02 Voucher 30% từ The English Tutor", "02 Voucher 3tr"],
+    lines: [
+      [{ text: "02", bold: true }, { text: " học bổng toàn phần trị giá " }, { text: "189 triệu đồng", bold: true }, { text: " đến từ " }, { text: "Edu2Review", bold: true }],
+      [{ text: "02 Voucher 30%", bold: true }, { text: " đến từ " }, { text: "86HSK", bold: true }],
+      [{ text: "02 Voucher 3tr", bold: true }, { text: " đến từ " }, { text: "The English Tutor", bold: true }],
+    ],
     className: "top-0",
   },
   {
     titleImage: imgRectangle6Text,
     titleAlt: "Á quân",
-    lines: ["02 học bổng toàn phần: 189 triệu đồng", "02 Voucher 30%", "02 Voucher 2tr"],
+    lines: [
+      [{ text: "02", bold: true }, { text: " học bổng toàn phần trị giá " }, { text: "189 triệu đồng", bold: true }, { text: " đến từ " }, { text: "Edu2Review", bold: true }],
+      [{ text: "02 Voucher 30%", bold: true }, { text: " đến từ " }, { text: "86HSK", bold: true }],
+      [{ text: "02 Voucher 2tr", bold: true }, { text: " đến từ " }, { text: "The English Tutor", bold: true }],
+    ],
     className: "top-[871px]",
   },
   {
     titleImage: imgRectangle3Text,
     titleAlt: "Quý quân",
-    lines: ["04 học đồng hành: 110 triệu đồng", "04 Voucher 30%", "04 Voucher 1tr"],
+    lines: [
+      [{ text: "04", bold: true }, { text: " học bổng toàn phần trị giá " }, { text: "110 triệu đồng", bold: true }, { text: " đến từ " }, { text: "Edu2Review", bold: true }],
+      [{ text: "04 Voucher 30%", bold: true }, { text: " đến từ " }, { text: "86HSK", bold: true }],
+      [{ text: "04 Voucher 1tr", bold: true }, { text: " đến từ " }, { text: "The English Tutor", bold: true }],
+    ],
     className: "top-[1742px]",
   },
 ];
 
-function AwardDetailFrame({ titleImage, titleAlt, lines, className }: { titleImage: string; titleAlt: string; lines: string[]; className: string }) {
+type PrizeLineSegment = {
+  text: string;
+  bold?: boolean;
+};
+
+function AwardDetailFrame({ titleImage, titleAlt, lines, className }: { titleImage: string; titleAlt: string; lines: PrizeLineSegment[][]; className: string }) {
   return (
     <article className={`absolute left-1/2 h-[1011px] w-[1851px] -translate-x-1/2 ${className}`}>
       <img src={imgFrameAll} alt="" className="absolute inset-0 h-full w-full object-contain pointer-events-none" />
       <img
         src={titleImage}
         alt={titleAlt}
-        className="absolute left-1/2 top-[80px] h-[320px] -translate-x-1/2 object-contain pointer-events-none"
+        className="absolute left-[calc(50%+20px)] top-[80px] h-[320px] -translate-x-1/2 object-contain pointer-events-none"
         style={{
           filter: "drop-shadow(0 0 8px rgba(110,255,130,0.9)) drop-shadow(0 0 20px rgba(74,222,128,0.85))",
         }}
       />
-      <div className="absolute left-[300px] right-[300px] top-[460px] flex flex-col items-center justify-center gap-[20px] font-['EB_Garamond',serif] text-[48px] font-bold leading-[1.2] text-[#1f160d]">
+      <ul className="absolute left-1/2 top-[390px] flex w-[900px] -translate-x-1/2 list-inside list-disc flex-col items-start gap-[18px] font-['EB_Garamond',serif] text-[44px] font-normal leading-[1.25] text-[#1f160d] text-left">
         {lines.map((line) => (
-          <p key={line} className="text-center">{line}</p>
+          <li key={line.map((segment) => segment.text).join("")}>
+            {line.map((segment, index) => (
+              <span key={`${segment.text}-${index}`} className={segment.bold ? "font-bold" : "font-normal"}>
+                {segment.text}
+              </span>
+            ))}
+          </li>
         ))}
-      </div>
+      </ul>
     </article>
   );
 }
