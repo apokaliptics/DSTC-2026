@@ -298,7 +298,7 @@ function Container4() {
 }
 
 function CreditsSection() {
-  const names = "Nguyen Minh Kiet - Nguyen Sy Son - Vu Khanh Huyen - Nguyen Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang";
+  const names = "Nguyen Minh Kiet - Nguyen Sy Son - Vu Khanh Huyen - Hoang Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang";
   return (
     <>
       <style>{`
