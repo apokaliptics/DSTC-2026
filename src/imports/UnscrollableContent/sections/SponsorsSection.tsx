@@ -13,10 +13,12 @@ export function SponsorsSection() {
   return (
     <section className="absolute left-0 top-[15400px] w-[1920px] flex flex-col items-center z-[10]">
       {/* Title */}
-      <h2 className="text-[#e2e8f0] text-[64px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase text-center mb-[20px] tracking-wide" style={{ textShadow: "0px 4px 20px rgba(0, 0, 0, 0.5)" }}>
-        ĐỐI TÁC VÀ NHÀ TÀI TRỢ
-      </h2>
-      <div className="w-[180px] h-[6px] bg-gradient-to-r from-[#81c4ff] via-[#d4a8f9] to-[#fca5a5] mb-[90px]"></div>
+      <div className="drop-shadow-[0px_4.399px_1.65px_rgba(0,0,0,0.1),0px_10.998px_4.399px_rgba(0,0,0,0.04)] flex flex-col items-center mb-[80px]">
+        <h2 className="font-['Inter:Black',sans-serif] font-black text-[75px] text-center text-white">
+          <span className="leading-[65.989px] text-white">{`ĐỐI TÁC VÀ `}</span>
+          <span className="gradient-text-safe bg-clip-text bg-gradient-to-r from-[#4ade80] leading-[65.989px] text-[transparent] to-[#3b82f6]">NHÀ TÀI TRỢ</span>
+        </h2>
+      </div>
 
       {/* Nhà Tài Trợ */}
       <div className="flex flex-col items-center w-full max-w-[1400px] mb-[130px]">

@@ -186,8 +186,14 @@ export function PrizesSection() {
 
 export function CompetitionRulesBadge() {
   return (
-    <div className="absolute contents inset-[64.3%_29.53%_34.64%_29.48%]">
-      <div className="absolute inset-[64.3%_29.53%_34.64%_29.48%] -translate-y-[990px]">
+    <a
+      href="https://docs.google.com/document/d/189-9RtYtriV4NsQ_stGXiuab1rgv7ipJMfnn2OAiY9Y/edit?tab=t.0"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="absolute contents inset-[64.3%_29.53%_34.64%_29.48%] group cursor-pointer"
+      aria-label="Bộ luật cuộc thi"
+    >
+      <div className="absolute inset-[64.3%_29.53%_34.64%_29.48%] -translate-y-[990px] transition-all duration-300 group-hover:brightness-110 group-hover:drop-shadow-[0_0_28px_rgba(74,222,128,0.65)]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 787 177">
           <path d={svgPaths.p23d55e00} fill="url(#paint0_linear_1_2065)" id="Rectangle 2" />
           <defs>
@@ -198,10 +204,10 @@ export function CompetitionRulesBadge() {
           </defs>
         </svg>
       </div>
-      <div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold inset-[64.39%_31.77%_34.69%_32.95%] -translate-y-[990px] justify-center leading-[0] not-italic text-[60px] text-center text-shadow-[0px_6.123px_6.123px_rgba(224,43,43,0.25)] text-white">
+      <div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold inset-[64.39%_31.77%_34.69%_32.95%] -translate-y-[990px] justify-center leading-[0] not-italic text-[60px] text-center text-shadow-[0px_6.123px_6.123px_rgba(224,43,43,0.25)] text-white transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_22px_rgba(255,255,255,0.75)]">
         <p className="leading-[1.5]">BỘ LUẬT CUỘC THI</p>
       </div>
-    </div>
+    </a>
   );
 }
 
