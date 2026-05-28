@@ -697,7 +697,7 @@ function ClipPathGroup10() {
   return <div className="absolute contents inset-[110.36%_119.66%_-27.91%_-35.11%]" data-name="Clip path group"><Group35 /></div>;
 }
 export function PrizesSection() {
-  return <motion.section className="absolute h-[1573px] left-[-333px] overflow-clip top-[11172px] w-[2777px]" data-name="magic 1" initial={{
+  return <motion.section id="giai-thuong" className="absolute h-[1573px] left-[-333px] overflow-clip top-[11172px] w-[2777px]" data-name="magic 1" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{

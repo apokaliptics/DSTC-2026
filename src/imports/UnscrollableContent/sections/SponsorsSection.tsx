@@ -36,27 +36,31 @@ type PartnerGroup = {
 };
 const logoClassName = "object-contain opacity-85 hover:opacity-100 transition-all duration-300 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.9)] hover:scale-105 cursor-pointer";
 const lightTileClassName = "bg-white/90 rounded-[28px] px-[32px] py-[24px] shadow-[0_18px_60px_rgba(15,23,42,0.28)]";
+const organizerTileClassName = "bg-white/95 rounded-[38px] px-[42px] py-[28px] shadow-[0_22px_70px_rgba(15,23,42,0.38)] flex items-center justify-center";
+const mediaTileClassName = "bg-white/95 rounded-[22px] px-[24px] py-[16px] shadow-[0_12px_40px_rgba(0,0,0,0.25)] flex items-center justify-center w-[230px] h-[120px]";
+const companionTileClassName = "bg-white/95 rounded-[28px] px-[32px] py-[24px] shadow-[0_18px_50px_rgba(0,0,0,0.25)] flex items-center justify-center w-[275px] h-[150px]";
+
 const partnerGroups: PartnerGroup[] = [{
   title: "ĐƠN VỊ TỔ CHỨC",
-  maxWidth: "max-w-[1500px]",
-  gap: "gap-[70px]",
+  maxWidth: "max-w-[1800px]",
+  gap: "gap-[20px]",
   logos: [{
     src: logoOrganizerFtu,
     alt: "Trường Đại học Ngoại thương",
-    className: "h-[150px]"
+    className: "h-[240px]"
   }, {
     src: logoOrganizerYouthUnion,
     alt: "Đoàn Thanh niên Cộng sản Hồ Chí Minh",
-    className: "h-[150px]"
+    className: "h-[240px]"
   }, {
     src: logoOrganizerCte,
     alt: "CLB Công nghệ trong Kinh tế và Kinh doanh",
-    className: "h-[130px]",
-    tileClassName: lightTileClassName
+    className: "h-[195px]",
+    tileClassName: organizerTileClassName
   }, {
     src: logoOrganizerDataScience,
     alt: "Data Science",
-    className: "h-[130px]"
+    className: "h-[210px]"
   }]
 }, {
   title: "ĐỐI TÁC CHIẾN LƯỢC",
@@ -65,7 +69,7 @@ const partnerGroups: PartnerGroup[] = [{
   logos: [{
     src: logoStrategicXnoquant,
     alt: "XNOQuant",
-    className: "h-[150px]"
+    className: "h-[75px]"
   }]
 }, {
   title: "BẢO TRỢ CHUYÊN MÔN",
@@ -90,61 +94,73 @@ const partnerGroups: PartnerGroup[] = [{
   }]
 }, {
   title: "ĐỐI TÁC ĐỒNG HÀNH",
-  maxWidth: "max-w-[1500px]",
-  gap: "gap-[80px]",
+  maxWidth: "max-w-[1850px]",
+  gap: "gap-[25px]",
   logos: [{
     src: logoCompanion3,
     alt: "Đối tác đồng hành 3",
-    className: "h-[120px]"
+    className: "max-h-[110px] max-w-[220px]",
+    tileClassName: companionTileClassName
   }, {
     src: logoCompanion4,
     alt: "Đối tác đồng hành 4",
-    className: "h-[120px]"
+    className: "max-h-[110px] max-w-[220px]",
+    tileClassName: companionTileClassName
   }, {
     src: logoCompanion5,
     alt: "Đối tác đồng hành 5",
-    className: "h-[120px]"
+    className: "max-h-[110px] max-w-[220px]",
+    tileClassName: companionTileClassName
   }, {
     src: logoCompanion6,
     alt: "Đối tác đồng hành 6",
-    className: "h-[120px]"
+    className: "max-h-[110px] max-w-[220px]",
+    tileClassName: companionTileClassName
   }, {
     src: logoCompanion7,
     alt: "Đối tác đồng hành 7",
-    className: "h-[120px]"
+    className: "max-h-[110px] max-w-[220px]",
+    tileClassName: companionTileClassName
   }, {
     src: logoCompanion8,
     alt: "Đối tác đồng hành 8",
-    className: "h-[120px]"
+    className: "max-h-[110px] max-w-[220px]",
+    tileClassName: companionTileClassName
   }]
 }, {
   title: "BẢO TRỢ TRUYỀN THÔNG",
   maxWidth: "max-w-[1600px]",
-  gap: "gap-[70px]",
+  gap: "gap-[40px]",
   logos: [{
     src: logoMediaYouthPlus,
     alt: "Youth+",
-    className: "h-[105px]"
+    className: "max-h-[75px] max-w-[170px]",
+    tileClassName: mediaTileClassName
   }, {
     src: logoMediaGiaiTriVanHoa,
     alt: "Giải Trí Văn Hóa",
-    className: "h-[105px]"
+    className: "max-h-[75px] max-w-[170px]",
+    tileClassName: mediaTileClassName
   }, {
     src: logoMediaTapChi,
     alt: "Tài Chính Doanh Nghiệp",
-    className: "h-[95px]"
+    className: "max-h-[70px] max-w-[170px]",
+    tileClassName: mediaTileClassName
   }, {
     src: logoMediaBrandsVN,
     alt: "Brands Vietnam",
-    className: "h-[75px]"
+    className: "max-h-[60px] max-w-[170px]",
+    tileClassName: mediaTileClassName
   }, {
     src: logoMediaYbox,
     alt: "YBOX.VN",
-    className: "h-[75px]"
+    className: "max-h-[55px] max-w-[170px]",
+    tileClassName: mediaTileClassName
   }, {
     src: logoMediaSongTre,
     alt: "Sóng Trẻ",
-    className: "h-[100px]"
+    className: "max-h-[70px] max-w-[170px]",
+    tileClassName: mediaTileClassName
   }]
 }];
 const goldSilverGroups: PartnerGroup[] = [{
@@ -193,7 +209,7 @@ export function SponsorsSection() {
           <h3 className="text-[#cbd5e1] text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
             {group.title}
           </h3>
-          <div className={`flex flex-row justify-center items-center ${group.gap} flex-wrap`}>
+          <div className={`flex flex-row justify-center items-center ${group.gap} ${group.title === "ĐƠN VỊ TỔ CHỨC" ? "flex-nowrap" : "flex-wrap"}`}>
             {group.logos.map(logo => <div key={logo.alt} className={logo.tileClassName ?? ""}>
                 <img loading="lazy" src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
               </div>)}
@@ -215,7 +231,7 @@ export function SponsorsSection() {
           <h3 className="text-[#cbd5e1] text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
             {group.title}
           </h3>
-          <div className={`flex flex-row justify-center items-center ${group.gap} flex-wrap`}>
+          <div className={`flex flex-row justify-center items-center ${group.gap} ${group.title === "ĐỐI TÁC ĐỒNG HÀNH" ? "flex-nowrap" : "flex-wrap"}`}>
             {group.logos.map(logo => <div key={logo.alt} className={logo.tileClassName ?? ""}>
                 <img loading="lazy" src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
               </div>)}

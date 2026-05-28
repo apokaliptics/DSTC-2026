@@ -3,12 +3,12 @@ export const faqItems = [
   {
     id: "item-1",
     question: "Đối tượng tham gia là ai?",
-    answer: "Tất cả sinh viên các trường Đại học, Cao đẳng trên toàn quốc có đam mê với Khoa học Dữ liệu và Trí tuệ Nhân tạo.",
+    answer: "Tất cả học sinh THPT và sinh viên có đam mê với Tài chính định lượng.",
   },
   {
     id: "item-2",
-    question: "Hình thức đăng kí thi như thế nào?",
-    answer: "Thí sinh đăng kí theo hình thức cá nhân ở vòng 1. Sau đó, từ vòng 2 sẽ thi theo đội nhóm 03 người thuộc cùng một bảng",
+    question: "Hình thức đăng ký thi như thế nào?",
+    answer: "Thí sinh đăng ký theo hình thức cá nhân ở vòng 1. Từ vòng 2 sẽ thi theo đội 2 người, chọn đồng đội qua nền tảng của CTE FTU.",
   },
   {
     id: "item-3",
