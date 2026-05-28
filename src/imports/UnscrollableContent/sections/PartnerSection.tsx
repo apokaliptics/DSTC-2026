@@ -38,7 +38,7 @@ function H2Text5Xl2() {
     </motion.div>;
 }
 function Group91() {
-  return <a href="https://xno.vn/" target="_blank" rel="noopener noreferrer" className="absolute contents left-[1007px] top-[4066px] cursor-pointer hover:opacity-80 transition-opacity">
+  return <a href="https://xnoquant.io/" target="_blank" rel="noopener noreferrer" className="absolute contents left-[1007px] top-[4066px] cursor-pointer hover:opacity-80 transition-opacity">
       <div className="-translate-y-1/2 absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal h-[34px] justify-center leading-[0] left-[1007px] text-[16px] text-[rgba(255,255,255,0.77)] top-[4083px] w-[181px]">
         <p className="decoration-solid leading-[28px] underline">Tìm hiểu thêm về XNO</p>
       </div>

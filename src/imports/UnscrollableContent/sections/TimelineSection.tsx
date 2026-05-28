@@ -94,7 +94,7 @@ function Round2() {
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] left-[1401px] not-italic text-[0px] text-center text-white top-[8172px] w-[504px] whitespace-pre-wrap">
         <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] mb-0 text-[44.087px]">{`VÒNG 2: SƠ KHẢO `}</p>
-        <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] text-[33.065px]">Nhóm 2 người (16/07 – 07/08)</p>
+        <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] text-[33.065px]">Nhóm 2 người (16/07 – 03/08)</p>
       </div>
       <div className="absolute contents left-[1065.02px] top-[8083.5px]">
         <Body5 />
