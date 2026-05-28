@@ -517,10 +517,7 @@ export function PhotoGallerySection() {
 
 /* ===== Prizes section mask groups ===== */
 function Group10() {
-  return <div className="absolute contents inset-[25.47%_36.89%_16.62%_30.29%]" data-name="Group"><div className="absolute inset-[25.47%_36.89%_16.62%_30.29%] mask-position-[-7.161px_-37.578px,_5.079px_-1.802px,_0px_0px]" style={{
-      maskImage: `url('${imgRectangle7}'), url('${imgRectangle8}'), url('${imgRectangle9}')`,
-      WebkitMaskImage: `url('${imgRectangle7}'), url('${imgRectangle8}'), url('${imgRectangle9}')`
-    }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>;
+  return <div className="absolute contents inset-[25.47%_36.89%_16.62%_30.29%]" data-name="Group"><div className="absolute inset-[25.47%_36.89%_16.62%_30.29%]" data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>;
 }
 function Group9() {
   return <div className="absolute contents inset-[25.47%_36.89%_16.62%_30.29%]" data-name="Group"><Group10 /></div>;
@@ -565,10 +562,7 @@ function ClipPathGroup1() {
   return <div className="absolute contents inset-[23.08%_34.86%_14.39%_30.03%]" data-name="Clip path group"><Group7 /></div>;
 }
 function Group19() {
-  return <div className="absolute contents inset-[43.77%_22.53%_5.98%_49.2%]" data-name="Group"><div className="absolute inset-[43.77%_22.53%_5.98%_49.2%] mask-position-[151.624px_-0.428px,_0.642px_-0.001px,_0px_0px]" style={{
-      maskImage: `url('${imgRectangle12}'), url('${imgRectangle13}'), url('${imgRectangle14}')`,
-      WebkitMaskImage: `url('${imgRectangle12}'), url('${imgRectangle13}'), url('${imgRectangle14}')`
-    }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>;
+  return <div className="absolute contents inset-[43.77%_22.53%_5.98%_49.2%]" data-name="Group"><div className="absolute inset-[43.77%_22.53%_5.98%_49.2%]" data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>;
 }
 function Group18() {
   return <div className="absolute contents inset-[43.77%_22.53%_5.98%_49.2%]" data-name="Group"><Group19 /></div>;
@@ -604,10 +598,7 @@ function Group15() {
   return <div className="absolute contents inset-[43.74%_16.98%_5.85%_54.66%]" data-name="Group"><ClipPathGroup3 /></div>;
 }
 function Group26() {
-  return <div className="absolute contents inset-[44.02%_56.62%_5.98%_14.02%]" data-name="Group"><div className="absolute inset-[44.02%_56.62%_5.98%_14.02%] mask-position-[-1.311px_-0.426px,_0.666px_0px,_0px_0px]" style={{
-      maskImage: `url('${imgRectangle16}'), url('${imgRectangle17}'), url('${imgRectangle18}')`,
-      WebkitMaskImage: `url('${imgRectangle16}'), url('${imgRectangle17}'), url('${imgRectangle18}')`
-    }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>;
+  return <div className="absolute contents inset-[44.02%_56.62%_5.98%_14.02%]" data-name="Group"><div className="absolute inset-[44.02%_56.62%_5.98%_14.02%]" data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>;
 }
 function Group25() {
   return <div className="absolute contents inset-[44.02%_56.62%_5.98%_14.02%]" data-name="Group"><Group26 /></div>;
