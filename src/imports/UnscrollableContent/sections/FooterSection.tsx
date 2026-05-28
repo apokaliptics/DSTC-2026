@@ -2,7 +2,7 @@ import { svgPaths } from "../constants/assets";
 
 function Footer() {
   return (
-    <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[467px] left-0 right-0 top-[17708px]" data-name="footer.">
+    <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[467px] left-0 right-0 top-[21628px]" data-name="footer.">
       <div aria-hidden="true" className="absolute border-[rgba(30,58,138,0.5)] border-solid border-t-[0.8px] inset-0 pointer-events-none" />
     </div>
   );
@@ -226,7 +226,7 @@ function ContactInformation() {
 
 function Container() {
   return (
-    <div className="absolute gap-x-[70.02659606933594px] gap-y-[70.02659606933594px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[_357.43px] h-[446.99px] left-[31px] max-w-[1867.3758544921875px] px-[46.684px] py-[93.369px] top-[17660px] w-[1867.376px]" data-name="Container">
+    <div className="absolute gap-x-[70.02659606933594px] gap-y-[70.02659606933594px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[_357.43px] h-[446.99px] left-[31px] max-w-[1867.3758544921875px] px-[46.684px] py-[93.369px] top-[21580px] w-[1867.376px]" data-name="Container">
       <BrandingTitle />
       <ContactInformation />
     </div>
@@ -289,7 +289,7 @@ function Link5() {
 
 function Container4() {
   return (
-    <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] right-[1468.67px] top-[18049px]" data-name="Container">
+    <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] right-[1468.67px] top-[21969px]" data-name="Container">
       <Link3 />
       <Link4 />
       <Link5 />
@@ -298,7 +298,7 @@ function Container4() {
 }
 
 function CreditsSection() {
-  const names = "Nguyen Minh Kiet - Nguyen Sy Son - Vu Khanh Huyen - Hoang Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang";
+  const names = "Vu Thi Thanh Huyen - Nguyen Minh Kiet - Nguyen Sy Son - Vu Khanh Huyen - Hoang Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang";
   return (
     <>
       <style>{`
@@ -313,7 +313,7 @@ function CreditsSection() {
           animation: scrollMarquee 25s linear infinite;
         }
       `}</style>
-      <div className="absolute left-0 right-0 top-[18175px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
+      <div className="absolute left-0 right-0 top-[22095px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
         <div className="shrink-0 font-['Space_Grotesk:Bold',sans-serif] px-[31px] whitespace-nowrap z-30 bg-[#0b1221] h-full flex items-center relative shadow-[15px_0_20px_-5px_#0b1221]">
           web is created by CTE FTU
         </div>
@@ -330,7 +330,7 @@ function CreditsSection() {
 
 export function FooterSection() {
   return (
-    <footer className="absolute contents left-0 top-[17660px]">
+    <footer className="absolute contents left-0 top-[21580px]">
       <Footer />
       <Container />
       <Container4 />

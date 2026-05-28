@@ -60,10 +60,10 @@ function Group96() {
   return (
     <div className="absolute contents left-[1003px] top-[3656px]">
       <div className="-translate-y-1/2 absolute flex flex-col font-['Lusitana:Regular',sans-serif] justify-center leading-[0] left-[1003px] not-italic text-[#fff8f8] text-[72px] top-[3691px] w-[734px]">
-        <p className="leading-[70px]">XNO QUANT</p>
+        <p className="leading-[70px]">XNOQUANT</p>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal justify-center leading-[0] left-[1003px] text-[26px] text-white top-[3797px] w-[803px]">
-        <p className="leading-[34px]">XNO Quant xây dựng hạ tầng định lượng (Quant), AI và dữ liệu cho thị trường vốn và thị trường tiền mã hóa.</p>
+        <p className="leading-[34px]">XNOQuant xây dựng hạ tầng định lượng (Quant), AI và dữ liệu cho thị trường vốn và thị trường tiền mã hóa.</p>
       </div>
       <div className="-translate-y-1/2 absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal h-[195px] justify-center leading-[0] left-[1007px] text-[26px] text-white top-[3948.5px] w-[823px]">
         <p className="leading-[34px] whitespace-pre-wrap">{`XNO hỗ trợ các tổ chức tài chính thiết kế các pipeline dữ liệu vững chắc, phát triển và kiểm định các chiến lược định lượng, đồng thời triển khai các công cụ ra quyết định có tính đến rủi ro  - giúp quy trình đầu tư và giao dịch trở nên có hệ thống hơn, dễ kiểm toán hơn và có khả năng mở rộng tốt hơn.`}</p>

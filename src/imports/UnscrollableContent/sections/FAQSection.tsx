@@ -39,7 +39,7 @@ function Container8() {
 
 export function FAQSection() {
   return (
-    <section id="faq" className="absolute content-stretch flex flex-col gap-[134.714px] h-[1307px] items-start left-[8px] max-w-[1885.9998779296875px] px-[33.679px] top-[16600px] w-[1886px]" data-name="Section - 7. FAQ (Bento Accordions Concept)">
+    <section id="faq" className="absolute content-stretch flex flex-col gap-[134.714px] h-[1307px] items-start left-[8px] max-w-[1885.9998779296875px] px-[33.679px] top-[19800px] w-[1886px]" data-name="Section - 7. FAQ (Bento Accordions Concept)">
       <Container8 />
       <Accordion type="multiple" className="content-stretch flex flex-col gap-[27px] items-start relative shrink-0 w-[1821px]">
         {faqItems.map((item) => (

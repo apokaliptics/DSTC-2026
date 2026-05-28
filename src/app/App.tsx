@@ -76,7 +76,8 @@ export default function App() {
   }, []);
 
   const DESIGN_WIDTH = 1920;
-  const DESIGN_HEIGHT = 18220; // Exact height of content up to CreditsSection
+  const CONTENT_HEIGHT = 18220; // Exact height of content up to CreditsSection
+  const PAGE_HEIGHT = 22140;
 
   return (
     <div className="w-full min-h-screen overflow-x-hidden flex flex-col items-center">
@@ -97,15 +98,23 @@ export default function App() {
       <div 
         style={{ 
           width: `${DESIGN_WIDTH}px`, 
-          height: `${DESIGN_HEIGHT}px`,
+          height: `${PAGE_HEIGHT}px`,
           transform: `scale(${scale})`, 
           transformOrigin: 'top center',
-          marginBottom: `-${DESIGN_HEIGHT * (1 - scale)}px`,
+          marginBottom: `-${PAGE_HEIGHT * (1 - scale)}px`,
           marginTop: `77px`, // Fixed header height
         }} 
         className="relative z-0"
       >
-        <UnscrollableContent />
+        <div
+          className="absolute left-0 top-0"
+          style={{
+            width: `${DESIGN_WIDTH}px`,
+            height: `${CONTENT_HEIGHT}px`,
+          }}
+        >
+          <UnscrollableContent />
+        </div>
       </div>
     </div>
   );

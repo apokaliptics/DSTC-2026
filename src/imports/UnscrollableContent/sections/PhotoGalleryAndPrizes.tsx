@@ -6,9 +6,14 @@ const prizeDetails = [
     titleImage: imgRectangle1Text,
     titleAlt: "Quán quân",
     lines: [
-      [{ text: "Tiền mặt đến từ các đối tác " }, { text: "XCapital", bold: true }, { text: " và " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "Hiện kim " }, { text: "7.000.000 VND", bold: true }, { text: "." }],
+      [{ text: "Cơ hội thực tập thực tế tại XNOQuant, NTQ Solution, Eztech, và Techcamp." }],
+      [{ text: "Cơ hội phỏng vấn trực tiếp với chuyên gia " }, { text: "Data Analyst", bold: true }, { text: " và được giới thiệu CV tới các công ty đối tác của " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Học bổng toàn phần với tổng trị giá lên đến " }, { text: "189.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " suất học bổng " }, { text: "80%", bold: true }, { text: " cho các khóa combo chuyên sâu (" }, { text: "Power BI", bold: true }, { text: ") tại " }, { text: "MCNA", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " suất học bổng " }, { text: "70%", bold: true }, { text: " cho các khóa học đơn (" }, { text: "DA, BI, AI", bold: true }, { text: ") tại " }, { text: "MCNA", bold: true }, { text: "." }],
       [
-        { text: "01", bold: true },
+        { text: "02", bold: true },
         { text: " Suất học bổng bao gồm: Voucher ưu đãi " },
         { text: "50%", bold: true },
         { text: " học phí cho cả 2 khóa học thực hành " },
@@ -19,8 +24,6 @@ const prizeDetails = [
         { text: "Techcamp", bold: true },
         { text: "." },
       ],
-      [{ text: "Cơ hội kết nối doanh nghiệp với đặc quyền tham gia phỏng vấn tuyển dụng và nhận cơ hội thực tập thực tế tại " }, { text: "Techcamp", bold: true }, { text: "." }],
-      [{ text: "02", bold: true }, { text: " Học bổng toàn phần với tổng trị giá lên đến " }, { text: "189.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
       [{ text: "02", bold: true }, { text: " Voucher ưu đãi " }, { text: "30%", bold: true }, { text: " khóa học đến từ đơn vị đào tạo " }, { text: "86HSK", bold: true }, { text: "." }],
       [{ text: "02", bold: true }, { text: " Voucher học tập trị giá " }, { text: "3.000.000 VNĐ/voucher", bold: true }, { text: " đến từ đơn vị " }, { text: "The English Tutor", bold: true }, { text: "." }],
     ],
@@ -30,12 +33,17 @@ const prizeDetails = [
     titleImage: imgRectangle6Text,
     titleAlt: "Á quân",
     lines: [
-      [{ text: "Tiền mặt đến từ các đối tác " }, { text: "XCapital", bold: true }, { text: "." }],
+      [{ text: "Hiện kim " }, { text: "4.000.000 VNĐ", bold: true }, { text: "." }],
+      [{ text: "Cơ hội thực tập thực tế tại XNOQuant, NTQ Solution, Eztech, và Techcamp." }],
+      [{ text: "Cơ hội phỏng vấn trực tiếp với chuyên gia " }, { text: "Data Analyst", bold: true }, { text: " và được giới thiệu CV tới các công ty đối tác của " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Học bổng toàn phần với tổng trị giá lên đến " }, { text: "189.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " suất học bổng " }, { text: "80%", bold: true }, { text: " cho các khóa combo chuyên sâu (" }, { text: "Power BI", bold: true }, { text: ") tại " }, { text: "MCNA", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " suất học bổng " }, { text: "70%", bold: true }, { text: " cho các khóa học đơn (" }, { text: "DA, BI, AI", bold: true }, { text: ") tại " }, { text: "MCNA", bold: true }, { text: "." }],
       [
-        { text: "01", bold: true },
+        { text: "02", bold: true },
         { text: " Suất học bổng bao gồm: Voucher ưu đãi " },
         { text: "50%", bold: true },
-        { text: " học phí cho 2 khóa học thực hành " },
+        { text: " học phí cho cả 2 khóa học thực hành " },
         { text: "Business Analyst", bold: true },
         { text: " và " },
         { text: "Business Data Analyst", bold: true },
@@ -43,23 +51,26 @@ const prizeDetails = [
         { text: "Techcamp", bold: true },
         { text: "." },
       ],
-      [{ text: "Cơ hội kết nối doanh nghiệp với đặc quyền tham gia phỏng vấn tuyển dụng và nhận cơ hội thực tập thực tế tại " }, { text: "Techcamp", bold: true }, { text: "." }],
-      [{ text: "02", bold: true }, { text: " Học bổng toàn phần với tổng trị giá lên đến " }, { text: "189.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
       [{ text: "02", bold: true }, { text: " Voucher ưu đãi " }, { text: "30%", bold: true }, { text: " khóa học đến từ đơn vị đào tạo " }, { text: "86HSK", bold: true }, { text: "." }],
       [{ text: "02", bold: true }, { text: " Voucher học tập trị giá " }, { text: "2.000.000 VNĐ/voucher", bold: true }, { text: " đến từ đơn vị " }, { text: "The English Tutor", bold: true }, { text: "." }],
     ],
-    className: "top-[871px]",
+    className: "top-[1250px]",
   },
   {
     titleImage: imgRectangle3Text,
     titleAlt: "Quý quân",
     lines: [
-      [{ text: "Tiền mặt đến từ các đối tác " }, { text: "XCapital", bold: true }, { text: "." }],
+      [{ text: "Hiện kim " }, { text: "2.000.000 VNĐ", bold: true }, { text: "." }],
+      [{ text: "Cơ hội thực tập thực tế tại XNOQuant, NTQ Solution, Eztech, và Techcamp." }],
+      [{ text: "Cơ hội phỏng vấn trực tiếp với chuyên gia " }, { text: "Data Analyst", bold: true }, { text: " và được giới thiệu CV tới các công ty đối tác của " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "04", bold: true }, { text: " Suất học bổng đồng hành với tổng trị giá lên đến " }, { text: "110.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
+      [{ text: "04", bold: true }, { text: " suất học bổng " }, { text: "80%", bold: true }, { text: " cho các khóa combo chuyên sâu (" }, { text: "Power BI", bold: true }, { text: ") tại " }, { text: "MCNA", bold: true }, { text: "." }],
+      [{ text: "04", bold: true }, { text: " suất học bổng " }, { text: "70%", bold: true }, { text: " cho các khóa học đơn (" }, { text: "DA, BI, AI", bold: true }, { text: ") tại " }, { text: "MCNA", bold: true }, { text: "." }],
       [
-        { text: "01", bold: true },
+        { text: "04", bold: true },
         { text: " Suất học bổng bao gồm: Voucher ưu đãi " },
         { text: "50%", bold: true },
-        { text: " học phí cho 2 khóa học thực hành " },
+        { text: " học phí cho cả 2 khóa học thực hành " },
         { text: "Business Analyst", bold: true },
         { text: " và " },
         { text: "Business Data Analyst", bold: true },
@@ -67,12 +78,10 @@ const prizeDetails = [
         { text: "Techcamp", bold: true },
         { text: "." },
       ],
-      [{ text: "Cơ hội kết nối doanh nghiệp với đặc quyền tham gia phỏng vấn tuyển dụng và nhận cơ hội thực tập thực tế tại " }, { text: "Techcamp", bold: true }, { text: "." }],
-      [{ text: "04", bold: true }, { text: " Suất học bổng với tổng trị giá " }, { text: "110.000.000 VNĐ", bold: true }, { text: " đến từ đơn vị " }, { text: "Edu2Review", bold: true }, { text: "." }],
       [{ text: "04", bold: true }, { text: " Voucher ưu đãi " }, { text: "30%", bold: true }, { text: " khóa học đến từ đơn vị đào tạo " }, { text: "86HSK", bold: true }, { text: "." }],
       [{ text: "04", bold: true }, { text: " Voucher học tập trị giá " }, { text: "1.000.000 VNĐ/voucher", bold: true }, { text: " đến từ đơn vị " }, { text: "The English Tutor", bold: true }, { text: "." }],
     ],
-    className: "top-[1742px]",
+    className: "top-[2500px]",
   },
 ];
 
@@ -107,17 +116,17 @@ const laurelPrizeLabels: LaurelPrizeLabel[] = [
 
 function AwardDetailFrame({ titleImage, titleAlt, lines, className }: { titleImage: string; titleAlt: string; lines: PrizeLineSegment[][]; className: string }) {
   return (
-    <article className={`absolute left-1/2 h-[1011px] w-[1851px] -translate-x-1/2 ${className}`}>
+    <article className={`absolute left-1/2 h-[1150px] w-[2200px] -translate-x-1/2 ${className}`}>
       <img src={imgFrameAll} alt="" className="absolute inset-0 h-full w-full object-contain pointer-events-none" />
       <img
         src={titleImage}
         alt={titleAlt}
-        className="absolute left-[calc(50%+20px)] top-[80px] h-[320px] -translate-x-1/2 object-contain pointer-events-none"
+        className="absolute left-[calc(50%+15px)] top-[120px] h-[320px] -translate-x-1/2 object-contain pointer-events-none"
         style={{
           filter: "drop-shadow(0 0 8px rgba(110,255,130,0.9)) drop-shadow(0 0 20px rgba(74,222,128,0.85))",
         }}
       />
-      <ul className="absolute left-1/2 top-[360px] flex w-[1100px] -translate-x-1/2 list-inside list-disc flex-col items-start gap-[10px] pl-[34px] font-['Nunito',sans-serif] text-[25px] font-normal leading-[1.35] text-[#1f160d] text-left">
+      <ul className="absolute left-1/2 top-[390px] flex w-[1000px] -translate-x-1/2 list-inside list-disc flex-col items-start gap-[10px] pl-[30px] font-['Nunito',sans-serif] text-[23px] font-normal leading-[1.35] text-[#1f160d] text-left">
         {lines.map((line) => (
           <li key={line.map((segment) => segment.text).join("")}>
             {line.map((segment, index) => (
@@ -156,22 +165,25 @@ function PrizeLaurelLabel({ amount, title, insetClassName }: LaurelPrizeLabel) {
 
 export function PrizeDetailsFrames() {
   return (
-    <section className="absolute left-0 top-[12450px] h-[2860px] w-[1920px] overflow-visible z-[10]" data-name="Prize details">
+    <section className="absolute left-0 top-[12450px] h-[4000px] w-[1920px] overflow-visible z-[10]" data-name="Prize details">
       {prizeDetails.map((prize) => (
         <AwardDetailFrame key={prize.titleAlt} {...prize} />
       ))}
+      <div className="absolute left-1/2 top-[3800px] w-[1500px] -translate-x-1/2 text-center font-['Nunito_Sans','Nunito',sans-serif] text-[36px] italic font-normal leading-[1.25] text-white">
+        Danh sách giải thưởng vẫn đang tiếp tục được cập nhật thêm
+      </div>
       <PrizeAstronaut 
         className="astronaut-float left-[1700px] top-[680px] h-[240px] w-[270px] z-[3]" 
         style={{ transform: 'scale(0.6) rotate(90deg)' }}
         imageClassName="h-[590px] w-[590px] left-[-330px] top-[-58px]" 
       />
       <PrizeAstronaut 
-        className="astronaut-float-delay left-[30px] top-[1200px] h-[260px] w-[290px] z-[3]" 
+        className="astronaut-float-delay left-[30px] top-[1630px] h-[260px] w-[290px] z-[3]" 
         style={{ transform: 'scale(1.4) rotate(15deg)' }}
         imageClassName="h-[570px] w-[570px] left-[-28px] top-[-340px]" 
       />
       <PrizeAstronaut 
-        className="astronaut-float-slow left-[1600px] top-[2660px] h-[280px] w-[320px] z-[3]" 
+        className="astronaut-float-slow left-[1600px] top-[3520px] h-[280px] w-[320px] z-[3]" 
         style={{ transform: 'scaleX(-0.9) scaleY(0.9) rotate(-15deg)' }} 
         imageClassName="h-[610px] w-[610px] left-[-34px] top-[-362px]" 
       />
@@ -292,7 +304,7 @@ export function PrizesSection() {
 export function CompetitionRulesBadge() {
   return (
     <a
-      href="https://docs.google.com/document/d/189-9RtYtriV4NsQ_stGXiuab1rgv7ipJMfnn2OAiY9Y/edit?tab=t.0"
+      href="https://drive.google.com/file/d/1Mn5UtvZesYPkQ1c398DvnPKAgUpsYiqQ/view"
       target="_blank"
       rel="noopener noreferrer"
       className="absolute contents inset-[64.3%_29.53%_34.64%_29.48%] group cursor-pointer"

@@ -37,7 +37,7 @@ function Round1() {
         <ul className="leading-[1.5] list-disc">
           <li className="mb-0 ms-[49.5975px]">
             <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">{`Các thí sinh bắt đầu làm quen nền tảng `}</span>
-            <span className="font-['Space_Grotesk:Medium',sans-serif] font-medium">XNO Quant</span>
+            <span className="font-['Space_Grotesk:Medium',sans-serif] font-medium">XNOQuant</span>
             <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">{` và `}</span>
             <span className="font-['Space_Grotesk:Medium',sans-serif] font-medium">submit alpha.</span>
           </li>
