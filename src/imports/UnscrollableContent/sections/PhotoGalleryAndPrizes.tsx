@@ -6,9 +6,23 @@ const prizeDetails = [
     titleImage: imgRectangle1Text,
     titleAlt: "Quán quân",
     lines: [
-      [{ text: "02", bold: true }, { text: " học bổng toàn phần trị giá " }, { text: "189 triệu đồng", bold: true }, { text: " đến từ " }, { text: "Edu2Review", bold: true }],
-      [{ text: "02 Voucher 30%", bold: true }, { text: " đến từ " }, { text: "86HSK", bold: true }],
-      [{ text: "02 Voucher 3tr", bold: true }, { text: " đến từ " }, { text: "The English Tutor", bold: true }],
+      [{ text: "Tiền mặt đến từ các đối tác " }, { text: "XCapital", bold: true }, { text: " và " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [
+        { text: "01", bold: true },
+        { text: " Suất học bổng bao gồm: Voucher ưu đãi " },
+        { text: "50%", bold: true },
+        { text: " học phí cho cả 2 khóa học thực hành " },
+        { text: "Business Analyst", bold: true },
+        { text: " và " },
+        { text: "Business Data Analyst", bold: true },
+        { text: " đến từ đơn vị " },
+        { text: "Techcamp", bold: true },
+        { text: "." },
+      ],
+      [{ text: "Cơ hội kết nối doanh nghiệp với đặc quyền tham gia phỏng vấn tuyển dụng và nhận cơ hội thực tập thực tế tại " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Học bổng toàn phần với tổng trị giá lên đến " }, { text: "189.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Voucher ưu đãi " }, { text: "30%", bold: true }, { text: " khóa học đến từ đơn vị đào tạo " }, { text: "86HSK", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Voucher học tập trị giá " }, { text: "3.000.000 VNĐ/voucher", bold: true }, { text: " đến từ đơn vị " }, { text: "The English Tutor", bold: true }, { text: "." }],
     ],
     className: "top-0",
   },
@@ -16,9 +30,23 @@ const prizeDetails = [
     titleImage: imgRectangle6Text,
     titleAlt: "Á quân",
     lines: [
-      [{ text: "02", bold: true }, { text: " học bổng toàn phần trị giá " }, { text: "189 triệu đồng", bold: true }, { text: " đến từ " }, { text: "Edu2Review", bold: true }],
-      [{ text: "02 Voucher 30%", bold: true }, { text: " đến từ " }, { text: "86HSK", bold: true }],
-      [{ text: "02 Voucher 2tr", bold: true }, { text: " đến từ " }, { text: "The English Tutor", bold: true }],
+      [{ text: "Tiền mặt đến từ các đối tác " }, { text: "XCapital", bold: true }, { text: "." }],
+      [
+        { text: "01", bold: true },
+        { text: " Suất học bổng bao gồm: Voucher ưu đãi " },
+        { text: "50%", bold: true },
+        { text: " học phí cho 2 khóa học thực hành " },
+        { text: "Business Analyst", bold: true },
+        { text: " và " },
+        { text: "Business Data Analyst", bold: true },
+        { text: " đến từ đơn vị " },
+        { text: "Techcamp", bold: true },
+        { text: "." },
+      ],
+      [{ text: "Cơ hội kết nối doanh nghiệp với đặc quyền tham gia phỏng vấn tuyển dụng và nhận cơ hội thực tập thực tế tại " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Học bổng toàn phần với tổng trị giá lên đến " }, { text: "189.000.000 VNĐ", bold: true }, { text: " tài trợ bởi " }, { text: "Edu2Review", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Voucher ưu đãi " }, { text: "30%", bold: true }, { text: " khóa học đến từ đơn vị đào tạo " }, { text: "86HSK", bold: true }, { text: "." }],
+      [{ text: "02", bold: true }, { text: " Voucher học tập trị giá " }, { text: "2.000.000 VNĐ/voucher", bold: true }, { text: " đến từ đơn vị " }, { text: "The English Tutor", bold: true }, { text: "." }],
     ],
     className: "top-[871px]",
   },
@@ -26,9 +54,23 @@ const prizeDetails = [
     titleImage: imgRectangle3Text,
     titleAlt: "Quý quân",
     lines: [
-      [{ text: "04", bold: true }, { text: " học bổng toàn phần trị giá " }, { text: "110 triệu đồng", bold: true }, { text: " đến từ " }, { text: "Edu2Review", bold: true }],
-      [{ text: "04 Voucher 30%", bold: true }, { text: " đến từ " }, { text: "86HSK", bold: true }],
-      [{ text: "04 Voucher 1tr", bold: true }, { text: " đến từ " }, { text: "The English Tutor", bold: true }],
+      [{ text: "Tiền mặt đến từ các đối tác " }, { text: "XCapital", bold: true }, { text: "." }],
+      [
+        { text: "01", bold: true },
+        { text: " Suất học bổng bao gồm: Voucher ưu đãi " },
+        { text: "50%", bold: true },
+        { text: " học phí cho 2 khóa học thực hành " },
+        { text: "Business Analyst", bold: true },
+        { text: " và " },
+        { text: "Business Data Analyst", bold: true },
+        { text: " đến từ đơn vị " },
+        { text: "Techcamp", bold: true },
+        { text: "." },
+      ],
+      [{ text: "Cơ hội kết nối doanh nghiệp với đặc quyền tham gia phỏng vấn tuyển dụng và nhận cơ hội thực tập thực tế tại " }, { text: "Techcamp", bold: true }, { text: "." }],
+      [{ text: "04", bold: true }, { text: " Suất học bổng với tổng trị giá " }, { text: "110.000.000 VNĐ", bold: true }, { text: " đến từ đơn vị " }, { text: "Edu2Review", bold: true }, { text: "." }],
+      [{ text: "04", bold: true }, { text: " Voucher ưu đãi " }, { text: "30%", bold: true }, { text: " khóa học đến từ đơn vị đào tạo " }, { text: "86HSK", bold: true }, { text: "." }],
+      [{ text: "04", bold: true }, { text: " Voucher học tập trị giá " }, { text: "1.000.000 VNĐ/voucher", bold: true }, { text: " đến từ đơn vị " }, { text: "The English Tutor", bold: true }, { text: "." }],
     ],
     className: "top-[1742px]",
   },
@@ -38,6 +80,30 @@ type PrizeLineSegment = {
   text: string;
   bold?: boolean;
 };
+
+type LaurelPrizeLabel = {
+  amount: string;
+  title: string;
+  insetClassName: string;
+};
+
+const laurelPrizeLabels: LaurelPrizeLabel[] = [
+  {
+    amount: "400",
+    title: "QUÁN QUÂN",
+    insetClassName: "inset-[25.47%_36.89%_16.62%_30.29%]",
+  },
+  {
+    amount: "300",
+    title: "Á QUÂN",
+    insetClassName: "inset-[44.02%_56.62%_5.98%_14.02%]",
+  },
+  {
+    amount: "200",
+    title: "QUÝ QUÂN",
+    insetClassName: "inset-[43.77%_22.53%_5.98%_49.2%]",
+  },
+];
 
 function AwardDetailFrame({ titleImage, titleAlt, lines, className }: { titleImage: string; titleAlt: string; lines: PrizeLineSegment[][]; className: string }) {
   return (
@@ -51,7 +117,7 @@ function AwardDetailFrame({ titleImage, titleAlt, lines, className }: { titleIma
           filter: "drop-shadow(0 0 8px rgba(110,255,130,0.9)) drop-shadow(0 0 20px rgba(74,222,128,0.85))",
         }}
       />
-      <ul className="absolute left-1/2 top-[390px] flex w-[900px] -translate-x-1/2 list-inside list-disc flex-col items-start gap-[18px] font-['EB_Garamond',serif] text-[44px] font-normal leading-[1.25] text-[#1f160d] text-left">
+      <ul className="absolute left-1/2 top-[360px] flex w-[1100px] -translate-x-1/2 list-inside list-disc flex-col items-start gap-[10px] pl-[34px] font-['Nunito',sans-serif] text-[25px] font-normal leading-[1.35] text-[#1f160d] text-left">
         {lines.map((line) => (
           <li key={line.map((segment) => segment.text).join("")}>
             {line.map((segment, index) => (
@@ -70,6 +136,20 @@ function PrizeAstronaut({ className, imageClassName, style }: { className: strin
   return (
     <div className={`absolute overflow-hidden pointer-events-none ${className}`} style={style}>
       <img alt="" className={`absolute max-w-none ${imageClassName}`} src={imgPhiHanhGia3} />
+    </div>
+  );
+}
+
+function PrizeLaurelLabel({ amount, title, insetClassName }: LaurelPrizeLabel) {
+  return (
+    <div className={`absolute ${insetClassName} pointer-events-none z-[4]`}>
+      <div className="absolute inset-[4%_0_28%_0] flex -translate-y-[8px] flex-col items-center justify-center gap-[6px] text-center font-bungee-inline text-white text-shadow-[0_0_14px_rgba(110,255,130,0.85)]">
+        <div className="flex flex-col items-center -translate-y-[50px]">
+          <span className="text-[96px] leading-[1]">{amount}</span>
+          <span className="text-[36px] leading-[1]">TRIỆU ĐỒNG</span>
+        </div>
+        <span className="text-[60px] leading-[1] translate-y-[47px]">{title}</span>
+      </div>
     </div>
   );
 }
@@ -143,7 +223,7 @@ function MaskGroup4() { return (<div className="absolute contents inset-[45.54%_
 function Group14() { return (<div className="absolute contents inset-[45.54%_42.89%_37.03%_36.1%]" data-name="Group"><div className="absolute inset-[45.54%_42.89%_37.03%_36.1%] mask-position-[-168.544px_-353.385px,_-0.001px_0px]" style={{ maskImage: `url('${imgRectangle7}'), url('${imgRectangle11}')` }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle1} /></div></div></div>); }
 function Group13() { return (<div className="absolute contents inset-[45.54%_42.89%_37.03%_36.1%]" data-name="Group"><Group14 /></div>); }
 function MaskGroup5() { return (<div className="absolute contents inset-[45.54%_42.89%_37.03%_36.1%]" data-name="Mask group"><Group13 /></div>); }
-function Group7() { return (<div className="absolute contents inset-[25.35%_37.22%_16.77%_30.47%]" data-name="Group"><ClipPathGroup2 /><MaskGroup4 /><MaskGroup5 /></div>); }
+function Group7() { return (<div className="absolute contents inset-[25.35%_37.22%_16.77%_30.47%]" data-name="Group"><ClipPathGroup2 /></div>); }
 function ClipPathGroup1() { return (<div className="absolute contents inset-[23.08%_34.86%_14.39%_30.03%]" data-name="Clip path group"><Group7 /></div>); }
 function Group19() { return (<div className="absolute contents inset-[43.77%_22.53%_5.98%_49.2%]" data-name="Group"><div className="absolute inset-[43.77%_22.53%_5.98%_49.2%] mask-position-[151.624px_-0.428px,_0.642px_-0.001px,_0px_0px]" style={{ maskImage: `url('${imgRectangle12}'), url('${imgRectangle13}'), url('${imgRectangle14}')` }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>); }
 function Group18() { return (<div className="absolute contents inset-[43.77%_22.53%_5.98%_49.2%]" data-name="Group"><Group19 /></div>); }
@@ -153,7 +233,7 @@ function ClipPathGroup4() { return (<div className="absolute contents inset-[43.
 function Group21() { return (<div className="absolute contents inset-[61.7%_28.44%_23.85%_55.19%]" data-name="Group"><div className="absolute inset-[61.7%_28.44%_23.85%_55.19%] mask-position-[-14.629px_-282.563px,_0px_0px]" style={{ maskImage: `url('${imgRectangle12}'), url('${imgRectangle15}')` }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle3} /></div></div></div>); }
 function Group20() { return (<div className="absolute contents inset-[61.7%_28.44%_23.85%_55.19%]" data-name="Group"><Group21 /></div>); }
 function MaskGroup7() { return (<div className="absolute contents inset-[61.7%_28.44%_23.85%_55.19%]" data-name="Mask group"><Group20 /></div>); }
-function Group16() { return (<div className="absolute contents inset-[43.77%_22.55%_5.98%_49.23%]" data-name="Group"><ClipPathGroup4 /><MaskGroup7 /></div>); }
+function Group16() { return (<div className="absolute contents inset-[43.77%_22.55%_5.98%_49.23%]" data-name="Group"><ClipPathGroup4 /></div>); }
 function ClipPathGroup3() { return (<div className="absolute contents inset-[43.74%_16.98%_5.85%_54.66%]" data-name="Clip path group"><Group16 /></div>); }
 function Group15() { return (<div className="absolute contents inset-[43.74%_16.98%_5.85%_54.66%]" data-name="Group"><ClipPathGroup3 /></div>); }
 function Group26() { return (<div className="absolute contents inset-[44.02%_56.62%_5.98%_14.02%]" data-name="Group"><div className="absolute inset-[44.02%_56.62%_5.98%_14.02%] mask-position-[-1.311px_-0.426px,_0.666px_0px,_0px_0px]" style={{ maskImage: `url('${imgRectangle16}'), url('${imgRectangle17}'), url('${imgRectangle18}')` }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>); }
@@ -170,7 +250,7 @@ function Group28() { return (<div className="absolute contents inset-[61.11%_64.
 function MaskGroup10() { return (<div className="absolute contents inset-[61.11%_64.22%_22.89%_21.54%]" data-name="Mask group"><Group28 /></div>); }
 function Group27() { return (<div className="absolute contents inset-[61.11%_64.22%_22.89%_21.54%]" data-name="Group"><MaskGroup10 /></div>); }
 function ClipPathGroup7() { return (<div className="absolute contents inset-[61.08%_64.2%_22.88%_21.57%]" data-name="Clip path group"><Group27 /></div>); }
-function Group86() { return (<div className="absolute contents inset-[43.99%_56.57%_5.85%_13.97%]"><Group22 /><ClipPathGroup7 /></div>); }
+function Group86() { return (<div className="absolute contents inset-[43.99%_56.57%_5.85%_13.97%]"><Group22 /></div>); }
 function Group98() { return (<div className="absolute contents inset-[23.08%_16.98%_5.85%_13.97%]"><ClipPathGroup1 /><Group15 /><Group86 /></div>); }
 function Group34() { return (<div className="absolute contents inset-[91.7%_111.43%_-46.39%_-43.3%]" data-name="Group"><div className="absolute inset-[91.7%_111.43%_-46.39%_-43.3%] mask-position-[-1.422px_-0.466px,_0.723px_-0.001px,_0px_0px]" style={{ maskImage: `url('${imgRectangle21}'), url('${imgRectangle22}'), url('${imgRectangle23}')` }} data-name="Rectangle"><div className="absolute inset-0 overflow-hidden pointer-events-none"><img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgRectangle10} /></div></div></div>); }
 function Group33() { return (<div className="absolute contents inset-[91.7%_111.43%_-46.39%_-43.3%]" data-name="Group"><Group34 /></div>); }
@@ -192,7 +272,9 @@ export function PrizesSection() {
     <section className="absolute h-[1573px] left-[-333px] overflow-clip top-[11172px] w-[2777px]" data-name="magic 1">
       <Group98 />
       <Group30 />
-      <ClipPathGroup10 />
+      {laurelPrizeLabels.map((label) => (
+        <PrizeLaurelLabel key={`${label.amount}-${label.title}`} {...label} />
+      ))}
       <div className="absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal inset-[9.85%_26.4%_68.66%_21.61%] justify-center leading-[0] text-[36px] text-center text-white">
         <p className="leading-[1.5]">Phần thưởng tiền mặt và cơ hội nhận funding để phát triển và triển khai chiến lược trong môi trường tài chính thực tế</p>
       </div>

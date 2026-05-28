@@ -51,9 +51,9 @@ function Round1() {
           </li>
         </ul>
       </div>
-      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] left-[508.81px] not-italic text-[0px] text-center text-white top-[7648px] w-[532.279px] whitespace-pre-wrap">
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] left-[508.81px] not-italic text-[0px] text-center text-white top-[7648px] w-[660px] whitespace-pre-wrap">
         <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] mb-0 text-[44.087px]">{`VÒNG 1 `}</p>
-        <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] text-[33.065px]">{` Đánh giá năng lực (28/05-19/07) `}</p>
+        <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] text-[33.065px]">{` Đánh giá năng lực (28/05 - 19/07) `}</p>
       </div>
       <Body2 />
     </div>
@@ -108,7 +108,7 @@ function Round2() {
 /* Round 3 Body */
 function Body4() {
   return (
-    <div className="absolute bg-[rgba(255,255,255,0.3)] h-[559px] left-[134.02px] rounded-[41.331px] top-[8591.5px] w-[747.072px]" data-name="Body">
+    <div className="absolute bg-[rgba(255,255,255,0.3)] h-[720px] left-[134.02px] rounded-[41.331px] top-[8591.5px] w-[747.072px]" data-name="Body">
       <div aria-hidden="true" className="absolute border-3 border-solid border-white inset-0 pointer-events-none rounded-[41.331px]" />
     </div>
   );
@@ -118,12 +118,19 @@ function Round3() {
   return (
     <div className="absolute contents left-[133.5px] top-[8599px]">
       <Body4 />
-      <div className="absolute flex flex-col font-['Special_Elite:Regular',sans-serif] h-[464.252px] justify-center leading-[0] left-[133.44px] not-italic text-[33.065px] text-white top-[8678.33px] w-[709.632px]">
+      <div className="absolute flex flex-col font-['Special_Elite:Regular',sans-serif] h-[620px] justify-start leading-[0] left-[133.44px] not-italic pt-[90px] text-[33.065px] text-white top-[8635px] w-[709.632px]">
         <p className="leading-[1.5] mb-0">​</p>
         <ul className="list-disc">
           <li className="leading-[1.5] mb-0 ms-[49.5975px]">
             <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">{`Đội thi tiếp tục `}</span>
             <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">phát triển và hoàn thiện ý tưởng alpha.</span>
+          </li>
+          <li className="leading-[1.5] mb-0 ms-[49.5975px]">
+            <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">{`Mỗi đội thi được hướng dẫn bởi `}</span>
+            <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">1 mentor</span>
+            <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">{` là chuyên gia trong ngành `}</span>
+            <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Tài chính định lượng</span>
+            <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">.</span>
           </li>
           <li className="leading-[1.5] mb-0 ms-[49.5975px]">
             <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">{`Đêm Chung kết `}</span>

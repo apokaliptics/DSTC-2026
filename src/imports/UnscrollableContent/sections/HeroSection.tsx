@@ -27,7 +27,7 @@ function PTextXl() {
   return (
     <div className="absolute content-stretch flex flex-col items-center left-[370.07px] max-w-[1036.2073974609375px] top-[334.92px] w-[1036.207px]" data-name="p.text-xl">
       <div className="flex flex-col font-quadrillion justify-center leading-[0] not-italic relative shrink-0 text-[30.994px] text-center text-white whitespace-nowrap">
-        <p className="leading-[41.633px]">{`"QUANT FINANCE - DỮ LIỆU TÀI CHÍNH TRONG KỶ NGUYÊN AI"`}</p>
+        <p className="leading-[41.633px]">{`"VIETNAM QUANT CHALLENGE - DỮ LIỆU TÀI CHÍNH TRONG KỶ NGUYÊN AI"`}</p>
       </div>
       <Frame1 />
     </div>
