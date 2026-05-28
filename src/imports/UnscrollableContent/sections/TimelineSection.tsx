@@ -53,7 +53,7 @@ function Round1() {
       </div>
       <div className="-translate-x-1/2 -translate-y-1/2 absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal justify-center leading-[0] left-[508.81px] not-italic text-[0px] text-center text-white top-[7648px] w-[660px] whitespace-pre-wrap">
         <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] mb-0 text-[44.087px]">{`VÒNG 1 `}</p>
-        <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] text-[33.065px]">{` Đánh giá năng lực (28/05 - 19/07) `}</p>
+        <p className="font-['Space_Grotesk:Bold',sans-serif] font-bold leading-[1.5] text-[33.065px]">{` Đánh giá năng lực (28/05 - 13/07) `}</p>
       </div>
       <Body2 />
     </div>

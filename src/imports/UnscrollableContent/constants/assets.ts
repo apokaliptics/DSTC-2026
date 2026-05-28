@@ -28,7 +28,7 @@ export { default as img20254 } from "../img20254.png";
 export { default as logoCte } from "../Logo CTE.png";
 export { default as logoDstc } from "../Logo DSTC.png";
 export { default as logoFtu } from "../Logo FTU.png";
-export { default as logoXno } from "../Logo XNO.png";
+export { default as logoXno } from "../Logo _ XNOQuant-2 (header).png";
 export { default as logoDoanTruong } from "../Logo doan truong.png";
 
 // Slider images - set 1

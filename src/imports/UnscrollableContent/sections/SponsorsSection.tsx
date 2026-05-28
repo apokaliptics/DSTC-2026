@@ -20,7 +20,7 @@ import logoProfessionalFtds from "../../../../Doi tac chien luoc + Bao tro chuye
 import logoProfessionalMCNA from "../../../../Doi tac chien luoc + Bao tro chuyen mon/5.png";
 import logoProfessionalRed from "../../../../Doi tac chien luoc + Bao tro chuyen mon/4.png";
 import logoSilverKhangPhuDat from "../../../../doi tac vang + bac/đốI TÁC VÀNG VÀ BẠC/Bản sao của mở đơn (2).png";
-import logoStrategicXnoquant from "../../../../Doi tac chien luoc + Bao tro chuyen mon/doi tac chien luoc.png";
+import logoStrategicXnoquant from "../Logo _ XNOQuant.png";
 
 type LogoItem = {
   src: string;
