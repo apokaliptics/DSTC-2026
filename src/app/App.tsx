@@ -9,6 +9,13 @@ export default function App() {
 
   useEffect(() => {
     const handleResize = () => {
+      // For mobile devices, rely on native viewport scaling to avoid OOM crashes.
+      const isMobile = /iPhone|iPad|iPod|Android|webOS|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      if (isMobile) {
+        setScale(1);
+        return;
+      }
+
       const screenWidth = window.innerWidth;
       // The design width is roughly 1920px. 
       const scaleValue = screenWidth / 1920;
@@ -99,9 +106,11 @@ export default function App() {
         style={{ 
           width: `${DESIGN_WIDTH}px`, 
           height: `${PAGE_HEIGHT}px`,
-          transform: `scale(${scale})`, 
-          transformOrigin: 'top center',
-          marginBottom: `-${PAGE_HEIGHT * (1 - scale)}px`,
+          ...(scale !== 1 && {
+            transform: `scale(${scale})`, 
+            transformOrigin: 'top center',
+            marginBottom: `-${PAGE_HEIGHT * (1 - scale)}px`,
+          }),
           marginTop: `77px`, // Fixed header height
         }} 
         className="relative z-0"
