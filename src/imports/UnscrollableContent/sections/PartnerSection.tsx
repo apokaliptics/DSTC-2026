@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 import svgPaths from "../svg-cyafdyc53m";
 import imgImage6 from "../imgImage6.png";
 import imgImage7 from "../imgImage7.png";
@@ -10,14 +11,23 @@ import imgPhiHanhGia3 from "../imgPhiHanhGia3.png";
 import imgImage11 from "../imgImage11.png";
 import imgImage12 from "../imgImage12.png";
 import img20254 from "../img20254.png";
-
 function Frame8() {
   return <div className="relative shrink-0 size-[100px]" />;
 }
-
 function H2Text5Xl2() {
-  return (
-    <div className="absolute content-stretch drop-shadow-[0px_4.399px_1.65px_rgba(0,0,0,0.1),0px_10.998px_4.399px_rgba(0,0,0,0.04)] flex flex-col items-center left-[737px] right-[214px] top-[3440px]" data-name="h2.text-5xl">
+  return <motion.div className="absolute content-stretch drop-shadow-[0px_4.399px_1.65px_rgba(0,0,0,0.1),0px_10.998px_4.399px_rgba(0,0,0,0.04)] flex flex-col items-center left-[737px] right-[214px] top-[3440px]" data-name="h2.text-5xl" initial={{
+    opacity: 0,
+    y: 50
+  }} whileInView={{
+    opacity: 1,
+    y: 0
+  }} viewport={{
+    once: true,
+    amount: 0.1
+  }} transition={{
+    duration: 0.8,
+    ease: "easeOut"
+  }}>
       <Frame8 />
       <div className="flex flex-col font-['Inter:Black',sans-serif] font-black justify-center leading-[0] not-italic relative shrink-0 text-[0px] text-center text-white whitespace-nowrap">
         <p className="text-[48px]">
@@ -25,13 +35,10 @@ function H2Text5Xl2() {
           <span className="gradient-text-safe bg-clip-text bg-gradient-to-r from-[#4ade80] leading-[65.989px] text-[transparent] to-[#3b82f6]">TỔ CHỨC</span>
         </p>
       </div>
-    </div>
-  );
+    </motion.div>;
 }
-
 function Group91() {
-  return (
-    <a href="https://xno.vn/" target="_blank" rel="noopener noreferrer" className="absolute contents left-[1007px] top-[4066px] cursor-pointer hover:opacity-80 transition-opacity">
+  return <a href="https://xno.vn/" target="_blank" rel="noopener noreferrer" className="absolute contents left-[1007px] top-[4066px] cursor-pointer hover:opacity-80 transition-opacity">
       <div className="-translate-y-1/2 absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal h-[34px] justify-center leading-[0] left-[1007px] text-[16px] text-[rgba(255,255,255,0.77)] top-[4083px] w-[181px]">
         <p className="decoration-solid leading-[28px] underline">Tìm hiểu thêm về XNO</p>
       </div>
@@ -44,21 +51,27 @@ function Group91() {
           </div>
         </div>
       </div>
-    </a>
-  );
+    </a>;
 }
-
 function Group90() {
-  return (
-    <div className="absolute contents left-[1007px] top-[4066px]">
+  return <div className="absolute contents left-[1007px] top-[4066px]">
       <Group91 />
-    </div>
-  );
+    </div>;
 }
-
 function Group96() {
-  return (
-    <div className="absolute contents left-[1003px] top-[3656px]">
+  return <motion.div className="absolute contents left-[1003px] top-[3656px]" initial={{
+    opacity: 0,
+    y: 50
+  }} whileInView={{
+    opacity: 1,
+    y: 0
+  }} viewport={{
+    once: true,
+    amount: 0.1
+  }} transition={{
+    duration: 0.8,
+    ease: "easeOut"
+  }}>
       <div className="-translate-y-1/2 absolute flex flex-col font-['Lusitana:Regular',sans-serif] justify-center leading-[0] left-[1003px] not-italic text-[#fff8f8] text-[72px] top-[3691px] w-[734px]">
         <p className="leading-[70px]">XNOQUANT</p>
       </div>
@@ -69,8 +82,6 @@ function Group96() {
         <p className="leading-[34px] whitespace-pre-wrap">{`XNO hỗ trợ các tổ chức tài chính thiết kế các pipeline dữ liệu vững chắc, phát triển và kiểm định các chiến lược định lượng, đồng thời triển khai các công cụ ra quyết định có tính đến rủi ro  - giúp quy trình đầu tư và giao dịch trở nên có hệ thống hơn, dễ kiểm toán hơn và có khả năng mở rộng tốt hơn.`}</p>
       </div>
       <Group90 />
-    </div>
-  );
+    </motion.div>;
 }
-
 export { H2Text5Xl2, Group96 };
