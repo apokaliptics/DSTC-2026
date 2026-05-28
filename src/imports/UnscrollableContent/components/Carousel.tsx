@@ -38,7 +38,7 @@ export function Carousel({
   return (
     <div className={position}>
       {images.map((src, i) => (
-        <img key={i} alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[50px] size-full transition-opacity duration-500" style={{ opacity: i === current ? 1 : 0 }} src={src} />
+        <img loading="lazy" key={i} alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none rounded-[50px] size-full transition-opacity duration-500" style={{ opacity: i === current ? 1 : 0 }} src={src} />
       ))}
       <div className="absolute flex items-center justify-center" style={{ inset: leftArrowInset, containerType: "size" }}>
         <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">

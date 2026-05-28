@@ -46,7 +46,7 @@ export function EventTabs() {
                 <div className="absolute bottom-[452.95px] h-[94.245px] left-[37.7px] right-[51.75px]" data-name="Container" />
               </div>
               <div className="absolute bg-[rgba(255,255,255,0.3)] h-[547.197px] left-[29.91px] overflow-hidden rounded-[39.748px] top-[277.27px] w-[1127.091px]" data-name="Body">
-                <img alt="" className="absolute inset-0 size-full object-cover" src={activeImage} />
+                <img loading="lazy" alt="" className="absolute inset-0 size-full object-cover" src={activeImage} />
                 <div aria-hidden="true" className="absolute border-3 border-solid border-white inset-0 pointer-events-none rounded-[39.748px]" />
               </div>
               <div key={`body-${activeTab}`} className="-translate-y-1/2 absolute flex flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] left-[80.88px] not-italic text-[28.955px] text-white top-[182.61px] w-[1024.181px] transition-opacity duration-500 starting:opacity-0 opacity-100 delay-100">

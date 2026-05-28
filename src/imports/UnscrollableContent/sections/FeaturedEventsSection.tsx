@@ -134,7 +134,7 @@ function DivH() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid overflow-clip relative rounded-[inherit] size-full">
         <div className="absolute inset-[0_0.22px_-0.45px_0]" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\'0 0 520.07 282\\' xmlns=\\'http://www.w3.org/2000/svg\\' preserveAspectRatio=\\'none\\'><rect x=\\'0\\' y=\\'0\\' height=\\'100%\\' width=\\'100%\\' fill=\\'url(%23grad)\\' opacity=\\'1\\'/><defs><radialGradient id=\\'grad\\' gradientUnits=\\'userSpaceOnUse\\' cx=\\'0\\' cy=\\'0\\' r=\\'10\\' gradientTransform=\\'matrix(42.623 0 0 42.709 260.03 338.4)\\'><stop stop-color=\\'rgba(34,211,238,0.2)\\' offset=\\'0\\'/><stop stop-color=\\'rgba(34,211,238,0)\\' offset=\\'1\\'/></radialGradient></defs></svg>')" }} data-name="div.absolute" />
         <div className="absolute h-[356px] left-[-11.9px] top-[-49.26px] w-[534px]" data-name="2025 1">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img20251} />
+          <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={img20251} />
         </div>
         <DivAbsolute1 />
       </div>
@@ -281,7 +281,7 @@ function DivH1() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid overflow-clip relative rounded-[inherit] size-full">
         <div className="absolute inset-[0_0_-0.45px_0]" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\'0 0 520.07 282\\' xmlns=\\'http://www.w3.org/2000/svg\\' preserveAspectRatio=\\'none\\'><rect x=\\'0\\' y=\\'0\\' height=\\'100%\\' width=\\'100%\\' fill=\\'url(%23grad)\\' opacity=\\'1\\'/><defs><radialGradient id=\\'grad\\' gradientUnits=\\'userSpaceOnUse\\' cx=\\'0\\' cy=\\'0\\' r=\\'10\\' gradientTransform=\\'matrix(42.623 0 0 42.709 260.03 338.4)\\'><stop stop-color=\\'rgba(34,211,238,0.2)\\' offset=\\'0\\'/><stop stop-color=\\'rgba(34,211,238,0)\\' offset=\\'1\\'/></radialGradient></defs></svg>')" }} data-name="div.absolute" />
         <div className="absolute h-[361px] left-[-73.94px] top-[-53.65px] w-[794px]" data-name="image 6">
-          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
+          <img loading="lazy" alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgImage6} />
         </div>
         <DivAbsolute3 />
       </div>
@@ -416,7 +416,7 @@ function DivH2() {
       <div className="bg-clip-padding border-0 border-[transparent] border-solid overflow-clip relative rounded-[inherit] size-full">
         <div className="absolute inset-[0_0_-0.45px_0]" style={{ backgroundImage: "url('data:image/svg+xml;utf8,<svg viewBox=\\'0 0 520.07 282\\' xmlns=\\'http://www.w3.org/2000/svg\\' preserveAspectRatio=\\'none\\'><rect x=\\'0\\' y=\\'0\\' height=\\'100%\\' width=\\'100%\\' fill=\\'url(%23grad)\\' opacity=\\'1\\'/><defs><radialGradient id=\\'grad\\' gradientUnits=\\'userSpaceOnUse\\' cx=\\'0\\' cy=\\'0\\' r=\\'10\\' gradientTransform=\\'matrix(42.623 0 0 42.709 260.03 338.4)\\'><stop stop-color=\\'rgba(34,211,238,0.2)\\' offset=\\'0\\'/><stop stop-color=\\'rgba(34,211,238,0)\\' offset=\\'1\\'/></radialGradient></defs></svg>')" }} data-name="div.absolute" />
         <div className="absolute inset-0 flex items-center justify-center" data-name="image 7">
-          <img alt="" className="h-full w-full object-contain pointer-events-none" src={imgImage7} />
+          <img loading="lazy" alt="" className="h-full w-full object-contain pointer-events-none" src={imgImage7} />
         </div>
       </div>
     </div>

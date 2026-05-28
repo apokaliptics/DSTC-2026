@@ -137,7 +137,7 @@ export function SponsorsSection() {
           <div className={`flex flex-row justify-center items-center ${group.gap} flex-wrap`}>
             {group.logos.map((logo) => (
               <div key={logo.alt} className={logo.tileClassName ?? ""}>
-                <img src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
+                <img loading="lazy" src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
               </div>
             ))}
           </div>
@@ -152,7 +152,7 @@ export function SponsorsSection() {
             <div className={`flex flex-row justify-center items-center ${group.gap} flex-wrap`}>
               {group.logos.map((logo) => (
                 <div key={logo.alt} className={logo.tileClassName ?? ""}>
-                  <img src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
+                  <img loading="lazy" src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
                 </div>
               ))}
             </div>
@@ -167,7 +167,7 @@ export function SponsorsSection() {
           <div className={`flex flex-row justify-center items-center ${group.gap} flex-wrap`}>
             {group.logos.map((logo) => (
               <div key={logo.alt} className={logo.tileClassName ?? ""}>
-                <img src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
+                <img loading="lazy" src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
               </div>
             ))}
           </div>
@@ -182,7 +182,7 @@ export function SponsorsSection() {
         <div className={`flex flex-row justify-center items-center ${partnerGroups[partnerGroups.length - 1].gap} flex-wrap`}>
           {partnerGroups[partnerGroups.length - 1].logos.map((logo) => (
             <div key={logo.alt} className={logo.tileClassName ?? ""}>
-              <img src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
+              <img loading="lazy" src={logo.src} alt={logo.alt} className={`${logoClassName} ${logo.className ?? ""}`} />
             </div>
           ))}
         </div>

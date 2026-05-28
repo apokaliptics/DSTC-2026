@@ -49,7 +49,7 @@ export default function UnscrollableContent() {
     <div className="relative size-full" data-name="unscrollable content">
       <div aria-hidden="true" className="absolute inset-0 pointer-events-none hidden">
         <div className="absolute bg-white inset-0" />
-        <img alt="" className="absolute backdrop-blur-[500px] max-w-none object-cover size-full" src={imgUnscrollableContent} />
+        <img loading="lazy" alt="" className="absolute backdrop-blur-[500px] max-w-none object-cover size-full" src={imgUnscrollableContent} />
       </div>
       <div aria-hidden="true" className="absolute border border-black border-solid inset-0 pointer-events-none" />
       <HeroSection />
@@ -93,7 +93,7 @@ export default function UnscrollableContent() {
         <div className="-rotate-90 flex-none">
           <div className="h-[230px] relative w-[824px]" data-name="light sáng 2">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[358.26%] left-0 max-w-none top-0 w-full" src={imgLightSang2} />
+              <img loading="lazy" alt="" className="absolute h-[358.26%] left-0 max-w-none top-0 w-full" src={imgLightSang2} />
             </div>
           </div>
         </div>
@@ -102,7 +102,7 @@ export default function UnscrollableContent() {
         <div className="-rotate-90 flex-none">
           <div className="h-[141px] relative w-[753px]" data-name="light sáng 3">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[534.04%] left-0 max-w-none top-[-75.18%] w-full" src={imgLightSang2} />
+              <img loading="lazy" alt="" className="absolute h-[534.04%] left-0 max-w-none top-[-75.18%] w-full" src={imgLightSang2} />
             </div>
           </div>
         </div>
@@ -111,7 +111,7 @@ export default function UnscrollableContent() {
         <div className="-rotate-90 flex-none">
           <div className="h-[230px] relative w-[802px]" data-name="light sáng 4">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[425.22%] left-[-14.34%] max-w-none top-[-64.35%] w-[121.95%]" src={imgLightSang2} />
+              <img loading="lazy" alt="" className="absolute h-[425.22%] left-[-14.34%] max-w-none top-[-64.35%] w-[121.95%]" src={imgLightSang2} />
             </div>
           </div>
         </div>
@@ -121,34 +121,34 @@ export default function UnscrollableContent() {
         <div className="flex-none rotate-[-9.33deg]">
           <div className="h-[989.64px] relative w-[858.018px]" data-name="phi hành gia 3">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[235.91%] left-[-14.25%] max-w-none top-[-125.65%] w-[272.1%]" src={imgPhiHanhGia3} />
+              <img loading="lazy" alt="" className="absolute h-[235.91%] left-[-14.25%] max-w-none top-[-125.65%] w-[272.1%]" src={imgPhiHanhGia3} />
             </div>
           </div>
         </div>
       </div>
       <div className="absolute h-[171px] left-[315px] top-[10955px] w-[1312px]" data-name="light sáng 5">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <div className="absolute h-[89px] left-[1071px] top-[7595px] w-[683px]" data-name="light sáng 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <div className="absolute h-[89px] left-[190px] top-[8143px] w-[683px]" data-name="light sáng 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <div className="absolute h-[89px] left-[1046px] top-[8713px] w-[683px]" data-name="light sáng 4">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <div className="absolute h-[159px] left-[390px] top-[7049px] w-[1220px]" data-name="light sáng 5">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <Group100 />
@@ -157,7 +157,7 @@ export default function UnscrollableContent() {
           <div className="flex-none rotate-[-6.31deg]">
             <div className="h-[852.993px] relative w-[917.836px]" data-name="phi hành gia 2">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[252.26%] left-0 max-w-none top-[-152.26%] w-[234.44%]" src={imgPhiHanhGia3} />
+                <img loading="lazy" alt="" className="absolute h-[252.26%] left-0 max-w-none top-[-152.26%] w-[234.44%]" src={imgPhiHanhGia3} />
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@ export default function UnscrollableContent() {
           <div className="flex-none rotate-[8.99deg]">
             <div className="h-[976.053px] relative w-[993.298px]" data-name="phi hành gia 2">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[202.24%] left-[-98.72%] max-w-none top-0 w-[198.72%]" src={imgPhiHanhGia3} />
+                <img loading="lazy" alt="" className="absolute h-[202.24%] left-[-98.72%] max-w-none top-0 w-[198.72%]" src={imgPhiHanhGia3} />
               </div>
             </div>
           </div>
@@ -178,7 +178,7 @@ export default function UnscrollableContent() {
         <div className="-scale-y-100 flex-none rotate-[167.48deg]">
           <div className="h-[669.795px] relative w-[549.722px]" data-name="phi hành gia 5">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
-              <img alt="" className="absolute h-[182.02%] left-0 max-w-none top-[-82.02%] w-[221.77%]" src={imgPhiHanhGia3} />
+              <img loading="lazy" alt="" className="absolute h-[182.02%] left-0 max-w-none top-[-82.02%] w-[221.77%]" src={imgPhiHanhGia3} />
             </div>
           </div>
         </div>

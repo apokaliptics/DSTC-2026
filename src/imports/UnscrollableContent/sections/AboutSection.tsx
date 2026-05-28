@@ -57,7 +57,7 @@ export function AboutSection() {
       </div>
       <DivP />
       <div className="absolute inset-[95.41%_-3.44%_-13.52%_10.04%]" data-name="light sáng 5">
-        <img alt="" className="absolute block inset-0 max-w-none size-full" height="142" src={imgLightSang5} width="1683" />
+        <img loading="lazy" alt="" className="absolute block inset-0 max-w-none size-full" height="142" src={imgLightSang5} width="1683" />
       </div>
     </section>
   );
@@ -67,7 +67,7 @@ export function LightFlareEffect1() {
   return (
     <div className="absolute left-[1284px] opacity-30 size-[1078.85px] top-[112px]" data-name="Light flare effect">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgLightFlareEffect} />
+        <img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgLightFlareEffect} />
       </div>
     </div>
   );

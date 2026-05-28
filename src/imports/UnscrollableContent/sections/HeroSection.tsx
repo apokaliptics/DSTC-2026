@@ -5,7 +5,7 @@ function LightFlareEffect() {
   return (
     <div className="opacity-20 relative size-[1242.207px]" data-name="Light flare effect">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute left-0 max-w-none size-full top-0" src={imgLightFlareEffect} />
+        <img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgLightFlareEffect} />
       </div>
     </div>
   );
@@ -203,27 +203,27 @@ export function HeroSection() {
       <BreatheState />
       <div className="absolute h-[89px] left-[864px] top-[865px] w-[683px] z-[1]" data-name="light sáng 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <div className="absolute h-[1212.372px] left-[7430px] top-[-744px] w-[995.204px]" data-name="Breathe">
         <div className="absolute h-[1211.94px] left-[-0.53px] top-[-10px] w-[994.677px]" data-name="phi hành gia 3">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[182.02%] left-0 max-w-none top-[-82.02%] w-[221.77%]" src={imgPhiHanhGia3} />
+            <img loading="lazy" alt="" className="absolute h-[182.02%] left-0 max-w-none top-[-82.02%] w-[221.77%]" src={imgPhiHanhGia3} />
           </div>
         </div>
       </div>
       <div className="absolute h-[500px] left-[9317px] top-[-1180px] w-[463px]" data-name="Breathe">
         <div className="absolute h-[500px] left-0 top-[-10px] w-[463px]" data-name="phi hành gia 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[177.78%] left-[-92%] max-w-none top-0 w-[192%]" src={imgPhiHanhGia3} />
+            <img loading="lazy" alt="" className="absolute h-[177.78%] left-[-92%] max-w-none top-0 w-[192%]" src={imgPhiHanhGia3} />
           </div>
         </div>
       </div>
       <div className="absolute h-[500px] left-[1757px] top-[-134px] w-[463px] astronaut-float-delay" data-name="Breathe">
         <div className="absolute h-[500px] left-0 top-[-10px] w-[463px]" data-name="phi hành gia 2">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <img alt="" className="absolute h-[177.78%] left-[-92%] max-w-none top-0 w-[192%]" src={imgPhiHanhGia3} />
+            <img loading="lazy" alt="" className="absolute h-[177.78%] left-[-92%] max-w-none top-0 w-[192%]" src={imgPhiHanhGia3} />
           </div>
         </div>
       </div>
@@ -232,7 +232,7 @@ export function HeroSection() {
           <div className="flex-none rotate-[0.13deg]">
             <div className="h-[893.053px] relative w-[774.277px]" data-name="phi hành gia 3">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[235.91%] left-[-14.25%] max-w-none top-[-125.65%] w-[272.1%]" src={imgPhiHanhGia3} />
+                <img loading="lazy" alt="" className="absolute h-[235.91%] left-[-14.25%] max-w-none top-[-125.65%] w-[272.1%]" src={imgPhiHanhGia3} />
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@ export function HeroSection() {
           <div className="flex-none rotate-[0.13deg]">
             <div className="h-[893.053px] relative w-[774.277px]" data-name="phi hành gia 3">
               <div className="absolute inset-0 overflow-hidden pointer-events-none">
-                <img alt="" className="absolute h-[235.91%] left-[-14.25%] max-w-none top-[-125.65%] w-[272.1%]" src={imgPhiHanhGia3} />
+                <img loading="lazy" alt="" className="absolute h-[235.91%] left-[-14.25%] max-w-none top-[-125.65%] w-[272.1%]" src={imgPhiHanhGia3} />
               </div>
             </div>
           </div>
@@ -251,7 +251,7 @@ export function HeroSection() {
       </div>
       <div className="-translate-x-1/2 absolute h-[1157.776px] left-[calc(50%-0.45px)] pointer-events-none rounded-[115.142px] top-[13px] w-[2315.551px] z-[10]" data-name="chữ Data Science Talent 1">
         <div className="absolute inset-0 overflow-hidden rounded-[115.142px]">
-          <img alt="" className="absolute left-0 max-w-none size-full top-[-15.26%]" src={imgChDataScienceTalent1} />
+          <img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-[-15.26%]" src={imgChDataScienceTalent1} />
         </div>
         <div aria-hidden="true" className="absolute border border-[rgba(0,0,0,0)] border-solid inset-0 rounded-[115.142px]" />
       </div>

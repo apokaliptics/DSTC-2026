@@ -37,7 +37,7 @@ function LightFlareEffect2() {
   return (
     <div className="opacity-20 relative size-[1280px]" data-name="Light flare effect">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img alt="" className="absolute left-[-335.63%] max-w-none size-full top-[123.44%]" src={imgLightFlareEffect} />
+        <img loading="lazy" alt="" className="absolute left-[-335.63%] max-w-none size-full top-[123.44%]" src={imgLightFlareEffect} />
       </div>
     </div>
   );

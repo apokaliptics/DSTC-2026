@@ -260,17 +260,17 @@ export function TimelineSection() {
       {/* Connectors */}
       <div className="absolute h-[142px] left-[889px] top-[7727px] w-[210px]" data-name="Connector 1">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[213.78%] left-[-195.59%] max-w-none top-[-67.64%] w-[491.25%]" src={imgConnector1} />
+          <img loading="lazy" alt="" className="absolute h-[213.78%] left-[-195.59%] max-w-none top-[-67.64%] w-[491.25%]" src={imgConnector1} />
         </div>
       </div>
       <div className="absolute h-[142px] left-[880px] top-[8275px] w-[210px]" data-name="Connector 2">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
+          <img loading="lazy" alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
         </div>
       </div>
       <div className="absolute h-[142px] left-[880px] top-[8839px] w-[210px]" data-name="Connector 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
+          <img loading="lazy" alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
         </div>
       </div>
       {/* Main heading */}
