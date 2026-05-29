@@ -1,35 +1,35 @@
 // Hero / Front page images
-export { default as imgUnscrollableContent } from "../imgUnscrollableContent.png";
-export { default as imgLightFlareEffect } from "../imgLightFlareEffect.png";
-export { default as imgChDataScienceTalent1 } from "../imgChDataScienceTalent1.png";
-export { default as imgLightSang2 } from "../imgLightSang2.png";
-export { default as imgPhiHanhGia3 } from "../imgPhiHanhGia3.png";
-export { default as imgLightSang5 } from "../imgLightSang5.png";
+export { default as imgUnscrollableContent } from "../../../assets/content-images/imgUnscrollableContent.png";
+export { default as imgLightFlareEffect } from "../../../assets/content-images/imgLightFlareEffect.png";
+export { default as imgChDataScienceTalent1 } from "../../../assets/content-images/imgChDataScienceTalent1.png";
+export { default as imgLightSang2 } from "../../../assets/content-images/imgLightSang2.png";
+export { default as imgPhiHanhGia3 } from "../../../assets/content-images/imgPhiHanhGia3.png";
+export { default as imgLightSang5 } from "../../../assets/content-images/imgLightSang5.png";
 
 // Gallery / content images
-export { default as imgImage8 } from "../imgImage8.png";
-export { default as imgFrameAll } from "../frame_all.png";
-export { default as imgRectangle1 } from "../imgRectangle1.png";
-export { default as imgRectangle1Text } from "../imgRectangle1Text.png";
-export { default as imgRectangle3 } from "../imgRectangle3.png";
-export { default as imgRectangle3Text } from "../imgRectangle3Text.png";
-export { default as imgRectangle6 } from "../imgRectangle6.png";
-export { default as imgRectangle6Text } from "../imgRectangle6Text.png";
-export { default as imgRectangle10 } from "../imgRectangle10.png";
-export { default as img20251 } from "../img20251.png";
-export { default as imgImage6 } from "../imgImage6.png";
-export { default as imgImage7 } from "../imgImage7.png";
-export { default as imgConnector1 } from "../imgConnector1.png";
-export { default as imgFrame21 } from "../imgFrame21.png";
-export { default as imgFrame23 } from "../imgFrame23.png";
-export { default as imgImage11 } from "../imgImage11.png";
-export { default as imgImage12 } from "../imgImage12.png";
-export { default as img20254 } from "../img20254.png";
-export { default as logoCte } from "../Logo CTE.png";
-export { default as logoDstc } from "../Logo DSTC.png";
-export { default as logoFtu } from "../Logo FTU.png";
-export { default as logoXno } from "../Logo _ XNOQuant-2 (header).png";
-export { default as logoDoanTruong } from "../Logo doan truong.png";
+export { default as imgImage8 } from "../../../assets/content-images/imgImage8.png";
+export { default as imgFrameAll } from "../../../assets/content-images/frame_all.png";
+export { default as imgRectangle1 } from "../../../assets/content-images/imgRectangle1.png";
+export { default as imgRectangle1Text } from "../../../assets/content-images/imgRectangle1Text.png";
+export { default as imgRectangle3 } from "../../../assets/content-images/imgRectangle3.png";
+export { default as imgRectangle3Text } from "../../../assets/content-images/imgRectangle3Text.png";
+export { default as imgRectangle6 } from "../../../assets/content-images/imgRectangle6.png";
+export { default as imgRectangle6Text } from "../../../assets/content-images/imgRectangle6Text.png";
+export { default as imgRectangle10 } from "../../../assets/content-images/imgRectangle10.png";
+export { default as img20251 } from "../../../assets/content-images/img20251.png";
+export { default as imgImage6 } from "../../../assets/content-images/imgImage6.png";
+export { default as imgImage7 } from "../../../assets/content-images/imgImage7.png";
+export { default as imgConnector1 } from "../../../assets/content-images/imgConnector1.png";
+export { default as imgFrame21 } from "../../../assets/content-images/imgFrame21.png";
+export { default as imgFrame23 } from "../../../assets/content-images/imgFrame23.png";
+export { default as imgImage11 } from "../../../assets/content-images/imgImage11.png";
+export { default as imgImage12 } from "../../../assets/content-images/imgImage12.png";
+export { default as img20254 } from "../../../assets/content-images/img20254.png";
+export { default as logoCte } from "../../../assets/logos/header/cte.png";
+export { default as logoDstc } from "../../../assets/logos/header/dstc.png";
+export { default as logoFtu } from "../../../assets/logos/header/ftu.png";
+export { default as logoXno } from "../../../assets/logos/header/xno-header.png";
+export { default as logoDoanTruong } from "../../../assets/logos/header/doan-truong.png";
 
 // Slider images - set 1
 export { default as imgSlider1_1 } from "../../../assets/slider-images/slider1-1.png";

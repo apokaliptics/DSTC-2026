@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { eventTabsData } from "../constants/data";
-import imgKickOff from "../../../../kick-off-img.png";
-import imgInfoSession from "../../../../infosession-img.png";
-import imgIntensiveTraining from "../../../../intensive-training-img.png";
+import imgKickOff from "@/assets/event-images/kick-off-img.png";
+import imgInfoSession from "@/assets/event-images/infosession-img.png";
+import imgIntensiveTraining from "@/assets/event-images/intensive-training-img.png";
 
 export function EventTabs() {
   const [activeTab, setActiveTab] = useState(0);
