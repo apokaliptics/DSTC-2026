@@ -17,6 +17,7 @@ function customAssetResolver() {
 
 export default defineConfig({
   base: './',
+  publicDir: "public",
   plugins: [
     customAssetResolver(),
     react({
