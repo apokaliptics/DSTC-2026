@@ -20,17 +20,20 @@ export default defineConfig({
   publicDir: "public",
   plugins: [
     customAssetResolver(),
-    react({
-      babel: {
-        compact: false,
-      }
-    }),
+    react(),
     tailwindcss(),
   ],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
+  },
+  esbuild: {
+    target: 'esnext',
+    jsx: 'automatic',
+  },
+  build: {
+    minify: 'esbuild',
   },
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
