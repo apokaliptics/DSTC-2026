@@ -1,81 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Preconnect makes the handshake faster -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <!-- Preconnect makes the handshake faster -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- The combined link with the Vietnamese subset added -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Russo+One&family=Manrope:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&family=Special+Elite&family=Tektur:wght@400;600;700&display=swap&subset=vietnamese"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <title>Data Science Talent Competition</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      #root {
+        height: 100%;
+      }
+    </style>
 
-<!-- The combined link with the Vietnamese subset added -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Russo+One&family=Manrope:wght@400;600;700&family=Space+Grotesk:wght@400;500;700&family=Special+Elite&family=Tektur:wght@400;600;700&display=swap&subset=vietnamese" rel="stylesheet">
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=1920" />
-      <link rel="icon" type="image/png" href="/favicon.png" />
-      <title>Data Science Talent Competition</title>
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
+    <!-- SEO - General -->
+    <meta
+      name="description"
+      content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
+    />
+    <meta
+      name="keywords"
+      content="cte ftu club tech enonomics dstc data-science-talent-competition dstc2026 data science talent competition competition quantitative finance"
+    />
+    <link rel="author" href="https://www.facebook.com/cteftu/" />
+    <link rel="canonical" href="https://cteftu.id.vn/" />
 
-      <!-- SEO - General -->
-        <meta
-            name="description"
-            content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
-        />
-        <meta
-            name="keywords"
-            content="cte ftu club tech enonomics dstc data-science-talent-competition dstc2026 data science talent competition competition quantitative finance"
-        />
-        <link rel="author" href="https://www.facebook.com/cteftu/" />
-        <link rel="canonical" href="https://cteftu.id.vn/" />
+    <!-- SEO - Google -->
+    <meta itemprop="name" content="Data Science Talent Competition 2026" />
+    <meta
+      itemprop="description"
+      content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
+    />
+    <meta itemprop="image" content="/banner.avif" />
 
-        <!-- SEO - Google -->
-        <meta itemprop="name" content="Data Science Talent Competition 2026" />
-        <meta
-            itemprop="description"
-            content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
-        />
-        <meta itemprop="image" content="/banner.avif" />
+    <!-- SEO - Facebook -->
+    <meta property="og:title" content="Data Science Talent Competition 2026" />
+    <meta property="og:locale" content="vi_VN" />
+    <meta
+      property="og:description"
+      content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
+    />
+    <meta property="og:url" content="https://cteftu.id.vn/" />
+    <meta
+      property="og:site_name"
+      content="Data Science Talent Competition 2026"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:see_also" content="https://cteftu.id.vn/" />
+    <meta property="og:image" content="/banner.avif" />
 
-        <!-- SEO - Facebook -->
-        <meta property="og:title" content="Data Science Talent Competition 2026" />
-        <meta property="og:locale" content="vi_VN" />
-        <meta
-            property="og:description"
-            content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
-        />
-        <meta property="og:url" content="https://cteftu.id.vn/" />
-        <meta property="og:site_name" content="Data Science Talent Competition 2026" />
-        <meta property="og:type" content="website" />
-        <meta property="og:see_also" content="https://cteftu.id.vn/" />
-        <meta property="og:image" content="/banner.png" />
+    <!-- SEO - X/Twitter -->
+    <meta
+      name="twitter:card"
+      content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
+    />
+    <meta name="twitter:url" content="https://cteftu.id.vn/" />
+    <meta name="twitter:title" content="Data Science Talent Competition 2026" />
+    <meta
+      name="twitter:description"
+      content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
+    />
+    <meta name="twitter:image" content="/banner.avif" />
 
-        <!-- SEO - X/Twitter -->
-        <meta
-            name="twitter:card"
-            content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
-        />
-        <meta name="twitter:url" content="https://cteftu.id.vn/" />
-        <meta name="twitter:title" content="Data Science Talent Competition 2026" />
-        <meta
-            name="twitter:description"
-            content="The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định."
-        />
-        <meta name="twitter:image" content="/banner.avif" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "description": "The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định.",
+        "headline": "Data Science Talent Competition 2026",
+        "name": "cteftu.id.vn",
+        "url": "https://cteftu.id.vn/"
+      }
+    </script>
+  </head>
 
-        <script type="application/ld+json">
-            {
-                "@context": "https://schema.org",
-                "@type": "WebSite",
-                "description": "The Data Science Talent Competition 2026 còn là cơ hội để bạn bước vào thế giới của Quant Finance - nơi dữ liệu kể câu chuyện của thị trường, và những mô hình phân tích mở ra góc nhìn hoàn toàn mới về đầu tư và ra quyết định.",
-                "headline": "Data Science Talent Competition 2026",
-                "name": "cteftu.id.vn",
-                "url": "https://cteftu.id.vn/"
-            }
-        </script>
-
-    </head>
-
-    <body>
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-    </body>
-  </html>
-  
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
