@@ -1,16 +1,16 @@
 import { motion } from "motion/react";
 import svgPaths from "../svg-cyafdyc53m";
-import imgImage6 from "../imgImage6.png";
-import imgImage7 from "../imgImage7.png";
-import imgFrame21 from "../imgFrame21.png";
-import imgFrame23 from "../imgFrame23.png";
-import img20251 from "../img20251.png";
-import imgLightFlareEffect from "../imgLightFlareEffect.png";
-import imgLightSang2 from "../imgLightSang2.png";
-import imgPhiHanhGia3 from "../imgPhiHanhGia3.png";
-import imgImage11 from "../imgImage11.png";
-import imgImage12 from "../imgImage12.png";
-import img20254 from "../img20254.png";
+import imgImage6 from "../imgImage6.avif";
+import imgImage7 from "../imgImage7.avif";
+import imgFrame21 from "../imgFrame21.avif";
+import imgFrame23 from "../imgFrame23.avif";
+import img20251 from "../img20251.avif";
+import imgLightFlareEffect from "../imgLightFlareEffect.avif";
+import imgLightSang2 from "../imgLightSang2.avif";
+import imgPhiHanhGia3 from "../imgPhiHanhGia3.avif";
+import imgImage11 from "../imgImage11.avif";
+import imgImage12 from "../imgImage12.avif";
+import img20254 from "../img20254.avif";
 function PTextXl1() {
   return <motion.div className="absolute h-[31px] left-[531.53px] max-w-[844.6627807617188px] top-[2626.4px] w-[844.663px]" data-name="p.text-xl" initial={{
     opacity: 0,
