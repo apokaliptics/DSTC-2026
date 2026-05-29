@@ -38,8 +38,7 @@ const logoClassName =
   "object-contain opacity-85 hover:opacity-100 transition-all duration-300 hover:drop-shadow-[0_0_20px_rgba(255,255,255,0.9)] hover:scale-105 cursor-pointer";
 const lightTileClassName =
   "bg-white/90 rounded-[28px] px-[32px] py-[24px] shadow-[0_18px_60px_rgba(15,23,42,0.28)]";
-const organizerTileClassName =
-  "bg-white/95 rounded-[38px] px-[42px] py-[28px] shadow-[0_22px_70px_rgba(15,23,42,0.38)] flex items-center justify-center";
+
 const mediaTileClassName =
   "bg-white/95 rounded-[22px] px-[24px] py-[16px] shadow-[0_12px_40px_rgba(0,0,0,0.25)] flex items-center justify-center w-[230px] h-[120px]";
 const companionTileClassName =
@@ -65,7 +64,6 @@ const partnerGroups: PartnerGroup[] = [
         src: logoOrganizerCte,
         alt: "CLB Công nghệ trong Kinh tế và Kinh doanh",
         className: "h-[195px]",
-        tileClassName: organizerTileClassName,
       },
       {
         src: logoOrganizerDataScience,
