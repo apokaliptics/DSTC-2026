@@ -60,7 +60,7 @@ export function FAQSection() {
                 </div>
               </div>
             </AccordionTrigger>
-            <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] opacity-80 leading-relaxed">
+            <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] leading-relaxed">
               {item.answer}
             </AccordionContent>
             <div aria-hidden="true" className="absolute border-[2.105px] border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[33.679px]" />

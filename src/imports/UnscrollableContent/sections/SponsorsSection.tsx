@@ -261,7 +261,7 @@ export function SponsorsSection() {
           key={group.title}
           className={`flex flex-col items-center w-full ${group.maxWidth} mb-[120px]`}
         >
-          <h3 className="text-[#cbd5e1] text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
+          <h3 className="text-white text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
             {group.title}
           </h3>
           <div
@@ -286,7 +286,7 @@ export function SponsorsSection() {
             key={group.title}
             className={`flex flex-col items-center w-full ${group.maxWidth}`}
           >
-            <h3 className="text-[#cbd5e1] text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
+            <h3 className="text-white text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
               {group.title}
             </h3>
             <div
@@ -311,7 +311,7 @@ export function SponsorsSection() {
           key={group.title}
           className={`flex flex-col items-center w-full ${group.maxWidth} mb-[120px]`}
         >
-          <h3 className="text-[#cbd5e1] text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
+          <h3 className="text-white text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
             {group.title}
           </h3>
           <div
@@ -335,7 +335,7 @@ export function SponsorsSection() {
       <div
         className={`flex flex-col items-center w-full ${partnerGroups[partnerGroups.length - 1].maxWidth}`}
       >
-        <h3 className="text-[#cbd5e1] text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[60px] tracking-wider">
+        <h3 className="text-white text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[60px] tracking-wider">
           {partnerGroups[partnerGroups.length - 1].title}
         </h3>
         <div

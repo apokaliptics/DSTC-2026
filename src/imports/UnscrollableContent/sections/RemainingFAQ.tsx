@@ -149,7 +149,7 @@ function Frame() {
             <SlotSummary />
           </div>
         </AccordionTrigger>
-        <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] opacity-80 leading-relaxed">
+        <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] leading-relaxed">
           Tất cả học sinh THPT và sinh viên có đam mê với Tài chính định lượng.
         </AccordionContent>
         <div aria-hidden="true" className="absolute border-[2.105px] border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[33.679px]" />
@@ -160,7 +160,7 @@ function Frame() {
             <SlotSummary1 />
           </div>
         </AccordionTrigger>
-        <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] opacity-80 leading-relaxed">
+        <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] leading-relaxed">
           Thí sinh đăng ký theo hình thức cá nhân ở vòng 1. Từ vòng 2 sẽ thi theo đội 2 người, chọn đồng đội qua nền tảng của CTE FTU.
         </AccordionContent>
         <div aria-hidden="true" className="absolute border-[2.105px] border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[33.679px]" />
@@ -171,7 +171,7 @@ function Frame() {
             <SlotSummary2 />
           </div>
         </AccordionTrigger>
-        <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] opacity-80 leading-relaxed">
+        <AccordionContent className="text-white px-[67.357px] pb-[67.357px] text-[30px] font-['Space_Grotesk:Regular',sans-serif] leading-relaxed">
           Website chính thức của DSTC đóng vai trò là kênh thông tin chính thống cập nhật lịch trình, danh sách diễn giả và các thông báo khẩn cấp. Thí sinh cũng có thể tìm hiểu thêm thông qua liên kết Fanpage của CLB CTE FTU.
         </AccordionContent>
         <div aria-hidden="true" className="absolute border-[2.105px] border-[rgba(255,255,255,0.1)] border-solid inset-0 pointer-events-none rounded-[33.679px]" />
