@@ -48,27 +48,27 @@ const partnerGroups: PartnerGroup[] = [
   {
     title: "ĐƠN VỊ TỔ CHỨC",
     maxWidth: "max-w-[1800px]",
-    gap: "gap-[20px]",
+    gap: "gap-[120px]",
     logos: [
       {
         src: logoOrganizerFtu,
         alt: "Trường Đại học Ngoại thương",
-        className: "h-[240px]",
+        className: "h-[170px]",
       },
       {
         src: logoOrganizerYouthUnion,
         alt: "Đoàn Thanh niên Cộng sản Hồ Chí Minh",
-        className: "h-[240px]",
+        className: "h-[180px]",
       },
       {
         src: logoOrganizerCte,
         alt: "CLB Công nghệ trong Kinh tế và Kinh doanh",
-        className: "h-[195px]",
+        className: "h-[170px]",
       },
       {
         src: logoOrganizerDataScience,
         alt: "Data Science",
-        className: "h-[210px]",
+        className: "h-[120px]",
       },
     ],
   },
@@ -227,7 +227,7 @@ const goldSilverGroups: PartnerGroup[] = [
 export function SponsorsSection() {
   return (
     <motion.section
-      className="absolute left-0 top-[16800px] w-[1920px] flex flex-col items-center z-[10] pb-[220px]"
+      className="absolute left-0 top-[17800px] w-[1920px] flex flex-col items-center z-[10] pb-[220px]"
       initial={{
         opacity: 0,
         y: 50,

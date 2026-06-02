@@ -83,8 +83,8 @@ export default function App() {
   }, []);
 
   const DESIGN_WIDTH = 1920;
-  const CONTENT_HEIGHT = 18220; // Exact height of content up to CreditsSection
-  const PAGE_HEIGHT = 22140;
+  const CONTENT_HEIGHT = 22645; // Exact height of content up to CreditsSection
+  const PAGE_HEIGHT = 22645;
 
   return (
     <div className="w-full min-h-screen overflow-x-hidden flex flex-col items-center">

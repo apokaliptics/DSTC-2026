@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { svgPaths } from "../constants/assets";
 function Footer() {
-  return <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[467px] left-0 right-0 top-[21628px]" data-name="footer.">
+  return <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[350px] left-0 right-0 top-[22250px]" data-name="footer.">
       <div aria-hidden="true" className="absolute border-[rgba(30,58,138,0.5)] border-solid border-t-[0.8px] inset-0 pointer-events-none" />
     </div>;
 }
@@ -44,13 +44,13 @@ function Group80() {
     </div>;
 }
 function BrandingTitle() {
-  return <div className="col-1 content-stretch flex flex-col gap-[33.409px] items-start justify-self-stretch pb-[81.698px] relative row-1 self-start shrink-0" data-name="Branding & Title">
+  return <div className="flex flex-col gap-[33.409px] items-start relative w-[544px] shrink-0" data-name="Branding & Title">
       <Heading1 />
       <Group80 />
     </div>;
 }
 function Heading2() {
-  return <div className="col-1 content-stretch flex flex-col items-start ml-0 mt-0 opacity-60 relative row-1 w-[544.651px]" data-name="Heading 4">
+  return <div className="flex flex-col items-start ml-0 mt-0 opacity-60 relative w-full" data-name="Heading 4">
       <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#f1f3fc] text-[20.424px] tracking-[1.0212px] uppercase w-full">
         <p className="leading-[29.178px]">Thông tin liên hệ</p>
       </div>
@@ -82,6 +82,25 @@ function Margin1() {
       <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 29.1779 26.26">
         <g id="Margin"><path d={svgPaths.p2c606a40} fill="var(--fill-0, #4ADE80)" id="Icon" /></g>
       </svg>
+    </div>;
+}
+function PhoneIcon() {
+  return (
+    <div className="h-[26px] relative shrink-0 w-[29.178px] flex items-center justify-start" data-name="Margin">
+      <svg className="block size-[22px]" fill="none" stroke="var(--fill-0, #4ade80)" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+      </svg>
+    </div>
+  );
+}
+function ItemPhone() {
+  return <div className="content-stretch flex gap-[23.328px] items-start relative shrink-0 w-full" data-name="Item">
+      <PhoneIcon />
+      <div className="flex flex-col font-['Manrope:Regular',sans-serif] font-normal justify-center leading-[0] relative shrink-0 text-[20.424px] text-white w-[426px]">
+        <p className="leading-[29.178px] mb-0">Hotline:</p>
+        <p className="leading-[29.178px] mb-0">081 728 0206 (Mr. Nguyễn Đức Phúc)</p>
+        <p className="leading-[29.178px]">033 877 3879 (Ms. Trần Ngọc Cẩm)</p>
+      </div>
     </div>;
 }
 function Item1() {
@@ -135,26 +154,33 @@ function Item3() {
     </div>;
 }
 function List() {
-  return <div className="col-1 content-stretch flex flex-col gap-[29.178px] items-start ml-0 mt-[64.51px] relative row-1 w-[544.651px]" data-name="List">
-      <Item />
-      <Item1 />
-      <Item2 />
-      <Item3 />
-    </div>;
+  return (
+    <div className="flex gap-[60px] mt-[40px] relative w-full" data-name="List">
+      <div className="flex flex-col gap-[20px] w-full max-w-[480px]">
+        <Item />
+        <ItemPhone />
+        <Item1 />
+      </div>
+      <div className="flex flex-col gap-[20px] w-full max-w-[480px]">
+        <Item2 />
+        <Item3 />
+      </div>
+    </div>
+  );
 }
 function Group81() {
-  return <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
+  return <div className="flex flex-col items-start relative w-full shrink-0">
       <Heading2 />
       <List />
     </div>;
 }
 function ContactInformation() {
-  return <div className="col-3 content-stretch flex flex-col items-start justify-self-stretch relative row-1 self-start shrink-0" data-name="Contact Information">
+  return <div className="flex flex-col items-start relative w-[1020px] shrink-0" data-name="Contact Information">
       <Group81 />
     </div>;
 }
 function Container() {
-  return <div className="absolute gap-x-[70.02659606933594px] gap-y-[70.02659606933594px] grid grid-cols-[repeat(3,minmax(0,1fr))] grid-rows-[_357.43px] h-[446.99px] left-[31px] max-w-[1867.3758544921875px] px-[46.684px] py-[93.369px] top-[21580px] w-[1867.376px]" data-name="Container">
+  return <div className="absolute flex justify-between h-[350px] left-[31px] px-[46px] py-[45px] top-[22250px] w-[1867px]" data-name="Container">
       <BrandingTitle />
       <ContactInformation />
     </div>;
@@ -196,14 +222,14 @@ function Link5() {
     </div>;
 }
 function Container4() {
-  return <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] right-[1468.67px] top-[21969px]" data-name="Container">
+  return <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] top-[22520px]" data-name="Container">
       <Link3 />
       <Link4 />
       <Link5 />
     </div>;
 }
 function CreditsSection() {
-  const names = "Vu Thi Thanh Huyen - Nguyen Minh Kiet - Nguyen Sy Son - Vu Khanh Huyen - Hoang Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang";
+  const names = "Nguyen Minh Kiet - Vu Thi Thanh Huyen - Nguyen Sy Son - Vu Khanh Huyen - Hoang Minh Phuong - Nguyen Thi Ngoc Diep - Tran Duc Thang - Nguyen Thi Hien - Dinh Thanh Hang - Nguyen Tri Phuong - Hoang Van Chi";
   return <>
       <style>{`
         @keyframes scrollMarquee {
@@ -217,7 +243,7 @@ function CreditsSection() {
           animation: scrollMarquee 25s linear infinite;
         }
       `}</style>
-      <div className="absolute left-0 right-0 top-[22095px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
+      <div className="absolute left-0 right-0 top-[22600px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
         <div className="shrink-0 font-['Space_Grotesk:Bold',sans-serif] px-[31px] whitespace-nowrap z-30 bg-[#0b1221] h-full flex items-center relative shadow-[15px_0_20px_-5px_#0b1221]">
           web is created by CTE FTU
         </div>
@@ -231,7 +257,7 @@ function CreditsSection() {
     </>;
 }
 export function FooterSection() {
-  return <motion.footer className="absolute contents left-0 top-[21580px]" initial={{
+  return <motion.footer className="absolute contents left-0 top-[22580px]" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{

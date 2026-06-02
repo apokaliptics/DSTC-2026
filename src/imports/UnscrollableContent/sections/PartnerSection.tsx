@@ -42,7 +42,7 @@ function Group91() {
       <div className="-translate-y-1/2 absolute flex flex-col font-['Space_Grotesk:Regular',sans-serif] font-normal h-[34px] justify-center leading-[0] left-[1007px] text-[16px] text-[rgba(255,255,255,0.77)] top-[4083px] w-[181px]">
         <p className="decoration-solid leading-[28px] underline">Tìm hiểu thêm về XNO</p>
       </div>
-      <div className="-translate-y-1/2 absolute h-[21px] left-[1171px] overflow-clip top-[calc(50%-4303px)] w-[17px]" data-name="Component 1">
+      <div className="-translate-y-1/2 absolute h-[21px] left-[1171px] overflow-clip top-[4083px] w-[17px]" data-name="Component 1">
         <div className="absolute bottom-1/4 left-[37.5%] right-[37.5%] top-1/4" data-name="Vector">
           <div className="absolute inset-[-12.74%_-31.47%]">
             <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 6.92494 13.175">

@@ -159,8 +159,8 @@ function DivAbsolute6() {
 function DivText4Xl() {
   return <div className="drop-shadow-[0px_4.434px_1.663px_rgba(0,0,0,0.1),0px_11.085px_4.434px_rgba(0,0,0,0.04)] relative shrink-0 w-full" data-name="div.text-4xl">
       <div className="bg-clip-padding border-0 border-[transparent] border-solid content-stretch flex flex-col items-start relative size-full">
-        <div className="flex flex-col font-['Inter:Black',sans-serif] font-black justify-center leading-[0] not-italic relative shrink-0 text-[47.775px] text-white whitespace-nowrap">
-          <p className="leading-[53.206px]">{`650tr `}</p>
+        <div className="flex flex-col font-['Inter:Black',sans-serif] font-black justify-center leading-[0] not-italic relative shrink-0 text-[36px] text-white whitespace-nowrap">
+          <p className="leading-[53.206px]">650 triệu đồng</p>
         </div>
       </div>
     </div>;

@@ -12,7 +12,7 @@ import imgImage11 from "../imgImage11.avif";
 import imgImage12 from "../imgImage12.avif";
 import img20254 from "../img20254.avif";
 function Heading3() {
-  return <div className="absolute content-stretch flex flex-col items-start left-[675.15px] right-[569.71px] top-[6494px]" data-name="Heading 3">
+  return <div className="absolute content-stretch flex flex-col items-start left-[675.15px] right-[569.71px] top-[7494px]" data-name="Heading 3">
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[38.361px] text-white w-full">
         <p className="leading-[46.033px]">{`ĐỐI TƯỢNG & ĐỘ TUỔI`}</p>
       </div>
@@ -43,13 +43,13 @@ function Item5() {
     </div>;
 }
 function List1() {
-  return <div className="absolute content-stretch flex flex-col font-normal gap-[20.459px] items-start leading-[0] left-[644px] not-italic right-[577px] top-[6567.85px]" data-name="List">
+  return <div className="absolute content-stretch flex flex-col font-normal gap-[20.459px] items-start leading-[0] left-[644px] not-italic right-[577px] top-[7567.85px]" data-name="List">
       <Item4 />
       <Item5 />
     </div>;
 }
 function Heading4() {
-  return <div className="absolute content-stretch flex flex-col items-start left-[675px] right-[569.75px] top-[6747.85px]" data-name="Heading 3">
+  return <div className="absolute content-stretch flex flex-col items-start left-[675px] right-[569.75px] top-[7747.85px]" data-name="Heading 3">
       <div className="flex flex-col font-['Inter:Bold',sans-serif] font-bold justify-center leading-[0] not-italic relative shrink-0 text-[38.361px] text-white w-full">
         <p>
           <span className="leading-[46.033px]">{`YÊU `}</span>
@@ -78,13 +78,13 @@ function Item7() {
     </div>;
 }
 function List2() {
-  return <div className="absolute h-[132.984px] left-[644px] right-[629px] top-[6822.85px]" data-name="List">
+  return <div className="absolute h-[132.984px] left-[644px] right-[629px] top-[7822.85px]" data-name="List">
       <Item6 />
       <Item7 />
     </div>;
 }
 function Group82() {
-  return <motion.div className="absolute contents left-[619px] top-[6494px]" initial={{
+  return <motion.div className="absolute contents left-[619px] top-[7494px]" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{
@@ -122,8 +122,8 @@ function DivInlineBlock() {
     </motion.div>;
 }
 function Group40() {
-  return <div className="absolute contents left-[574.99px] top-[6413px]">
-      <div className="absolute flex h-[624.334px] items-center justify-center left-[574.99px] top-[6413px] w-[784.006px]" style={{
+  return <div className="absolute contents left-[574.99px] top-[7413px]">
+      <div className="absolute flex h-[624.334px] items-center justify-center left-[574.99px] top-[7413px] w-[784.006px]" style={{
       "--transform-inner-width": "1185",
       "--transform-inner-height": "22"
     } as React.CSSProperties}>
@@ -156,12 +156,12 @@ function Group40() {
     </div>;
 }
 function Group39() {
-  return <div className="absolute contents left-[574.99px] top-[6413px]">
+  return <div className="absolute contents left-[574.99px] top-[7413px]">
       <Group40 />
     </div>;
 }
 function DiTngThamGia() {
-  return <motion.div className="absolute contents left-[410px] top-[6281px]" data-name="Đối tượng tham gia" initial={{
+  return <motion.div className="absolute contents left-[410px] top-[7281px]" data-name="Đối tượng tham gia" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{
@@ -174,7 +174,7 @@ function DiTngThamGia() {
     duration: 0.8,
     ease: "easeOut"
   }}>
-      <div className="absolute bg-clip-text bg-gradient-to-r flex flex-col font-['Inter:Bold',sans-serif] font-bold from-[#4ade80] inset-[37.44%_20.53%_62.15%_21.35%] justify-center leading-[0] not-italic text-[73.471px] text-[transparent] text-center to-[#3b82f6] -translate-y-[560px]">
+      <div className="absolute bg-clip-text bg-gradient-to-r flex flex-col font-['Inter:Bold',sans-serif] font-bold from-[#4ade80] top-[7262px] left-[20.53%] right-[21.35%] h-[75px] justify-center leading-[0] not-italic text-[73.471px] text-[transparent] text-center to-[#3b82f6]">
         <p>
           <span className="leading-[1.5] text-white">ĐỐI TƯỢNG</span>
           <span className="gradient-text-safe bg-clip-text bg-gradient-to-r from-[#4ade80] leading-[1.5] text-[transparent] to-[#3b82f6]">{` THAM GIA`}</span>

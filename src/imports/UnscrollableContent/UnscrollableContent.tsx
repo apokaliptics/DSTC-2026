@@ -43,6 +43,7 @@ import { H2Text5Xl2, Group96 } from "./sections/PartnerSection";
 import { Group100 } from "./sections/SideEventsSection";
 import { LightFlareEffect2 } from "./sections/MiscComponents";
 import { SponsorsSection } from "./sections/SponsorsSection";
+import { VideoCarouselSection } from "./sections/VideoCarouselSection";
 
 export default function UnscrollableContent() {
   return (
@@ -54,6 +55,16 @@ export default function UnscrollableContent() {
       <div aria-hidden="true" className="absolute border border-black border-solid inset-0 pointer-events-none" />
       <HeroSection />
       <LightFlareEffect1 />
+      {/* Standalone "VỀ DSTC 2026" heading — positioned above the video carousel */}
+      <div className="absolute flex justify-center left-0 right-0 top-[5200px] z-10">
+        <div className="bg-clip-text bg-gradient-to-r flex flex-col font-['Inter:Bold',sans-serif] font-bold from-[#4ade80] justify-center leading-[0] not-italic text-[73.471px] text-[transparent] text-center to-[#3b82f6]">
+          <p className="font-['Inter:Extra_Bold',sans-serif] font-extrabold">
+            <span className="leading-[1.5] text-white">{`VỀ `}</span>
+            <span className="gradient-text-safe bg-clip-text bg-gradient-to-r from-[#4ade80] leading-[1.5] text-[transparent] to-[#3b82f6]">DSTC 2026</span>
+          </p>
+        </div>
+      </div>
+      <VideoCarouselSection />
       <AboutSection />
       <Photo />
       <PrizesSection />
@@ -66,7 +77,7 @@ export default function UnscrollableContent() {
       </div>
       <FooterSection />
       <Group82 />
-      <div className="-translate-y-1/2 absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[49px] justify-center leading-[0] left-[675px] not-italic text-[24px] text-white top-[6952.5px] w-[601px]">
+      <div className="-translate-y-1/2 absolute flex flex-col font-['Inter:Regular',sans-serif] font-normal h-[49px] justify-center leading-[0] left-[675px] not-italic text-[24px] text-white top-[7952.5px] w-[601px]">
         <p className="leading-[35.803px]">Hình thức thi: Cá nhân (Vòng 1 - ĐGNL), Nhóm 2 người (Sơ Khảo + Chung Khảo)</p>
       </div>
       <DivInlineBlock />
@@ -117,7 +128,7 @@ export default function UnscrollableContent() {
         </div>
       </div>
 
-      <div className="astronaut-float-slow absolute flex h-[1115.66px] items-center justify-center left-[-179.34px] top-[10342.82px] w-[1007.12px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
+      <div className="astronaut-float-slow absolute flex h-[1115.66px] items-center justify-center left-[-179.34px] top-[11342.82px] w-[1007.12px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
         <div className="flex-none rotate-[-9.33deg]">
           <div className="h-[989.64px] relative w-[858.018px]" data-name="phi hành gia 3">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -126,33 +137,19 @@ export default function UnscrollableContent() {
           </div>
         </div>
       </div>
-      <div className="absolute h-[171px] left-[315px] top-[10955px] w-[1312px]" data-name="light sáng 5">
+      <div className="absolute h-[171px] left-[315px] top-[11955px] w-[1312px]" data-name="light sáng 5">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
-      <div className="absolute h-[89px] left-[1071px] top-[7595px] w-[683px]" data-name="light sáng 2">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
-        </div>
-      </div>
-      <div className="absolute h-[89px] left-[190px] top-[8143px] w-[683px]" data-name="light sáng 3">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
-        </div>
-      </div>
-      <div className="absolute h-[89px] left-[1046px] top-[8713px] w-[683px]" data-name="light sáng 4">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
-        </div>
-      </div>
-      <div className="absolute h-[159px] left-[390px] top-[7049px] w-[1220px]" data-name="light sáng 5">
+
+      <div className="absolute h-[159px] left-[390px] top-[8049px] w-[1220px]" data-name="light sáng 5">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
       <Group100 />
-      <div className="astronaut-float absolute h-[948.771px] left-[-223px] top-[6867px] w-[1006.088px]" data-name="Breathe">
+      <div className="astronaut-float absolute h-[948.771px] left-[-223px] top-[7867px] w-[1006.088px]" data-name="Breathe">
         <div className="absolute flex h-[948.771px] items-center justify-center left-0 top-[-110.95px] w-[1006.088px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
           <div className="flex-none rotate-[-6.31deg]">
             <div className="h-[852.993px] relative w-[917.836px]" data-name="phi hành gia 2">
@@ -163,7 +160,7 @@ export default function UnscrollableContent() {
           </div>
         </div>
       </div>
-      <div className="astronaut-float-slow absolute h-[1119.35px] left-[1315px] top-[5484px] w-[1133.686px]" data-name="Breathe">
+      <div className="astronaut-float-slow absolute h-[1119.35px] left-[1315px] top-[6484px] w-[1133.686px]" data-name="Breathe">
         <div className="absolute flex h-[1119.35px] items-center justify-center left-[-152.6px] top-[-10px] w-[1133.686px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
           <div className="flex-none rotate-[8.99deg]">
             <div className="h-[976.053px] relative w-[993.298px]" data-name="phi hành gia 2">
@@ -184,6 +181,22 @@ export default function UnscrollableContent() {
         </div>
       </div>
       <TimelineSection />
+      {/* Light beams for timeline cards, rendered after to stack on top in z-index */}
+      <div className="absolute h-[89px] left-[1084px] top-[8489px] w-[683px]" data-name="light sáng 2">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+        </div>
+      </div>
+      <div className="absolute h-[89px] left-[169px] top-[9064px] w-[683px]" data-name="light sáng 3">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+        </div>
+      </div>
+      <div className="absolute h-[89px] left-[1084px] top-[9669px] w-[683px]" data-name="light sáng 4">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
+        </div>
+      </div>
       <SponsorsSection />
       <FAQSection />
       <Carousel
@@ -196,7 +209,7 @@ export default function UnscrollableContent() {
           position="absolute h-[540px] left-[960px] overflow-clip rounded-[50px] top-[4516px] w-[900px]"
           dotsInsets={dotsInset9}
         />
-      <div id="intensive-training" className="absolute gap-x-[46.327972412109375px] gap-y-[46.327972412109375px] grid grid-cols-[repeat(12,minmax(0,1fr))] grid-rows-[__961.31px_minmax(0,1fr)] h-[1129px] left-[56px] pt-[121.172px] right-[57px] top-[9498px]" data-name="Section - 6. SỰ KIỆN BÊN LỀ (Bento Stacks)">
+      <div id="intensive-training" className="absolute gap-x-[46.327972412109375px] gap-y-[46.327972412109375px] grid grid-cols-[repeat(12,minmax(0,1fr))] grid-rows-[__961.31px_minmax(0,1fr)] h-[1129px] left-[56px] pt-[121.172px] right-[57px] top-[10498px]" data-name="Section - 6. SỰ KIỆN BÊN LỀ (Bento Stacks)">
         <EventTabs />
       </div>
       <Carousel
