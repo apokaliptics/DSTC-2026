@@ -191,7 +191,7 @@ function IntensiveTrainingCard() {
         </li>
         <li className="ms-[30px] pl-[10px]">
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Nội dung:</span>
-          <span>{` Hướng dẫn làm bài vòng 3`}</span>
+          <span>{` Hướng dẫn làm bài vòng 2`}</span>
         </li>
       </ul>
     </TimelineCard>
