@@ -152,7 +152,7 @@ function DivRelative() {
       <DivFlex />
       <Frame2 />
       <Frame10 />
-      <a href="https://xnoquant.io/vqc2026" target="_blank" className="absolute left-[754.41px] top-[753.09px] group block w-[341px] h-[83px] no-underline z-[60]">
+      <a href="https://cteftugen5.fillout.com/dstc2026registration" target="_blank" className="absolute left-[754.41px] top-[753.09px] group block w-[341px] h-[83px] no-underline z-[60]">
         <button className="cursor-pointer bg-gradient-to-b from-[#60a5fa] to-[#44c882] w-full h-full rounded-[9999px] shadow-[0_6px_0_#2b8258,0_15px_20px_rgba(34,211,238,0.4)] active:shadow-[0_0px_0_#2b8258,0_0px_0px_rgba(34,211,238,0.4)] active:translate-y-[6px] transition-all duration-150 relative overflow-hidden" data-name="Component 17">
           <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
           

@@ -98,14 +98,30 @@ export function EventTabs() {
                 key={`body-${activeTab}`}
                 className="-translate-y-1/2 absolute flex flex-col font-['Inter:Light',sans-serif] font-light justify-center leading-[0] left-[80.88px] not-italic text-[28.955px] text-white top-[182.61px] w-[1024.181px] transition-opacity duration-500 starting:opacity-0 opacity-100 delay-100"
               >
-                {active.body.map((line, i) => (
-                  <p
-                    key={i}
-                    className={`leading-[47.052px] ${i < active.body.length - 1 ? "mb-0" : ""}`}
-                  >
-                    {line}
-                  </p>
-                ))}
+                {active.body.map((line, i) => {
+                  const isLastLine = i === active.body.length - 1;
+                  return (
+                    <p
+                      key={i}
+                      className={`leading-[47.052px] ${!isLastLine ? "mb-0" : ""}`}
+                    >
+                      {line}
+                      {isLastLine && activeTab === 1 && (
+                        <>
+                          {" "}
+                          <a
+                            href="https://cteftugen5.fillout.com/ifss?dstc2026=xxxxx&fbclid=IwY2xjawSNP69leHRuA2FlbQIxMQBicmlkETFWZm1lV2Vvbks1akF3N1dLc3J0YwZhcHBfaWQBMAABHreGu4vyJR1BTKho5ObOUNNDhWOc246xez98_uQ2tOVAvk1AumYMceCG9GVT_aem_YjKcAKjUy9A1CkWpjzAI-A"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-['Space_Grotesk:Bold',sans-serif] font-bold text-[#4ade80] hover:text-[#22d3ee] underline decoration-solid transition-colors duration-300 cursor-pointer ml-2"
+                          >
+                            Đăng kí ngay
+                          </a>
+                        </>
+                      )}
+                    </p>
+                  );
+                })}
               </div>
             </div>
           </div>

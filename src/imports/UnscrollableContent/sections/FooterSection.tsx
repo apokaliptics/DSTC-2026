@@ -31,7 +31,7 @@ function Container2() {
     </div>;
 }
 function Link() {
-  return <a href="https://xnoquant.io/vqc2026" target="_blank" rel="noopener noreferrer" className="col-1 content-stretch flex items-center justify-between ml-0 mt-0 px-[27.228px] py-[18.152px] relative rounded-[4.538px] row-1 w-[544.651px] no-underline hover:opacity-95 hover:scale-[1.01] active:scale-[0.99] transition-all duration-200 cursor-pointer" style={{
+  return <a href="https://cteftugen5.fillout.com/dstc2026registration" target="_blank" rel="noopener noreferrer" className="col-1 content-stretch flex items-center justify-between ml-0 mt-0 px-[27.228px] py-[18.152px] relative rounded-[4.538px] row-1 w-[544.651px] no-underline hover:opacity-95 hover:scale-[1.01] active:scale-[0.99] transition-all duration-200 cursor-pointer" style={{
     backgroundImage: "linear-gradient(37.9661deg, rgb(74, 222, 128) 0%, rgb(0, 207, 252) 100%)"
   }} data-name="Link">
       <Container1 />
