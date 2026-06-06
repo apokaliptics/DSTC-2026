@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { svgPaths } from "../constants/assets";
 function Footer() {
-  return <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[350px] left-0 right-0 top-[22250px]" data-name="footer.">
+  return <div className="absolute backdrop-blur-[12px] bg-[rgba(15,23,42,0.95)] h-[350px] left-0 right-0 top-[23000px]" data-name="footer.">
       <div aria-hidden="true" className="absolute border-[rgba(30,58,138,0.5)] border-solid border-t-[0.8px] inset-0 pointer-events-none" />
     </div>;
 }
@@ -180,7 +180,7 @@ function ContactInformation() {
     </div>;
 }
 function Container() {
-  return <div className="absolute flex justify-between h-[350px] left-[31px] px-[46px] py-[45px] top-[22250px] w-[1867px]" data-name="Container">
+  return <div className="absolute flex justify-between h-[350px] left-[31px] px-[46px] py-[45px] top-[23000px] w-[1867px]" data-name="Container">
       <BrandingTitle />
       <ContactInformation />
     </div>;
@@ -222,7 +222,7 @@ function Link5() {
     </div>;
 }
 function Container4() {
-  return <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] top-[22520px]" data-name="Container">
+  return <div className="absolute content-stretch flex gap-[16px] items-start left-[78px] top-[23270px]" data-name="Container">
       <Link3 />
       <Link4 />
       <Link5 />
@@ -243,7 +243,7 @@ function CreditsSection() {
           animation: scrollMarquee 25s linear infinite;
         }
       `}</style>
-      <div className="absolute left-0 right-0 top-[22600px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
+      <div className="absolute left-0 right-0 top-[23350px] h-[45px] bg-[#0b1221] flex items-center text-[12px] text-[#f1f3fc] overflow-hidden border-t border-[rgba(30,58,138,0.5)] z-20 tracking-wider">
         <div className="shrink-0 font-['Space_Grotesk:Bold',sans-serif] px-[31px] whitespace-nowrap z-30 bg-[#0b1221] h-full flex items-center relative shadow-[15px_0_20px_-5px_#0b1221]">
           web is created by CTE FTU
         </div>
@@ -257,7 +257,7 @@ function CreditsSection() {
     </>;
 }
 export function FooterSection() {
-  return <motion.footer className="absolute contents left-0 top-[22580px]" initial={{
+  return <motion.footer className="absolute contents left-0 top-[23330px]" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{

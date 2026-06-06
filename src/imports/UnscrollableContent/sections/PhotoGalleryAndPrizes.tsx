@@ -426,7 +426,7 @@ function PrizeLaurelLabel({
     </div>;
 }
 export function PrizeDetailsFrames() {
-  return <motion.section className="absolute left-0 top-[13450px] h-[4000px] w-[1920px] overflow-visible z-[10]" data-name="Prize details" initial={{
+  return <motion.section className="absolute left-0 top-[14200px] h-[4000px] w-[1920px] overflow-visible z-[10]" data-name="Prize details" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{
@@ -697,7 +697,7 @@ function ClipPathGroup10() {
   return <div className="absolute contents inset-[110.36%_119.66%_-27.91%_-35.11%]" data-name="Clip path group"><Group35 /></div>;
 }
 export function PrizesSection() {
-  return <motion.section id="giai-thuong" className="absolute h-[1573px] left-[-333px] overflow-clip top-[12172px] w-[2777px]" data-name="magic 1" initial={{
+  return <motion.section id="giai-thuong" className="absolute h-[1573px] left-[-333px] overflow-clip top-[12922px] w-[2777px]" data-name="magic 1" initial={{
     opacity: 0,
     y: 50
   }} whileInView={{
@@ -729,7 +729,7 @@ export function PrizesSection() {
 }
 export function CompetitionRulesBadge() {
   return <a href="https://drive.google.com/file/d/1Mn5UtvZesYPkQ1c398DvnPKAgUpsYiqQ/view" target="_blank" rel="noopener noreferrer" className="absolute contents group cursor-pointer" aria-label="Bộ luật cuộc thi">
-      <div className="absolute left-[567px] top-[11725px] w-[787px] h-[177px] transition-all duration-300 group-hover:brightness-110 group-hover:drop-shadow-[0_0_28px_rgba(74,222,128,0.65)]">
+      <div className="absolute left-[567px] top-[12475px] w-[787px] h-[177px] transition-all duration-300 group-hover:brightness-110 group-hover:drop-shadow-[0_0_28px_rgba(74,222,128,0.65)]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 787 177">
           <path d={svgPaths.p23d55e00} fill="url(#paint0_linear_1_2065)" id="Rectangle 2" />
           <defs>
@@ -740,7 +740,7 @@ export function CompetitionRulesBadge() {
           </defs>
         </svg>
       </div>
-      <div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold left-[610px] right-[633px] top-[11725px] h-[177px] justify-center leading-[0] not-italic text-[60px] text-center text-shadow-[0px_6.123px_6.123px_rgba(224,43,43,0.25)] text-white transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_22px_rgba(255,255,255,0.75)]">
+      <div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold left-[610px] right-[633px] top-[12475px] h-[177px] justify-center leading-[0] not-italic text-[60px] text-center text-shadow-[0px_6.123px_6.123px_rgba(224,43,43,0.25)] text-white transition-all duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_22px_rgba(255,255,255,0.75)]">
         <p className="leading-[1.5]">BỘ LUẬT CUỘC THI</p>
       </div>
     </a>;

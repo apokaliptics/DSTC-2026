@@ -62,22 +62,27 @@ function Round1() {
     <TimelineCard
       title="VÒNG 1 ĐÁNH GIÁ NĂNG LỰC"
       subtitle="Cá nhân (28/05 - 13/07)"
-      className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[8500px] w-[730px] h-[580px]"
+      className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[8500px] w-[730px] h-[800px]"
     >
-      <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[33.065px]">
+      <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
-          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">Thí sinh được lựa chọn đồng đội qua </span>
-          <span className="font-['Space_Grotesk:Medium',sans-serif] font-medium">web matching</span>
-          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal"> của BTC.</span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Hình thức: </span>
+          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">Cá nhân. Bài thi được làm trên nền tảng </span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">XNOQuant</span>
+          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal"> của cuộc thi.</span>
         </li>
         <li className="mb-[15px] ms-[30px] pl-[10px]">
-          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">Hệ thống sẽ tính điểm alpha và hiển thị xếp hạng theo tuần trên </span>
-          <span className="font-['Space_Grotesk:Medium',sans-serif] font-medium">leaderboard</span>
-          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">.</span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Nội dung: </span>
+          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">Thí sinh làm quen với hệ thống, tập dữ liệu (</span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">dataset</span>
+          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">) và thực hiện </span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">simulate alpha</span>
+          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal"> cá nhân trên hệ thống.</span>
         </li>
         <li className="ms-[30px] pl-[10px]">
-          <span className="font-['Space_Grotesk:Medium',sans-serif] font-medium">Top 4 (8 thí sinh)</span>
-          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal"> xuất sắc nhất sẽ tiến vào vòng chung kết</span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Top 60 cá nhân </span>
+          <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">có điểm số cao nhất trên Bảng xếp hạng sẽ giành quyền bước vào </span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Vòng 2: Vòng sơ khảo</span>
         </li>
       </ul>
     </TimelineCard>
@@ -89,7 +94,7 @@ function Round2() {
     <TimelineCard
       title="VÒNG 2: SƠ KHẢO"
       subtitle="Nhóm 2 người (16/07 - 07/08)"
-      className="bg-[rgba(255,255,255,0.3)] left-[1075px] top-[9035px] w-[700px] h-[610px]"
+      className="bg-[rgba(255,255,255,0.3)] left-[1075px] top-[9385px] w-[700px] h-[610px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
@@ -118,7 +123,7 @@ function Round3() {
     <TimelineCard
       title="VÒNG 3: CHUNG KHẢO"
       subtitle="Nhóm 2 người (06/08 – 15/08)"
-      className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[9560px] w-[730px] h-[750px]"
+      className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[10160px] w-[730px] h-[750px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
@@ -178,7 +183,7 @@ function IntensiveTrainingCard() {
   return (
     <TimelineCard
       title="INTENSIVE TRAINING"
-      className="bg-[rgba(255,255,255,0.5)] left-[178px] top-[9145px] w-[664px] h-[360px]"
+      className="bg-[rgba(255,255,255,0.5)] left-[178px] top-[9495px] w-[664px] h-[360px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[29px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
@@ -202,7 +207,7 @@ function DemChungKetCard() {
   return (
     <TimelineCard
       title="ĐÊM CHUNG KẾT"
-      className="bg-[rgba(255,255,255,0.5)] left-[1103px] top-[9750px] w-[644px] h-[320px]"
+      className="bg-[rgba(255,255,255,0.5)] left-[1103px] top-[10350px] w-[644px] h-[320px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[33.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
@@ -218,15 +223,15 @@ function DemChungKetCard() {
   );
 }
 function Group52() {
-  return <div className="absolute contents left-[779px] top-[9986.71px]"><div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold h-[442.424px] justify-center leading-[0] left-[779px] not-italic text-[44.087px] text-center text-white top-[9986.71px] w-[244.224px]"><p className="leading-[1.5] mb-0">​</p><p className="leading-[1.5]">​</p></div></div>;
+  return <div className="absolute contents left-[779px] top-[10286.71px]"><div className="absolute flex flex-col font-['Inter:Extra_Bold',sans-serif] font-extrabold h-[442.424px] justify-center leading-[0] left-[779px] not-italic text-[44.087px] text-center text-white top-[10286.71px] w-[244.224px]"><p className="leading-[1.5] mb-0">​</p><p className="leading-[1.5]">​</p></div></div>;
 }
 function Group51() {
-  return <div className="absolute contents left-[779px] top-[9986.71px]"><Group52 /></div>;
+  return <div className="absolute contents left-[779px] top-[10286.71px]"><Group52 /></div>;
 }
 
 /* Line segments */
 function Group67() {
-  return <div className="absolute h-0 left-[875px] top-[9907px] w-[100.99px]"><div className="absolute inset-[-13.78px_0_0_0]"><svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 95.1194 13.7771"><g id="Group 1175"><line id="Line 3" stroke="var(--stroke-0, #46CF81)" strokeWidth="13.7771" x1="5.18846e-09" x2="95.1194" y1="6.88857" y2="6.88857" /></g></svg></div></div>;
+  return <div className="absolute h-0 left-[875px] top-[10507px] w-[100.99px]"><div className="absolute inset-[-13.78px_0_0_0]"><svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 95.1194 13.7771"><g id="Group 1175"><line id="Line 3" stroke="var(--stroke-0, #46CF81)" strokeWidth="13.7771" x1="5.18846e-09" x2="95.1194" y1="6.88857" y2="6.88857" /></g></svg></div></div>;
 }
 function Group61() {
   return <div className="absolute h-0 left-[875px] top-[8792.5px] w-[100.99px]"><div className="absolute inset-[-6.89px_0]"><svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 85.8986 13.7771"><g id="Group 29"><path d={svgPaths.pc0db500} id="Line 2" stroke="var(--stroke-0, #51659C)" strokeWidth="13.7771" /></g></svg></div></div>;
@@ -257,12 +262,12 @@ export function TimelineSection() {
             <div className="absolute contents left-[133.5px] top-[8536px]">
               <Round1 />
               <div className="absolute contents left-[133.5px] top-[8536px]">
-                <div className="absolute flex h-[1606px] items-center justify-center left-[975.99px] top-[8536px] w-0" style={{
+                <div className="absolute flex h-[2210px] items-center justify-center left-[975.99px] top-[8536px] w-0" style={{
                   "--transform-inner-width": "1185",
                   "--transform-inner-height": "22"
                 } as React.CSSProperties}>
                   <div className="flex-none rotate-90">
-                    <div className="h-0 relative w-[1606px]">
+                    <div className="h-0 relative w-[2210px]">
                       <div className="absolute inset-[-6.89px_-0.43%]">
                         <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 1619.78 13.7772">
                           <path d={svgPaths.p34092000} id="Line 1" stroke="url(#paint0_linear_1_2039)" strokeLinecap="round" strokeWidth="13.7771" />
@@ -285,7 +290,7 @@ export function TimelineSection() {
                     <Round3 />
                   </div>
                 </div>
-                <div className="absolute h-0 left-[975.99px] top-[9350px] w-[99.01px]">
+                <div className="absolute h-0 left-[975.99px] top-[9700px] w-[99.01px]">
                   <div className="absolute inset-[-6.89px_0]">
                     <svg className="block size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 92.2076 13.7771">
                       <path d="M0 6.88857H92.2076" id="Line 5" stroke="var(--stroke-0, #359284)" strokeWidth="13.7771" />
@@ -294,11 +299,11 @@ export function TimelineSection() {
                 </div>
                 <Group60 />
                 {/* Star at node 2 */}
-                <TimelineStar className="left-[910.08px] top-[9282px]" gradientId="paint0_radial_1_2150_t" starPath={svgPaths.p3cac3500} />
+                <TimelineStar className="left-[910.08px] top-[9632px]" gradientId="paint0_radial_1_2150_t" starPath={svgPaths.p3cac3500} />
               </div>
             </div>
-            {/* Star at node 3 */}
-            <TimelineStar className="left-[910.08px] top-[9846px]" gradientId="paint0_radial_1_1957_t" starPath={svgPaths.pc646100} />
+            {/* Star at node 3 — centered on intersection of vertical line and branch to Đêm Chung Kết */}
+            <TimelineStar className="left-[910.08px] top-[10443px]" gradientId="paint0_radial_1_1957_t" starPath={svgPaths.pc646100} />
           </div>
           <Group67 />
         </div>
@@ -322,12 +327,12 @@ export function TimelineSection() {
         <img loading="lazy" alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
       </div>
     </div>
-    <div className="absolute h-[142px] left-[860px] top-[9275px] w-[233px]" data-name="Connector 2">
+    <div className="absolute h-[142px] left-[860px] top-[9625px] w-[233px]" data-name="Connector 2">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img loading="lazy" alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
       </div>
     </div>
-    <div className="absolute h-[142px] left-[862px] top-[9839px] w-[228px]" data-name="Connector 3">
+    <div className="absolute h-[142px] left-[862px] top-[10436px] w-[228px]" data-name="Connector 3">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <img loading="lazy" alt="" className="absolute h-[213.78%] left-[-187.5%] max-w-none top-[-60.6%] w-[491.25%]" src={imgConnector1} />
       </div>

@@ -128,7 +128,7 @@ export default function UnscrollableContent() {
         </div>
       </div>
 
-      <div className="astronaut-float-slow absolute flex h-[1115.66px] items-center justify-center left-[-179.34px] top-[11342.82px] w-[1007.12px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
+      <div className="astronaut-float-slow absolute flex h-[1115.66px] items-center justify-center left-[-179.34px] top-[12092.82px] w-[1007.12px]" style={{ "--transform-inner-width": "1185", "--transform-inner-height": "22" } as React.CSSProperties}>
         <div className="flex-none rotate-[-9.33deg]">
           <div className="h-[989.64px] relative w-[858.018px]" data-name="phi hành gia 3">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -137,7 +137,7 @@ export default function UnscrollableContent() {
           </div>
         </div>
       </div>
-      <div className="absolute h-[171px] left-[315px] top-[11955px] w-[1312px]" data-name="light sáng 5">
+      <div className="absolute h-[171px] left-[315px] top-[12705px] w-[1312px]" data-name="light sáng 5">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
@@ -187,12 +187,12 @@ export default function UnscrollableContent() {
           <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
-      <div className="absolute h-[89px] left-[169px] top-[9064px] w-[683px]" data-name="light sáng 3">
+      <div className="absolute h-[89px] left-[169px] top-[9414px] w-[683px]" data-name="light sáng 3">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
       </div>
-      <div className="absolute h-[89px] left-[1084px] top-[9669px] w-[683px]" data-name="light sáng 4">
+      <div className="absolute h-[89px] left-[1084px] top-[10269px] w-[683px]" data-name="light sáng 4">
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
         </div>
@@ -209,7 +209,7 @@ export default function UnscrollableContent() {
           position="absolute h-[540px] left-[960px] overflow-clip rounded-[50px] top-[4516px] w-[900px]"
           dotsInsets={dotsInset9}
         />
-      <div id="intensive-training" className="absolute gap-x-[46.327972412109375px] gap-y-[46.327972412109375px] grid grid-cols-[repeat(12,minmax(0,1fr))] grid-rows-[__961.31px_minmax(0,1fr)] h-[1129px] left-[56px] pt-[121.172px] right-[57px] top-[10498px]" data-name="Section - 6. SỰ KIỆN BÊN LỀ (Bento Stacks)">
+      <div id="intensive-training" className="absolute gap-x-[46.327972412109375px] gap-y-[46.327972412109375px] grid grid-cols-[repeat(12,minmax(0,1fr))] grid-rows-[__961.31px_minmax(0,1fr)] h-[1129px] left-[56px] pt-[121.172px] right-[57px] top-[11248px]" data-name="Section - 6. SỰ KIỆN BÊN LỀ (Bento Stacks)">
         <EventTabs />
       </div>
       <Carousel

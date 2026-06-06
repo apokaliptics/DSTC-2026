@@ -227,7 +227,7 @@ const goldSilverGroups: PartnerGroup[] = [
 export function SponsorsSection() {
   return (
     <motion.section
-      className="absolute left-0 top-[17800px] w-[1920px] flex flex-col items-center z-[10] pb-[220px]"
+      className="absolute left-0 top-[18200px] w-[1920px] flex flex-col items-center z-[10] pb-[220px]"
       initial={{
         opacity: 0,
         y: 50,

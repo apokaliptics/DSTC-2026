@@ -83,11 +83,11 @@ export default function App() {
   }, []);
 
   const DESIGN_WIDTH = 1920;
-  const CONTENT_HEIGHT = 22645; // Exact height of content up to CreditsSection
-  const PAGE_HEIGHT = 22645;
+  const CONTENT_HEIGHT = 23395; // Exact height of content up to CreditsSection
+  const PAGE_HEIGHT = 23395;
 
   return (
-    <div className="w-full min-h-screen overflow-x-hidden flex flex-col items-center">
+    <div className="w-full min-h-screen overflow-x-clip flex flex-col items-center">
       {/* Static Background */}
       <div 
         className="fixed inset-0 z-[-1] pointer-events-none"
