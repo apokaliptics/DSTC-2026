@@ -169,6 +169,17 @@ function DivRelative() {
           </div>
         </button>
       </a>
+      <div className="absolute left-[625px] top-[866px] w-[600px] text-center text-[15px] font-['Space_Grotesk:Regular',sans-serif] text-white/90 leading-snug z-[60] tracking-wide select-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] whitespace-nowrap">
+        Nếu có bất kỳ thắc mắc nào, thí sinh vui lòng điền vào{" "}
+        <a 
+          href="https://forms.gle/1rqpMfThCzbnQySZA" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="text-[#4ade80] hover:text-[#60a5fa] underline decoration-[#4ade80] hover:decoration-[#60a5fa] underline-offset-4 font-bold transition-all duration-200"
+        >
+          link này
+        </a>
+      </div>
     </div>;
 }
 export function HeroSection() {
