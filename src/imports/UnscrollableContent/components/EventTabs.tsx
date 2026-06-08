@@ -110,12 +110,12 @@ export function EventTabs() {
                         <>
                           {" "}
                           <a
-                            href="https://cteftugen5.fillout.com/ifss?dstc2026=xxxxx&fbclid=IwY2xjawSNP69leHRuA2FlbQIxMQBicmlkETFWZm1lV2Vvbks1akF3N1dLc3J0YwZhcHBfaWQBMAABHreGu4vyJR1BTKho5ObOUNNDhWOc246xez98_uQ2tOVAvk1AumYMceCG9GVT_aem_YjKcAKjUy9A1CkWpjzAI-A"
+                            href="https://www.youtube.com/watch?v=jB-hoSrUiZo"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="font-['Space_Grotesk:Bold',sans-serif] font-bold text-[#4ade80] hover:text-[#22d3ee] underline decoration-solid transition-colors duration-300 cursor-pointer ml-2"
+                            className="inline-flex items-center justify-center bg-gradient-to-r from-[#4ade80] to-[#3b82f6] hover:from-[#22c55e] hover:to-[#2563eb] text-white font-['Space_Grotesk:Bold',sans-serif] font-bold px-[18px] py-[4px] rounded-full text-[20px] transition-all duration-300 shadow-[0_0_12px_rgba(74,222,128,0.4)] hover:scale-105 ml-3 align-middle no-underline"
                           >
-                            Đăng kí ngay
+                            Xem record tại đây
                           </a>
                         </>
                       )}

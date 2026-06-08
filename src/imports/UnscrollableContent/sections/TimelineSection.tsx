@@ -62,7 +62,7 @@ function Round1() {
     <TimelineCard
       title="VÒNG 1 ĐÁNH GIÁ NĂNG LỰC"
       subtitle="Cá nhân (28/05 - 13/07)"
-      className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[8500px] w-[730px] h-[800px]"
+      className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[8500px] w-[730px] h-[750px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
@@ -159,7 +159,7 @@ function InfoSessionCard() {
   return (
     <TimelineCard
       title="INFO SESSION"
-      className="bg-[rgba(255,255,255,0.5)] left-[1103px] top-[8570px] w-[644px] h-[440px]"
+      className="bg-[rgba(255,255,255,0.5)] left-[1103px] top-[8570px] w-[644px] h-[520px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[33.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
@@ -170,9 +170,20 @@ function InfoSessionCard() {
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Hình thức:</span>
           <span>{` Online`}</span>
         </li>
-        <li className="ms-[30px] pl-[10px]">
+        <li className="mb-[15px] ms-[30px] pl-[10px]">
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Nội dung:</span>
           <span>{` Hướng dẫn cách sử dụng website dự thi`}</span>
+        </li>
+        <li className="ms-[30px] pl-[10px]">
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold align-middle">Record:</span>
+          <a
+            href="https://www.youtube.com/watch?v=jB-hoSrUiZo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center bg-gradient-to-r from-[#4ade80] to-[#3b82f6] hover:from-[#22c55e] hover:to-[#2563eb] text-white font-['Space_Grotesk:Bold',sans-serif] font-bold px-[20px] py-[6px] rounded-full text-[24px] transition-all duration-300 shadow-[0_0_15px_rgba(74,222,128,0.4)] hover:shadow-[0_0_20px_rgba(74,222,128,0.7)] hover:scale-105 ml-[15px] align-middle no-underline"
+          >
+            Xem record tại đây
+          </a>
         </li>
       </ul>
     </TimelineCard>
