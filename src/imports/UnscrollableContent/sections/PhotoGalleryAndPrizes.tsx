@@ -728,7 +728,7 @@ export function PrizesSection() {
     </motion.section>;
 }
 export function CompetitionRulesBadge() {
-  return <a href="https://drive.google.com/file/d/1Mn5UtvZesYPkQ1c398DvnPKAgUpsYiqQ/view" target="_blank" rel="noopener noreferrer" className="absolute contents group cursor-pointer" aria-label="Bộ luật cuộc thi">
+  return <a href="https://drive.google.com/file/d/1SHk2JKBKbFT6B3ut9p0fT3I2U8zQFVpQ/view" target="_blank" rel="noopener noreferrer" className="absolute contents group cursor-pointer" aria-label="Bộ luật cuộc thi">
       <div className="absolute left-[567px] top-[12475px] w-[787px] h-[177px] transition-all duration-300 group-hover:brightness-110 group-hover:drop-shadow-[0_0_28px_rgba(74,222,128,0.65)]">
         <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 787 177">
           <path d={svgPaths.p23d55e00} fill="url(#paint0_linear_1_2065)" id="Rectangle 2" />
