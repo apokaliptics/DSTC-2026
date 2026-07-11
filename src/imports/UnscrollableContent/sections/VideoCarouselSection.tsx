@@ -21,6 +21,13 @@ const slides: VideoSlide[] = [
   },
   {
     id: 2,
+    title: "DSTC - VQC 2026 CHÍNH THỨC TRỞ LẠI",
+    subtitle: "Góc nhìn từ Giảng viên và Đối tác chiến lược",
+    type: "video",
+    src: "/dstc-partners.av1.mp4"
+  },
+  {
+    id: 3,
     title: "COMING SOON",
     subtitle: "",
     type: "mockup",

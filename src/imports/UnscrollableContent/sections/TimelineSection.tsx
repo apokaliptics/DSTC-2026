@@ -61,7 +61,7 @@ function Round1() {
   return (
     <TimelineCard
       title="VÒNG 1 ĐÁNH GIÁ NĂNG LỰC"
-      subtitle="Cá nhân (28/05 - 13/07)"
+      subtitle="Cá nhân (28/05 - 27/07)"
       className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[8500px] w-[730px] h-[750px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
@@ -93,7 +93,7 @@ function Round2() {
   return (
     <TimelineCard
       title="VÒNG 2: SƠ KHẢO"
-      subtitle="Nhóm 2 người (16/07 - 07/08)"
+      subtitle="Nhóm 2 người (28/07 - 15/08)"
       className="bg-[rgba(255,255,255,0.3)] left-[1075px] top-[9385px] w-[700px] h-[610px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
@@ -122,7 +122,7 @@ function Round3() {
   return (
     <TimelineCard
       title="VÒNG 3: CHUNG KHẢO"
-      subtitle="Nhóm 2 người (06/08 – 15/08)"
+      subtitle="Nhóm 2 người (16/08 - 22/08)"
       className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[10160px] w-[730px] h-[750px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
@@ -223,7 +223,7 @@ function DemChungKetCard() {
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[33.065px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Thời gian dự kiến:</span>
-          <span>{` Thứ Bảy, 15/08/2026`}</span>
+          <span>{` Thứ Sáu, 21/08/2026`}</span>
         </li>
         <li className="ms-[30px] pl-[10px]">
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Địa điểm:</span>
