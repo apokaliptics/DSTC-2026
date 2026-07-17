@@ -84,7 +84,7 @@ function CountdownTimer() {
     seconds: 0
   });
   useEffect(() => {
-    const targetDate = new Date("2026-07-13T23:59:00+07:00").getTime();
+    const targetDate = new Date("2026-07-26T23:59:00+07:00").getTime();
     const updateTime = () => {
       const now = new Date().getTime();
       const difference = targetDate - now;
