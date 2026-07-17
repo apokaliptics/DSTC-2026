@@ -93,7 +93,7 @@ function Round2() {
   return (
     <TimelineCard
       title="VÒNG 2: SƠ KHẢO"
-      subtitle="Nhóm 2 người (28/07 - 15/08)"
+      subtitle="Nhóm 2 người (28/07 - 14/08)"
       className="bg-[rgba(255,255,255,0.3)] left-[1075px] top-[9385px] w-[700px] h-[610px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
@@ -122,7 +122,7 @@ function Round3() {
   return (
     <TimelineCard
       title="VÒNG 3: CHUNG KHẢO"
-      subtitle="Nhóm 2 người (16/08 - 22/08)"
+      subtitle="Nhóm 2 người (14/08 - 21/08)"
       className="bg-[rgba(255,255,255,0.3)] left-[145px] top-[10160px] w-[730px] h-[750px]"
     >
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[32.065px]">
