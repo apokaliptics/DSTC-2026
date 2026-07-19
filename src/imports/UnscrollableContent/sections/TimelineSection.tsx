@@ -80,7 +80,7 @@ function Round1() {
           <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal"> cá nhân trên hệ thống.</span>
         </li>
         <li className="ms-[30px] pl-[10px]">
-          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Top 60 cá nhân </span>
+          <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Top 100 cá nhân </span>
           <span className="font-['Space_Grotesk:Regular',sans-serif] font-normal">có điểm số cao nhất trên Bảng xếp hạng sẽ giành quyền bước vào </span>
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Vòng 2: Vòng sơ khảo</span>
         </li>
