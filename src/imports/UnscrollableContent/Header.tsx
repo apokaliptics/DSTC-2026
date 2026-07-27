@@ -59,25 +59,10 @@ function NavFlex() {
   );
 }
 
-function ButtonPx6Margin() {
-  return (
-    <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="button.px-6:margin">
-      <a href="https://cteftugen5.fillout.com/dstc2026registration" target="_blank" rel="noopener noreferrer" className="no-underline">
-        <button className="cursor-pointer bg-gradient-to-r content-stretch drop-shadow-[0_0_7.5px_rgba(34,211,238,0.4)] flex flex-col from-[#44c882] items-center justify-center px-5 py-2.5 relative rounded-full shrink-0 to-[#60a5fa] hover:opacity-90 hover:scale-[1.02] transition-all duration-300" data-name="Component 17">
-          <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-sm lg:text-base xl:text-[16px] text-center text-white whitespace-nowrap">
-            <p className="leading-4">Đăng ký ngay</p>
-          </div>
-        </button>
-      </a>
-    </div>
-  );
-}
-
 export function DivHidden() {
   return (
     <div className="hidden lg:flex items-center gap-6 xl:gap-9" data-name="div.hidden">
       <NavFlex />
-      <ButtonPx6Margin />
     </div>
   );
 }

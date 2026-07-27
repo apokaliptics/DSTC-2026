@@ -14,39 +14,9 @@ function Heading1() {
       </div>
     </div>;
 }
-function Container1() {
-  return <div className="content-stretch flex flex-col items-start relative shrink-0" data-name="Container">
-      <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[#002a35] text-[20.421px] whitespace-nowrap">
-        <p className="leading-[31.766px]">Đăng ký ngay hôm nay</p>
-      </div>
-    </div>;
-}
-function Container2() {
-  return <div className="relative shrink-0 size-[18.152px]" data-name="Container">
-      <svg className="absolute block inset-0 size-full" fill="none" preserveAspectRatio="none" viewBox="0 0 18.1519 18.1519">
-        <g id="Container">
-          <path d={svgPaths.p1a406200} fill="var(--fill-0, #002A35)" id="Icon" />
-        </g>
-      </svg>
-    </div>;
-}
-function Link() {
-  return <a href="https://cteftugen5.fillout.com/dstc2026registration" target="_blank" rel="noopener noreferrer" className="col-1 content-stretch flex items-center justify-between ml-0 mt-0 px-[27.228px] py-[18.152px] relative rounded-[4.538px] row-1 w-[544.651px] no-underline hover:opacity-95 hover:scale-[1.01] active:scale-[0.99] transition-all duration-200 cursor-pointer" style={{
-    backgroundImage: "linear-gradient(37.9661deg, rgb(74, 222, 128) 0%, rgb(0, 207, 252) 100%)"
-  }} data-name="Link">
-      <Container1 />
-      <Container2 />
-    </a>;
-}
-function Group80() {
-  return <div className="grid-cols-[max-content] grid-rows-[max-content] inline-grid leading-[0] place-items-start relative shrink-0">
-      <Link />
-    </div>;
-}
 function BrandingTitle() {
   return <div className="flex flex-col gap-[33.409px] items-start relative w-[544px] shrink-0" data-name="Branding & Title">
       <Heading1 />
-      <Group80 />
     </div>;
 }
 function Heading2() {

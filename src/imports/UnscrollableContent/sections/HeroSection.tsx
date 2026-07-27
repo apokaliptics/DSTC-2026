@@ -1,13 +1,6 @@
 import { motion } from "motion/react";
 import { useState, useEffect } from "react";
-import { imgLightFlareEffect, imgChDataScienceTalent1, imgLightSang2, imgPhiHanhGia3 } from "../constants/assets";
-function LightFlareEffect() {
-  return <div className="opacity-20 relative size-[1242.207px]" data-name="Light flare effect">
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <img loading="lazy" alt="" className="absolute left-0 max-w-none size-full top-0" src={imgLightFlareEffect} />
-      </div>
-    </div>;
-}
+import { imgChDataScienceTalent1, imgPhiHanhGia3 } from "../constants/assets";
 function BreatheState({
   className
 }: {
@@ -152,24 +145,7 @@ function DivRelative() {
       <DivFlex />
       <Frame2 />
       <Frame10 />
-      <a href="https://cteftugen5.fillout.com/dstc2026registration" target="_blank" className="absolute left-[754.41px] top-[753.09px] group block w-[341px] h-[83px] no-underline z-[60]">
-        <button className="cursor-pointer bg-gradient-to-b from-[#60a5fa] to-[#44c882] w-full h-full rounded-[9999px] shadow-[0_6px_0_#2b8258,0_15px_20px_rgba(34,211,238,0.4)] active:shadow-[0_0px_0_#2b8258,0_0px_0px_rgba(34,211,238,0.4)] active:translate-y-[6px] transition-all duration-150 relative overflow-hidden" data-name="Component 17">
-          <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
-          
-          <div className="absolute inset-0 -translate-x-full w-[50%] bg-gradient-to-r from-transparent via-white/80 to-transparent skew-x-[-20deg] animate-[shimmer_1.5s_infinite_linear]"></div>
-          <div className="absolute inset-0 -translate-x-full w-[30%] bg-gradient-to-r from-transparent via-cyan-100/80 to-transparent skew-x-[-20deg] animate-[shimmer_1.5s_infinite_0.15s_linear]"></div>
-          
-          {/* Sparkles */}
-          <svg className="absolute top-[15%] left-[10%] w-4 h-4 text-white animate-[sparkle_2s_infinite_ease-in-out] z-10 pointer-events-none" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" /></svg>
-          <svg className="absolute bottom-[20%] right-[15%] w-3 h-3 text-cyan-200 animate-[sparkle_2.5s_infinite_1s_ease-in-out] z-10 pointer-events-none" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" /></svg>
-          <svg className="absolute top-[30%] right-[30%] w-2 h-2 text-white animate-[sparkle_3s_infinite_0.5s_ease-in-out] z-10 pointer-events-none" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0L14 10L24 12L14 14L12 24L10 14L0 12L10 10Z" /></svg>
-
-          <div className="flex flex-col font-['Space_Grotesk:Bold',sans-serif] font-bold justify-center leading-[0] relative shrink-0 text-[36px] text-center text-white whitespace-nowrap animate-[text-diamond-glow_2s_infinite_ease-in-out] z-10 pointer-events-none">
-            <p className="leading-[20px]">Đăng ký ngay</p>
-          </div>
-        </button>
-      </a>
-      <div className="absolute left-[625px] top-[866px] w-[600px] text-center text-[15px] font-['Space_Grotesk:Regular',sans-serif] text-white/90 leading-snug z-[60] tracking-wide select-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] whitespace-nowrap">
+      <div className="absolute left-[625px] top-[660px] w-[600px] text-center text-[15px] font-['Space_Grotesk:Regular',sans-serif] text-white/90 leading-snug z-[60] tracking-wide select-none drop-shadow-[0_2px_4px_rgba(0,0,0,0.6)] whitespace-nowrap">
         Nếu có bất kỳ thắc mắc nào, thí sinh vui lòng điền vào{" "}
         <a 
           href="https://forms.gle/1rqpMfThCzbnQySZA" 
@@ -196,17 +172,7 @@ export function HeroSection() {
     duration: 0.8,
     ease: "easeOut"
   }}>
-      <div className="absolute bottom-[-172.74px] flex items-center justify-center right-[1207.27px] size-[1242.207px] z-[1]">
-        <div className="flex-none rotate-180">
-          <LightFlareEffect />
-        </div>
-      </div>
       <BreatheState />
-      <div className="absolute h-[89px] left-[864px] top-[865px] w-[683px] z-[1]" data-name="light sáng 2">
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <img loading="lazy" alt="" className="absolute h-[1011.24%] left-[-16.05%] max-w-none top-[-201.37%] w-[131.77%]" src={imgLightSang2} />
-        </div>
-      </div>
       <div className="absolute h-[1212.372px] left-[7430px] top-[-744px] w-[995.204px]" data-name="Breathe">
         <div className="absolute h-[1211.94px] left-[-0.53px] top-[-10px] w-[994.677px]" data-name="phi hành gia 3">
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
