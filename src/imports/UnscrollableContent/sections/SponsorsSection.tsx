@@ -1,4 +1,5 @@
 import { motion } from "motion/react";
+import logoDiamondSGN from "@/assets/logos/tier-sponsors/sgn.png";
 import logoGoldNTQ from "@/assets/logos/tier-sponsors/gold.avif";
 import logoCompanion3 from "@/assets/logos/companions/3.avif";
 import logoCompanion4 from "@/assets/logos/companions/4.avif";
@@ -198,6 +199,23 @@ const partnerGroups: PartnerGroup[] = [
     ],
   },
 ];
+
+const diamondTileClassName =
+  "bg-white/95 rounded-[28px] px-[40px] py-[24px] shadow-[0_20px_60px_rgba(0,0,0,0.3)] flex items-center justify-center min-w-[360px] h-[170px]";
+
+const diamondGroup: PartnerGroup = {
+  title: "NHÀ TÀI TRỢ KIM CƯƠNG",
+  maxWidth: "max-w-[1300px]",
+  gap: "gap-[80px]",
+  logos: [
+    {
+      src: logoDiamondSGN,
+      alt: "SGN",
+      className: "max-h-[120px] max-w-[300px]",
+      tileClassName: diamondTileClassName,
+    },
+  ],
+};
 const goldSilverGroups: PartnerGroup[] = [
   {
     title: "ĐỐI TÁC VÀNG",
@@ -280,6 +298,29 @@ export function SponsorsSection() {
           </div>
         </div>
       ))}
+
+      {/* Nhà Tài Trợ Kim Cương */}
+      <div
+        key={diamondGroup.title}
+        className={`flex flex-col items-center w-full ${diamondGroup.maxWidth} mb-[120px]`}
+      >
+        <h3 className="text-white text-[48px] font-['Inter:Extra_Bold',sans-serif] font-extrabold uppercase mb-[55px] tracking-wider text-center">
+          {diamondGroup.title}
+        </h3>
+        <div className={`flex flex-row justify-center items-center ${diamondGroup.gap} flex-wrap`}>
+          {diamondGroup.logos.map((logo) => (
+            <div key={logo.alt} className={logo.tileClassName ?? ""}>
+              <img
+                loading="lazy"
+                src={logo.src}
+                alt={logo.alt}
+                className={`${logoClassName} ${logo.className ?? ""}`}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div className="grid grid-cols-2 gap-[130px] items-start w-full max-w-[1400px] mb-[120px]">
         {goldSilverGroups.map((group) => (
           <div

@@ -199,7 +199,7 @@ function IntensiveTrainingCard() {
       <ul className="leading-[1.5] list-disc font-['Space_Grotesk:Regular',sans-serif] text-[29px]">
         <li className="mb-[15px] ms-[30px] pl-[10px]">
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Thời gian dự kiến:</span>
-          <span>{` Thứ Năm, 23/07/2026`}</span>
+          <span>{` Chủ Nhật, 02/08/2026`}</span>
         </li>
         <li className="mb-[15px] ms-[30px] pl-[10px]">
           <span className="font-['Space_Grotesk:Bold',sans-serif] font-bold">Hình thức:</span>
